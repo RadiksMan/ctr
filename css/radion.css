@@ -66,10 +66,22 @@
   color: #ec4d4a;
   display: inline-block;
   text-decoration: none;
+  padding: 20px 66px;
 }
 
 .red_section .red_section_middle_aside.aside_right {
   border-left: none;
+  position: relative;
+}
+
+.red_section .red_section_middle_aside.aside_right:after {
+  content: "";
+  width: 1052px;
+  height: 739px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/red_section_chrome.svg") center center no-repeat;
 }
 
 .red_section .red_section_logo {

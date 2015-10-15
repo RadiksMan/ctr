@@ -9,12 +9,15 @@
         &.aside_left{border-right: none;
             padding: 75px 108px;font-size: 18rem;color: #fff;line-height: 22px;
             .red_section_button{text-align: right;padding-top: 30px;
-                a{font-size: 18rem;background-color: #fff;color: #ec4d4a;display: inline-block;text-decoration: none;
+                a{font-size: 18rem;background-color: #fff;color: #ec4d4a;display: inline-block;text-decoration: none;padding: 20px 66px;
                     span{}
                 }
             }
         }
-        &.aside_right{border-left: none;}
+        &.aside_right{border-left: none;position: relative;
+            &:after{content:"";width: 1052px;height: 739px;position: absolute;top: 0;left:0;background: url('../images/red_section_chrome.svg') center center no-repeat;}
+
+        }
 
 
     }
