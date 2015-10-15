@@ -1,6 +1,6 @@
-<div class="blue-form-wrapper">
+<div class="blue-form-wrapper shaped">
 	<div class="wrapper">
-		<div class="blue-form shaped">
+		<div class="blue-form">
 			<div class="blue-from-imageblock">
 				<div class="shapes"></div>
 				<div class="illustration"></div>

@@ -1,8 +1,38 @@
 .shaped{
+    background:url(http://lorempixel.com/output/people-q-c-640-480-9.jpg);
+    background-size:cover;
+    padding:5%;
+    position:relative;
+    overflow:hidden;
+    min-width:700px;
+}
+.shaped h2, .shaped p{
+    width:40%;
+    padding: 2% 5%;
+    position:relative;
+    z-index:1;
+}
+.shaped h2{
+    width:50%
+}
+.shaped:after{
+    content: '';
+    position: absolute;
+    left: -104%;
     width: 100%;
-    background: #00BCBC;
-    -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
-    -webkit-shape-margin: 20px;
-    -webkit-shape-outside: url(mask.png) top left;
-    shape-outside: url(mask.png) top left;
+    height: 2000px;
+    top: 138px;
+    background: grey;
+    z-index: 0;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0%;
+    -moz-transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    -webkit-transform: rotate(-94deg);
+    transform: rotate(-94deg);
+    -moz-transform: rotate(-94deg);
+    -ms-transform: rotate(-94deg);
+}
+.blue-form-wrapper{
+	.wrapper{width: 100%; max-width: 1460px;margin: 0 auto;}
 }
