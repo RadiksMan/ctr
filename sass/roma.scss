@@ -1,38 +1,41 @@
-.shaped{
-    background:url(http://lorempixel.com/output/people-q-c-640-480-9.jpg);
-    background-size:cover;
-    padding:5%;
-    position:relative;
-    overflow:hidden;
-    min-width:700px;
-}
-.shaped h2, .shaped p{
-    width:40%;
-    padding: 2% 5%;
-    position:relative;
-    z-index:1;
-}
-.shaped h2{
-    width:50%
-}
+
 .shaped:after{
-    content: '';
-    position: absolute;
-    left: -104%;
-    width: 100%;
-    height: 2000px;
-    top: 138px;
-    background: grey;
-    z-index: 0;
-    -webkit-transform-origin: 100% 0;
-    transform-origin: 100% 0%;
-    -moz-transform-origin: 100% 0%;
-    -ms-transform-origin: 100% 0%;
-    -webkit-transform: rotate(-94deg);
-    transform: rotate(-94deg);
-    -moz-transform: rotate(-94deg);
-    -ms-transform: rotate(-94deg);
+    
 }
-.blue-form-wrapper{
-	.wrapper{width: 100%; max-width: 1460px;margin: 0 auto;}
+.blue-form-wrapper{ padding:5%;position:relative;overflow:hidden;min-width:700px;margin-top: -138px;    padding-bottom: 9.4%;
+	.wrapper{width: 100%; max-width: 1460px;margin: 0 auto;position: relative;z-index: 9999;}
+	.blue-form{padding-top: 165px;}
+	.blue-from-imageblock{position: absolute;width: 100%;height: 100%;
+		.shapes-wrap{position: absolute;border: 15px solid #007473;width: 51.7%;height: 95.6%;top: -10.4%;left: 12.7%;
+			.shapes{background-image: url(../images/DESIGN.png);background-repeat: no-repeat; background-position: 87% 9%;width: 100%;height: 100%;}
+		}
+		.illustration{position: absolute;width: 100%;height: 100%;
+			.mac{position: absolute;top: -3.6%;left: 3.2%;}
+			.imac{position: absolute;bottom: 3.7%;left: 38%;}
+			.imac-smaller{position: absolute;left: 31.4%;bottom: 6.4%;}
+		}
+	}
+	.form-blue{float: right;margin-right: 50px;}
+	.form-logo{position: relative;padding-left: 76px;box-sizing: border-box;margin-bottom: 3px;
+		embed{float: right;}
+	}
+	form{
+		.input-wrap{position: relative;margin-bottom: 34px;
+			input{background-color: transparent;border: 0;border-bottom: 2px solid #fff; font-family: 'roboto'; font-size: 18px; text-transform: uppercase;outline: none;padding: 0px 23px 10px 23px;width: 100%;color: #fff;    box-sizing: border-box;
+				&::-webkit-input-placeholder{color:#fff;}
+				&::-moz-placeholder {color:#fff;}
+				&:-moz-placeholder {color:#fff;}
+				&:-ms-input-placeholder {color:#fff;}
+			}
+			button{float: right;background-color: transparent;border: 2px solid #fff; padding: 20px 65px 16px 65px;font-family: 'roboto'; font-size: 18px; text-transform: uppercase;outline: none;color: #fff;border-radius: 4px;
+				span{display: inline-block;width: 100%;}
+			}
+			&:before{display: block;content: '';position: absolute;width: 2px;height: 3px;background-color: #fff;bottom: 2px;left: 0px;}
+		}
+		.button-submit{
+			&:before{display: none;}
+		}
+		.last-input{margin-bottom: 60px;}
+	}
+	&:after{content: '';position: absolute;left: -104%;width: 100%;height: 2000px;top: 138px;background: #00BCBC;z-index: 0;-webkit-transform-origin: 100% 0;transform-origin: 100% 0%;-moz-transform-origin: 100% 0%;-ms-transform-origin: 100% 0%;-webkit-transform: rotate(-94deg);transform: rotate(-94deg);-moz-transform: rotate(-94deg);-ms-transform: rotate(-94deg);}
 }
