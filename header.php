@@ -116,9 +116,9 @@
 				</div>
 			</div>
 
-			<div class="box-main-menu">
-				<div class="logo"> <img src="images/header-logo.png" alt="" /> </div>
-				<nav>
+			<div class="box-main-menu animate-section">
+				<div class="logo "> <img src="images/header-logo.png" alt="" /> </div>
+				<nav >
 				    <ul>
 				       <li><a href="">о нас </a></li>
 				       <li><a href="">работы</a></li>
@@ -127,7 +127,7 @@
 				       <li><a href="">блог</a></li>
 				    </ul>
 				</nav>
-				<div class="socials">
+				<div class="socials animate-it">
 					<a href="#"><div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div> </a>
 					<a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
 					<a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>

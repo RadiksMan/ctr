@@ -193,10 +193,8 @@ var FlashDetect = new function(){
     }();
 };
 
-
-$(document).ready(function() {
-
-    if(!FlashDetect.installed){
+var functionChekedFlash = function() {
+        if(!FlashDetect.installed){
         $( ".inside-swf" ).addClass('class-hide');
         $( ".inside-image" ).removeClass('class-hide');
     }
@@ -204,4 +202,11 @@ $(document).ready(function() {
         $( ".inside-image" ).addClass('class-hide');
         $( ".inside-swf" ).removeClass('class-hide');
     }
+}
+
+
+$(document).ready(function() {
+
+functionChekedFlash() ;
+
 });
