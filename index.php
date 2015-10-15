@@ -1,4 +1,4 @@
-<main class="main mbox">
+<main class="main">
 	<section>
 		<?partial('red_section');?>
 	</section>
