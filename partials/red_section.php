@@ -10,7 +10,13 @@
                 </div>
                 <div class="red_section_middle_as">
                     <div class="red_section_middle_aside aside_left">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo culpa recusandae velit, provident reprehenderit, natus sit! Quidem, necessitatibus delectus! Tempora ad soluta nemo! Expedita nesciunt, consequuntur dolores aliquid alias nihil voluptate impedit molestias deleniti quaerat placeat porro aut inventore architecto dignissimos. Consectetur, quia, voluptatibus. Obcaecati ratione aspernatur temporibus fuga, iusto rerum incidunt in eveniet, exercitationem autem blanditiis recusandae enim, atque, doloremque laboriosam. Officiis quos ex, fugiat, iure quibusdam placeat porro nihil adipisci architecto, asperiores facere ipsum quo optio sunt iusto eligendi. Dolorum nostrum obcaecati dicta, ducimus similique eos cumque? Corporis dignissimos placeat nulla est animi voluptates excepturi, deserunt nihil! Odit.
+                        <p>Студия дизайна «CTR.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
+
+                        <div class="red_section_button">
+                            <a href="#">
+                                <span>СВЯЗАТЬСЯ С НАМИ</span>
+                            </a>
+                        </div>
                     </div>
                     <div class="red_section_middle_aside aside_right">
 

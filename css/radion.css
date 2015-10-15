@@ -36,18 +36,36 @@
 
 .red_section .red_section_middle_as {
   display: table;
+  margin-top: -15px;
 }
 
 .red_section .red_section_middle_aside {
   width: 50%;
   display: table-cell;
-  height: 390px;
-  vertical-align: middle;
+  height: 415px;
+  vertical-align: top;
   border: 15px solid rgba(0, 0, 0, 0.2);
 }
 
 .red_section .red_section_middle_aside.aside_left {
   border-right: none;
+  padding: 75px 108px;
+  font-size: 18rem;
+  color: #fff;
+  line-height: 22px;
+}
+
+.red_section .red_section_middle_aside.aside_left .red_section_button {
+  text-align: right;
+  padding-top: 30px;
+}
+
+.red_section .red_section_middle_aside.aside_left .red_section_button a {
+  font-size: 18rem;
+  background-color: #fff;
+  color: #ec4d4a;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .red_section .red_section_middle_aside.aside_right {
