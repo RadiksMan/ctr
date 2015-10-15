@@ -19,6 +19,17 @@
     url('../fonts/glyphicons-halflings-regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GLGothamBlack.eot');
+    src: local('O'),
+    url('../fonts/GLGothamBlack.woff') format('woff'),
+    url('../fonts/GLGothamBlack.woff2') format('woff2'),
+    url('../fonts/GLGothamBlack.ttf') format('truetype'),
+    url('../fonts/GLGothamBlack.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;}
+
 /* /fonts*/
 
 /* helping adds*/
