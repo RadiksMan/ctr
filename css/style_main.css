@@ -1,8 +1,20 @@
-a {
-  background: red;
+
+/* promoblock */
+.promoblock-wrapper {
+  background-color: #da4643;
+  padding: 10px;
 }
 
-a:hover {
-  color: blue;
-  text-decoration: underline;
+@-webkit-keyframes dasharray {
+  100% {
+    stroke-dasharray: 300 0;
+  }
 }
+
+@keyframes dasharray {
+  100% {
+    stroke-dasharray: 300 0;
+  }
+}
+
+/* /promoblock */

@@ -1,3 +1,28 @@
-.red_section{position: relative;min-height: 830px;background-color: pink;
-    .red_top_border{position: absolute;top: 0;right: 0;left: 0;width: 100%;height: 130px;background-color: #d1cfd0;background: url('../images/red_top_border.svg') center center no-repeat;}
+.red_section{position: relative;min-height: 830px;background-color: #d1cfd0;overflow: hidden;
+    // .red_top_border{position: absolute;top: 0;right: 0;left: 0;width: 100%;height: 130px;background-color: #d1cfd0;background: url('../images/red_top_border.svg') center center no-repeat;background-size: cover;padding: 0 1px;}
+    &:after{content: '';position: absolute;left: -100%;width: 100%;height: 2000px;top: 31px;background: #EC4D4B;z-index: 0;-webkit-transform-origin: 100% 0;transform-origin: 100% 0%;-moz-transform-origin: 100% 0%;-ms-transform-origin: 100% 0%;-webkit-transform: rotate(-94deg);transform: rotate(-87deg);-moz-transform: rotate(-87deg);-ms-transform: rotate(-87deg);z-index: 2;}
+
+
+    .red_section_middle_wrap{position: relative;z-index: 5;padding-top: 193px;max-width: 1627px;width: 100%;margin: 0 auto;}
+    .red_section_middle_as{display: table;margin-top: -15px;}
+    .red_section_middle_aside{width: 50%;display: table-cell;height: 415px;vertical-align: top;border: 15px solid rgba(0, 0, 0, 0.2);
+        &.aside_left{border-right: none;
+            padding: 75px 108px;font-size: 18rem;color: #fff;line-height: 22px;
+            .red_section_button{text-align: right;padding-top: 30px;
+                a{font-size: 18rem;background-color: #fff;color: #ec4d4a;display: inline-block;text-decoration: none;padding: 20px 66px;
+                    span{}
+                }
+            }
+        }
+        &.aside_right{border-left: none;position: relative;z-index: 3;
+            // &:after{content:"";width: 1052px;height: 739px;position: absolute;top: 0;left:0;background: url('../images/red_section_chrome.svg') center center no-repeat;}
+
+        }
+
+
+    }
+    .red_section_logo{text-align: left;padding-top: 20px;padding-left: 8%;
+        embed{display: inline-block;}
+    }
+    .red_section_chrome{width: 1052px;height: 739px;position: absolute;top: 24%;left:50%;z-index: 1;}
 }
