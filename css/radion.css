@@ -72,16 +72,7 @@
 .red_section .red_section_middle_aside.aside_right {
   border-left: none;
   position: relative;
-}
-
-.red_section .red_section_middle_aside.aside_right:after {
-  content: "";
-  width: 1052px;
-  height: 739px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url("../images/red_section_chrome.svg") center center no-repeat;
+  z-index: 3;
 }
 
 .red_section .red_section_logo {
@@ -92,4 +83,13 @@
 
 .red_section .red_section_logo embed {
   display: inline-block;
+}
+
+.red_section .red_section_chrome {
+  width: 1052px;
+  height: 739px;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  z-index: 1;
 }

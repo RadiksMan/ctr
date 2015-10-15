@@ -22,6 +22,9 @@
 
                     </div>
                 </div>
+                <div class="red_section_chrome">
+                    <embed src="images/red_section_chrome.svg">
+                </div>
             </div>
         </div>
     </div>
