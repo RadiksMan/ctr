@@ -1,0 +1,109 @@
+/*footer*/
+.footer-container {
+  width: 100%;
+  background-color: #01abaa;
+}
+
+.footer-container .foot-content {
+  width: 1374px;
+  margin: 0 auto;
+  padding-top: 85px;
+}
+
+.footer-container .foot-content .foot-mbox {
+  display: inline-block;
+  margin-right: 200px;
+  vertical-align: top;
+}
+
+.footer-container .foot-content .foot-mbox:nth-child(3) {
+  margin-right: 0;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element {
+  margin-bottom: 20px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element span {
+  font-family: 'Gotham';
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.12rem;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box:after {
+  content: '';
+  display: block;
+  height: 0;
+  font-size: 1px;
+  line-height: 1px;
+  overflow: hidden;
+  clear: both;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box {
+  border-radius: 50%;
+  border-color: #fff;
+  border-width: 3px;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-style: solid;
+  position: relative;
+  float: left;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box img {
+  width: 50px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-sk {
+  width: 41px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ml {
+  width: 40px;
+  top: 16px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ph {
+  width: 38px;
+  top: 11px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-vk {
+  width: 39px;
+  top: 21px;
+  left: 9px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-fb {
+  width: 19px;
+  top: 11px;
+  left: 20px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-gg {
+  width: 36px;
+  top: 14px;
+  left: 11px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-text {
+  float: left;
+  padding: 23px 0 0 26px;
+}
+
+.footer-container .foot-content .foot-copyright span {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #017473;
+  text-transform: uppercase;
+  font-size: 0.87rem;
+}
+
+/*/footer*/
