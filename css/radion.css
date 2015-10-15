@@ -3,3 +3,14 @@
   min-height: 830px;
   background-color: pink;
 }
+
+.red_section .red_top_border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #d1cfd0;
+  background: url("../images/red_top_border.svg") center center no-repeat;
+}
