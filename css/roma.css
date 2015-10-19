@@ -272,6 +272,18 @@
   -ms-transition: transform 1s ease;
 }
 
+.our-work-item {
+  opacity: 0;
+  transition: opacity 500ms ease;
+  -ms-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -webkit-transition: opacity 500ms ease;
+}
+
+.our-work-item.animated {
+  opacity: 1;
+}
+
 /* /animation */
 /* typed */
 .typed-wrap {

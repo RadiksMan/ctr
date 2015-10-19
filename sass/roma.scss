@@ -56,6 +56,10 @@
 
 .vjs-control-text{transition: transform 1s ease; -moz-transition: transform 1s ease; -webkit-transition: transform 1s ease; -ms-transition: transform 1s ease;}
 
+.our-work-item{opacity: 0; transition:opacity 500ms ease; -ms-transition:opacity 500ms ease; -moz-transition:opacity 500ms ease; -webkit-transition:opacity 500ms ease;
+	&.animated{opacity: 1;}
+}
+
 /* /animation */
 
 /* typed */
