@@ -1,0 +1,173 @@
+.header .header-wrap {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1920;
+}
+
+.header .header-wrap .flow-form {
+  overflow: hidden;
+  height: 34vw;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header .header-wrap .flow-form .class-hide {
+  visibility: hidden;
+  height: 0;
+}
+
+.header .header-wrap .flow-form .inside-image {
+  width: 100vw;
+  margin-top: 0;
+}
+
+.header .header-wrap .flow-form .inside-swf {
+  width: 100vw;
+  margin-top: -22vw;
+}
+
+.header .header-wrap .flow-form .inside-swf .box-swf embed {
+  width: 100vw;
+  height: 100vw;
+}
+
+.header .header-wrap .box-main-menu {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 100%;
+}
+
+.header .header-wrap .box-main-menu .logo {
+  display: inline-block;
+  margin-left: 41px;
+  padding-top: 20px;
+}
+
+.header .header-wrap .box-main-menu nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 21.6%;
+  padding-top: 25px;
+}
+
+.header .header-wrap .box-main-menu nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 50px;
+}
+
+.header .header-wrap .box-main-menu nav ul li:nth-child(4n) {
+  margin-left: 20px;
+}
+
+.header .header-wrap .box-main-menu nav ul li:nth-child(4n):before {
+  content: '/';
+  display: inline-block;
+  margin-left: 66px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16rem;
+  margin-right: 45px;
+}
+
+.header .header-wrap .box-main-menu nav ul li:after {
+  content: '/';
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16rem;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.header .header-wrap .box-main-menu nav ul li:last-child {
+  padding-right: 0px;
+}
+
+.header .header-wrap .box-main-menu nav ul li:last-child:after {
+  content: '';
+}
+
+.header .header-wrap .box-main-menu nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 300ms ease color;
+  -webkit-transition: 300ms ease color;
+}
+
+.header .header-wrap .box-main-menu nav ul li a:hover, .header .header-wrap .box-main-menu nav ul li a.active, .header .header-wrap .box-main-menu nav ul li a:active, .header .header-wrap .box-main-menu nav ul li a:focus {
+  color: #BC0EBF;
+  text-decoration: none;
+  outline: none;
+}
+
+.header .header-wrap .box-main-menu .socials {
+  float: right;
+  margin-right: 1.25%;
+  padding-top: 10px;
+}
+
+.header .header-wrap .box-main-menu .socials a {
+  background: none;
+  text-decoration: none;
+}
+
+.header .header-wrap .box-main-menu .socials .soc-set {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: top;
+}
+
+.header .header-wrap .box-main-menu .socials .vk {
+  background-color: #227da7;
+  transition: 300ms ease background-color;
+  -webkit-transition: 300ms ease background-color;
+}
+
+.header .header-wrap .box-main-menu .socials .vk:hover, .header .header-wrap .box-main-menu .socials .vk.active, .header .header-wrap .box-main-menu .socials .vk:active, .header .header-wrap .box-main-menu .socials .vk:focus {
+  background-color: #ffbd27;
+  text-decoration: none;
+  outline: none;
+}
+
+.header .header-wrap .box-main-menu .socials .vk img {
+  padding-top: 20px;
+  padding-left: 16px;
+}
+
+.header .header-wrap .box-main-menu .socials .facebook {
+  background-color: #095375;
+  transition: 300ms ease background-color;
+  -webkit-transition: 300ms ease background-color;
+}
+
+.header .header-wrap .box-main-menu .socials .facebook:hover, .header .header-wrap .box-main-menu .socials .facebook.active, .header .header-wrap .box-main-menu .socials .facebook:active, .header .header-wrap .box-main-menu .socials .facebook:focus {
+  background-color: #ffbd27;
+  text-decoration: none;
+  outline: none;
+}
+
+.header .header-wrap .box-main-menu .socials .facebook img {
+  padding-top: 16px;
+  padding-left: 21px;
+}
+
+.header .header-wrap .box-main-menu .socials .google-plus {
+  background-color: #c63632;
+  transition: 300ms ease background-color;
+  -webkit-transition: 300ms ease background-color;
+}
+
+.header .header-wrap .box-main-menu .socials .google-plus:hover, .header .header-wrap .box-main-menu .socials .google-plus.active, .header .header-wrap .box-main-menu .socials .google-plus:active, .header .header-wrap .box-main-menu .socials .google-plus:focus {
+  background-color: #ffbd27;
+  text-decoration: none;
+  outline: none;
+}
+
+.header .header-wrap .box-main-menu .socials .google-plus img {
+  padding-top: 19px;
+  padding-left: 15px;
+}
