@@ -54,6 +54,22 @@
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 <!-- jScrollPane -->
 
+<!-- typed js -->
+
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript">
+	// тексты typed js
+		var strings = ["google.com.ua"];
+	</script>
+
+<!-- /typed js -->
+
+<!-- video js -->
+
+	<script type="text/javascript" src="js/video.js/dist/video.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/video.js/dist/video-js.css" />
+
+<!-- video js -->
 
 <!-- remove Files -->
 
