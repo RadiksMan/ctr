@@ -129,10 +129,22 @@
 
 .blog_page .blog_item_cell.item_left {
   border-right: 4px solid white;
+  opacity: 0;
+  transition: all ease-out 0.3s;
+}
+
+.blog_page .blog_item_cell.item_left.animated {
+  opacity: 1;
 }
 
 .blog_page .blog_item_cell.item_right {
   border-left: 4px solid white;
+  opacity: 0;
+  transition: all ease-out 0.3s;
+}
+
+.blog_page .blog_item_cell.item_right.animated {
+  opacity: 1;
 }
 
 .blog_page .blog_item_cell.item_right .blog_item_cell_wrap {
