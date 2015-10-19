@@ -74,7 +74,10 @@
 
 .promoblock-section{position: relative; padding-top: 152.25rem; background-color: #ea4f4f;overflow:hidden;
     .promoblock-wrapper{ width: 100%; max-width: 1920px;background-color: #d84747;  position: relative; z-index: 1;     padding-top: 32rem;
-        .promoblock-item{ display: inline-block; text-align: center; width: 32%;
+        .promoblock-item{ display: inline-block; text-align: center; width: 32%; opacity: 0;transform:translate3d(0,-10%,0);-webkit-transform:translate3d(0,-30%,0);-moz-transform:translate3d(0,-30%,0);-ms-transform:translate3d(0,-30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
+
+            &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
+
             .promoblock-text{text-transform: uppercase; color:#ffffff; font-size: 18rem; font-family: 'Roboto';  padding-top: 54rem; margin-bottom: 148rem;}
         }
     }
