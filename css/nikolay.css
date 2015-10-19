@@ -129,6 +129,7 @@
 .works-container {
   width: 100%;
   background-color: #fff;
+  margin-bottom: 85px;
 }
 
 .works-container .works-align {
@@ -226,17 +227,18 @@
   text-transform: uppercase;
 }
 
-.left {
+.works-container .left {
   float: left;
 }
 
-.left .works-item {
+.works-container .left .works-item {
   text-align: right;
   width: 290px;
 }
 
-.right {
+.works-container .right {
   float: right;
+  margin-right: 19px;
 }
 
 .triangle-container {
