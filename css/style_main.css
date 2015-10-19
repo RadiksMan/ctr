@@ -1,19 +1,8 @@
+/* all styles */
+section {
+  overflow: hidden;
+}
+
+/* /all styles */
 /* promoblock */
-.promoblock-wrapper {
-  background-color: #da4643;
-  padding: 10px;
-}
-
-@-webkit-keyframes dasharray {
-  100% {
-    stroke-dasharray: 300 0;
-  }
-}
-
-@keyframes dasharray {
-  100% {
-    stroke-dasharray: 300 0;
-  }
-}
-
 /* /promoblock */
