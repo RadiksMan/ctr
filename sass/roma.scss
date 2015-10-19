@@ -1,4 +1,4 @@
-.blue-form-wrapper{ padding:5%;position:relative;overflow:hidden;min-width:700px;padding-bottom: 9.4%;z-index: 1;
+.blue-form-wrapper{ padding:5%;position:relative;overflow:hidden;min-width:700px;padding-bottom: 9.4%;z-index: 1; margin-top: -138px;
 	.wrapper{width: 100%; max-width: 1460px;margin: 0 auto;position: relative;z-index: 9999;}
 	.blue-form{padding-top: 165px;}
 	.blue-from-imageblock{position: absolute;width: 100%;height: 100%;
@@ -17,13 +17,13 @@
 	}
 	form{
 		.input-wrap{position: relative;margin-bottom: 34px;
-			input{background-color: transparent;border: 0;border-bottom: 2px solid #fff; font-family: 'roboto'; font-size: 18px; text-transform: uppercase;outline: none;padding: 0px 23px 10px 23px;width: 100%;color: #fff;    box-sizing: border-box;
+			input{background-color: transparent;border: 0;border-bottom: 2px solid #fff; font-family: 'roboto'; font-size: 18rem; text-transform: uppercase;outline: none;padding: 0px 23px 10px 23px;width: 100%;color: #fff;    box-sizing: border-box;
 				&::-webkit-input-placeholder{color:#fff;}
 				&::-moz-placeholder {color:#fff;}
 				&:-moz-placeholder {color:#fff;}
 				&:-ms-input-placeholder {color:#fff;}
 			}
-			button{float: right;background-color: transparent;border: 2px solid #fff; padding: 20px 65px 16px 65px;font-family: 'roboto'; font-size: 18px; text-transform: uppercase;outline: none;color: #fff;border-radius: 4px;cursor: pointer;transition: background-color 500ms ease , color 500ms ease; -moz-transition: background-color 500ms ease , color 500ms ease; -webkit-transition: background-color 500ms ease , color 500ms ease; -ms-transition: background-color 500ms ease , color 500ms ease; 
+			button{float: right;background-color: transparent;border: 2px solid #fff; padding: 20px 65px 16px 65px;font-family: 'roboto'; font-size: 18rem; text-transform: uppercase;outline: none;color: #fff;border-radius: 4px;cursor: pointer;transition: background-color 500ms ease , color 500ms ease; -moz-transition: background-color 500ms ease , color 500ms ease; -webkit-transition: background-color 500ms ease , color 500ms ease; -ms-transition: background-color 500ms ease , color 500ms ease; 
 				span{display: inline-block;width: 100%;}
 				&:hover{background-color: #fff;color: #00BCBC;}
 			}
@@ -95,8 +95,8 @@
 	&:after{width: 50px;height: 50px;border: 5px solid #fff;border-radius: 50%;position: absolute;top: 28px;left: 28%;content: '';-webkit-animation: myOrbit 4s linear infinite;-moz-animation: myOrbit 4s linear infinite;-o-animation: myOrbit 4s linear infinite;-webkit-animation-play-state:paused;-moz-animation-play-state:paused;-ms-animation-play-state:paused;}
 	&:hover:after{top: 28px;left: 28%;-webkit-animation: myOrbit 4s linear infinite;-moz-animation: myOrbit 4s linear infinite;-o-animation: myOrbit 4s linear infinite;-webkit-animation-play-state: running;-moz-animation-play-state:running;-ms-animation-play-state:running;}
 	@-webkit-keyframes myOrbit {
-    from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
-    to   { -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg); }
+	    from { -webkit-transform: rotate(0deg) translateX(50px) rotate(0deg); }
+	    to   { -webkit-transform: rotate(360deg) translateX(50px) rotate(-360deg); }
 	}	
 	@-moz-keyframes myOrbit {
 	    from { -moz-transform: rotate(0deg) translateX(50px) rotate(0deg); }
@@ -125,7 +125,7 @@
 		&:before{display: block; content: ' ';position: absolute;width: 116%;height: 116%;border-radius: 50%;border: 1px solid #686868;top: -8%;left: -8%;}
 		&:after{display: block; content: ' ';position: absolute;width: 126%;height: 126%;border-radius: 50%;border: 1px solid #545454;top: -13%;left: -13%;}
 	}
-	p.video-desc {position: absolute;font-family: gotham;font-weight: 700;font-size: 45px;text-transform: uppercase;width: 30%;line-height: 1.2;top: 30%;left: 5%;}
+	p.video-desc {position: absolute;font-family: 'Gotham', sans-serif;font-weight: 700;font-size: 45rem;text-transform: uppercase;width: 30%;line-height: 1.2;top: 30%;left: 5%;}
 	.vjs-play-control, .vjs-fullscreen-control,.vjs-volume-menu-button,.vjs-remaining-time{display: none!important;}
 	.vjs-progress-control{width: 75%!important; margin: 0 auto!important;flex:inherit!important;}
 	.vjs-control-bar{background-color: transparent!important;}
@@ -143,8 +143,8 @@
 #call_success{padding:40px; min-width: 430px;
 	.call-success{
 		.call_success{
-			.call-title{text-align: center; color: #000; font-size: 40px; font-family: calibri;text-transform: uppercase;margin: 0;letter-spacing: -0.5px;margin-bottom: 30px;}
-			.call-subtitle{font-size: 24px; font-family: calibri; letter-spacing: -0.5px; margin-bottom: 20px; color: #000;text-align: center;}
+			.call-title{text-align: center; color: #000; font-size: 40rem; font-family: calibri;text-transform: uppercase;margin: 0;letter-spacing: -0.5px;margin-bottom: 30px;}
+			.call-subtitle{font-size: 24rem; font-family: calibri; letter-spacing: -0.5px; margin-bottom: 20px; color: #000;text-align: center;}
 		}
 	}
 }
@@ -162,3 +162,24 @@
 		&:hover{background-color: #ec4d4a!important; color: #fff!important; border: 2px solid #fff;}
 	}
 }
+
+/* our works */
+
+.our-works-wrap{padding:5%;position:relative;overflow:hidden;min-width:700px;padding-bottom: 9.4%;z-index: 1;
+	.our-works{max-width: 1690px;width: 100%;margin: 0 auto;z-index: 9999;position: relative;
+		.our-work-item{display: inline-block;float: left;position: relative;overflow: hidden;
+			img{max-width: 100%;}
+			.our-work-desc{position: absolute;background-color: #353535;top: 0px;width: 50%;min-height: 100%;padding-left: 10px;padding-top: 10px;box-sizing:border-box;left: -50%;transition: left 500ms ease; -moz-transition: left 500ms ease; -webkit-transition: left 500ms ease; -ms-transition: left 500ms ease;
+				h2{text-align: left;text-transform: uppercase;font-family: 'Gotham',sans-serif; font-weight: 900;color: #fff;font-size: 22rem;margin-bottom: 20px;}
+				p{font-family: 'Roboto',sans-serif;font-size: 18rem;color: #fff;}
+				a{position: absolute;bottom: 10px; right: 20px;text-transform: uppercase;font-family: 'Roboto',sans-serif;font-size: 14rem;text-decoration: none;color: #fff;
+					span{font-size: 20rem;}
+				}
+			}
+			&:hover .our-work-desc{left: 0%;}
+		}
+	}
+	&:after{content: '';position: absolute;left: -104%;width: 100%;height: 2000px;top: 55%;background: #00BCBC;z-index: 0;-webkit-transform-origin: 100% 0;transform-origin: 100% 0%;-moz-transform-origin: 100% 0%;-ms-transform-origin: 100% 0%;-webkit-transform: rotate(-94deg);transform: rotate(-94deg);-moz-transform: rotate(-94deg);-ms-transform: rotate(-94deg);z-index: 1;}
+}
+
+/* /our works */

@@ -74,8 +74,8 @@
 
 <!-- video js -->
 
-	<script type="text/javascript" src="js/video.js/dist/video.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/video.js/dist/video-js.css" />
+	<script type="text/javascript" src="js/video.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/video-js.css" />
 
 <!-- video js -->
 
@@ -145,7 +145,7 @@
 					<div class="logo-img class-hide">
 						<img src="images/header-logo.png" alt="" />
 					</div>
-					<div class="logo-swf class-hide">
+					<div class="logo-swf ">
 						<embed src="../images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
 					</div>
 				</div>
