@@ -66,8 +66,10 @@
 
 <!-- video js -->
 
-	<script type="text/javascript" src="js/video.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/video-js.css" />
+<link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
+
+
+	
 
 <!-- video js -->
 
