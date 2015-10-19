@@ -1,7 +1,7 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
 		<div class="footer-container">
-            <div class="foot-content">
+            <div class="foot-content cfix">
                 <div class="foot-mbox">
                     <div class="foot-mbox-align">
                         <div class="foot-menu-element">
