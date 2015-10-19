@@ -197,10 +197,15 @@ var functionChekedFlash = function() {
         if(!FlashDetect.installed){
         $( ".inside-swf" ).addClass('class-hide');
         $( ".inside-image" ).removeClass('class-hide');
+
+        $( ".logo-swf" ).addClass('class-hide');
+        $( ".logo-img" ).removeClass('class-hide');
     }
     else{
         $( ".inside-image" ).addClass('class-hide');
         $( ".inside-swf" ).removeClass('class-hide');
+        $( ".logo-img" ).addClass('class-hide');
+        $( ".logo-swf" ).removeClass('class-hide');
     }
 }
 

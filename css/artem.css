@@ -1,7 +1,7 @@
 .header .header-wrap {
   width: 100%;
   box-sizing: border-box;
-  max-width: 1920;
+  max-width: 1920px;
 }
 
 .header .header-wrap .flow-form {
@@ -24,7 +24,7 @@
 
 .header .header-wrap .flow-form .inside-swf {
   width: 100vw;
-  margin-top: -22vw;
+  margin-top: -30vw;
 }
 
 .header .header-wrap .flow-form .inside-swf .box-swf embed {
@@ -39,6 +39,11 @@
   width: 100%;
 }
 
+.header .header-wrap .box-main-menu .class-hide {
+  visibility: hidden;
+  height: 0;
+}
+
 .header .header-wrap .box-main-menu .logo {
   display: inline-block;
   margin-left: 41px;
@@ -48,7 +53,7 @@
 .header .header-wrap .box-main-menu nav {
   display: inline-block;
   vertical-align: top;
-  margin-left: 21.6%;
+  margin-left: 18.6%;
   padding-top: 25px;
 }
 
