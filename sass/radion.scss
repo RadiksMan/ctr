@@ -36,15 +36,15 @@
 /*blog page*/
 .blog_page{
     .blog_page_wrap{padding-top: 45px;}
-    .blog_page_table{display: table;margin: 0 auto;width: 100%;}
+    .blog_page_table{display: table;margin: 0 auto;width: 100%;overflow: hidden;}
     .blog_item{display: table-row;background-color: #f9f9f9;}
     .blog_item_cell{display: table-cell;width: 50%;vertical-align: top;border-bottom: 8px solid white;
-        &.item_left{border-right: 4px solid white;opacity: 0;transition:all ease-out .3s;
-            &.animated{opacity: 1;}
+        &.item_left{border-right: 4px solid white;opacity: 0;transition:all ease-out .3s;transform: translate(-50%,0);
+            &.animated{opacity: 1;transform: translate(0%,0);}
             .blog_item_cell_wrap{}
         }
-        &.item_right{border-left: 4px solid white;opacity: 0;transition:all ease-out .3s;
-            &.animated{opacity: 1;}
+        &.item_right{border-left: 4px solid white;opacity: 0;transition:all ease-out .3s;transform: translate(50%,0);
+            &.animated{opacity: 1;transform: translate(0%,0);}
             .blog_item_cell_wrap{float: left;}
         }
     }
@@ -67,3 +67,15 @@
 }
 
 /*/blog page*/
+
+
+/*scroll*/
+.scroll-top{position: fixed;right: 40px;top: 30%;cursor: pointer;z-index: -1;text-align: center;visibility: hidden;opacity: 0;transition:all ease-out .3s;
+    &.active{z-index: 5;visibility: visible;opacity: 1;}
+    .scroll-top-img{height: 70px;width: 70px;background-color: #468080;border-radius: 50%;box-shadow: 2px 2px 9px 0px rgba(0, 0, 0, 0.55);
+        span{font-weight: 900;font-family: 'Gotham';font-size: 15px;color: white;padding-top: 33px;display: inline-block;position: relative;
+            &:after{content: "";position: absolute;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #fff;left: 0;bottom: 37%;}
+        }
+    }
+}
+/*/scroll*/
