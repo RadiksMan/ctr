@@ -47,6 +47,18 @@
     }
 }
 
+.promoblock-section{position: relative; padding-top: 152.25rem; background-color: #ea4f4f;overflow:hidden;
+    .promoblock-wrapper{ width: 100%; max-width: 1920px;background-color: #d84747;  position: relative; z-index: 1;     padding-top: 32rem;
+        .promoblock-item{ display: inline-block; text-align: center; width: 32%;
+            .promoblock-text{text-transform: uppercase; color:#ffffff; font-size: 18rem; font-family: 'Roboto';  padding-top: 54rem; margin-bottom: 148rem;}
+        }
+    }
+    &:before{ content: ""; display: block; width: 3px; position: absolute; top: 0; bottom: 0; left: 50%; border-width: 0 1rem; border-style:  solid; border-color: #fff; }
+    &:after{content: '';position: absolute;left: -104%;width: 100%;height: 2000px;top: 138px;background: #d84747;z-index: 0;-webkit-transform-origin: 100% 0;transform-origin: 100% 0%;-moz-transform-origin: 100% 0%;-ms-transform-origin: 100% 0%;-webkit-transform: rotate(-94deg);transform: rotate(-94deg);-moz-transform: rotate(-94deg);-ms-transform: rotate(-94deg); }
+
+}
+
+
 
 
 @media screen and (min-width: 1920px){
