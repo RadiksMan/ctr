@@ -1,10 +1,13 @@
 /* all styles */
 
-section{overflow: hidden;}
+
 
 /* /all styles */
 
-/* promoblock */
+/* recomendations */
 
+.recomendations-main{position: relative;padding-top:152.25rem;
+    &:before, :after{content: '';display: block;position: absolute;}
+}
 
-/* /promoblock */
+/* /recomendations */

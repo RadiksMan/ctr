@@ -1,8 +1,15 @@
 /* all styles */
-section {
-  overflow: hidden;
+/* /all styles */
+/* recomendations */
+.recomendations-main {
+  position: relative;
+  padding-top: 152.25rem;
 }
 
-/* /all styles */
-/* promoblock */
-/* /promoblock */
+.recomendations-main:before, .recomendations-main :after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+/* /recomendations */
