@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper promoblock-section">
     <div class=" promoblock-wrapper">
 
         <div class="promoblock-item animate-section">
