@@ -23,19 +23,21 @@
                             <span class="typed"></span>
                         </div>
                         <div class="red-video-block">
+                              <video id="my-video" class="video-js"
+                              height="389"
+                              width="100%"
+                              controls preload="auto"
+                              poster="images/poster.jpg"
+                              data-setup='{"example_option":true}'>
 
-                            <video id="my-video" class="video-js" controls preload="auto" width="100%" height="389"
-                              poster="images/poster.jpg" data-setup="{}">
-                                <source src="../video/BestofWeb5-HD-Zapatou.mp4" type='video/mp4'>
-                                <source src="../video/BestofWeb5-HD-Zapatou.webm" type='video/webm'>
-                                <p class="vjs-no-js">
-                                  To view this video please enable JavaScript, and consider upgrading to a web browser that
-                                  <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                                </p>
-                              </video>
+                             <source src="../video/BestofWeb5-HD-Zapatou.mp4" type='video/mp4' />
+                             <source src="../video/BestofWeb5-HD-Zapatou.webm" type='video/webm'>
+                             <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                            </video>
                         </div>
                     </div>
                 </div>
+                <script src="http://vjs.zencdn.net/5.0.0/video.js"></script>
                 <div class="red_section_chrome">
                     <embed src="images/red_section_chrome.svg">
                 </div>

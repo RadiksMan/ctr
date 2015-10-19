@@ -48,14 +48,33 @@ function u_tabs(link, block) {
 /* scrollUp */
 function scrollUp(block,targetBlock) {
 
-	$(block).click(function(e){
-		var target = $(targetBlock).offset().top;
+    $(block).click(function(e){
+        var target = $(targetBlock).offset().top;
+        $(scroller).animate({scrollTop:target},800);
+        return false;
+        e.preventDefault();
+    });
 
-		$(scroller).animate({scrollTop:target},800);
-		return false;
+    function showHideScrollUp(){
+        if($('body').scrollTop()>($(window).height()/3)){
+            $(block).addClass('active');
+        }
+        else{
+            $(block).removeClass('active');
+        }
+    }
 
-		e.preventDefault();
-	});
+    showHideScrollUp();
+
+    $(window).resize(function(){
+        showHideScrollUp();
+    });
+
+    $(window).scroll(function(){
+        showHideScrollUp();
+    });
+
+
 }
 
 
@@ -199,6 +218,7 @@ $(document).ready(function() {
 
 
 	oneHeightItems();
+    scrollUp('.scroll-top','body');
 });
 
 $(window).load(function(){
