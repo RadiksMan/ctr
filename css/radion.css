@@ -105,6 +105,10 @@
 
 /*/title-top*/
 /*blog page*/
+.blog_page .title_top {
+  padding-top: 5px;
+}
+
 .blog_page .blog_page_wrap {
   padding-top: 45px;
 }
