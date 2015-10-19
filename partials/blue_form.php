@@ -15,15 +15,15 @@
 				<div class="form-logo cfix animate-it">
 					<embed src="images/blue_form_logo.svg" alt=""/>
 				</div>
-				<form action="" method="POST">
+				<form action="" method="POST" class="blue-form-valid">
 					<div class="input-wrap animate-delay">
-						<input type="text" name="name" placeholder="имя"/>
+						<input type="text" name="name" placeholder="имя" required="required"/>
 					</div>
 					<div class="input-wrap animate-delay">
-						<input type="text" name="mail" placeholder="e-mail"/>
+						<input type="text" name="mail" placeholder="e-mail" required="required"/>
 					</div>
 					<div class="input-wrap last-input animate-delay">
-						<input type="text" name="message" placeholder="ваше сообщение"/>
+						<input type="text" name="message" placeholder="ваше сообщение" required="required"/>
 					</div>
 					<div class="input-wrap button-submit animate-delay">
 						<button type="submit">
