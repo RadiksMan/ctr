@@ -66,8 +66,8 @@
 
 <!-- video js -->
 
-	<script type="text/javascript" src="js/video.js/dist/video.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/video.js/dist/video-js.css" />
+	<script type="text/javascript" src="js/video.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/video-js.css" />
 
 <!-- video js -->
 
