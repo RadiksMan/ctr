@@ -203,6 +203,7 @@ function animationBlock(item){
 }
 
 function recomendationSlick(){
+    console.log('s');
     $('.recomendation-slider').slick({
         slidesToShow: 1,
         speed: 300,
@@ -214,13 +215,15 @@ function recomendationSlick(){
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
-	$('.footer_placeholder').height($('.footer').outerHeight());
+
 
 	oneHeightItems();
     scrollUp('.scroll-top','body');
 });
 
 $(window).load(function(){
+
+    $('.footer_placeholder').height($('.footer').outerHeight());
 
     animationBlock($('.animate-section'));
     recomendationSlick();
