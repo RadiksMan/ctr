@@ -1,19 +1,15 @@
-/* promoblock */
-.promoblock-wrapper {
-  background-color: #da4643;
-  padding: 10px;
+/* all styles */
+/* /all styles */
+/* recomendations */
+.recomendations-main {
+  position: relative;
+  padding-top: 152.25rem;
 }
 
-@-webkit-keyframes dasharray {
-  100% {
-    stroke-dasharray: 300 0;
-  }
+.recomendations-main:before, .recomendations-main :after {
+  content: '';
+  display: block;
+  position: absolute;
 }
 
-@keyframes dasharray {
-  100% {
-    stroke-dasharray: 300 0;
-  }
-}
-
-/* /promoblock */
+/* /recomendations */

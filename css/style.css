@@ -29,6 +29,17 @@
     url('../fonts/GLGothamBlack.svg') format('svg');
     font-weight: 900;
     font-style: normal;}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamBold.eot');
+    src: local('O'),
+    url('../fonts/GothamBold.woff') format('woff'),
+    
+    url('../fonts/GothamBold.otf') format('otf'),
+    url('../fonts/GothamBold.ttf') format('truetype'),
+    url('../fonts/GothamBold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;}
 
 /* /fonts*/
 

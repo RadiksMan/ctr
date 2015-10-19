@@ -66,8 +66,8 @@
 
 <!-- video js -->
 
-	<script type="text/javascript" src="js/video.js/dist/video.js"></script>
-	<link rel="stylesheet" type="text/css" href="js/video.js/dist/video-js.css" />
+	<script type="text/javascript" src="js/video.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/video-js.css" />
 
 <!-- video js -->
 
@@ -127,13 +127,20 @@
 
 				<div class="inside-swf">
 					<div class='box-swf'>
-						<embed src="http://imagestun.com/hosting/swf_new/ctr.design_header.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+						<embed src="../images/ctr.design_header.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
 					</div>
 				</div>
 			</div>
 
 			<div class="box-main-menu animate-section">
-				<div class="logo "> <img src="images/header-logo.png" alt="" /> </div>
+				<div class="logo ">
+					<div class="logo-img class-hide">
+						<img src="images/header-logo.png" alt="" />
+					</div>
+					<div class="logo-swf ">
+						<embed src="../images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+					</div>
+				</div>
 				<nav >
 				    <ul>
 				       <li><a href="">о нас </a></li>

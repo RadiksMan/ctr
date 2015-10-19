@@ -1,17 +1,18 @@
 .header{
-    .header-wrap{ width: 100%; box-sizing: border-box; max-width: 1920;
+    .header-wrap{ width: 100%; box-sizing: border-box; max-width: 1920px;
         .flow-form{overflow: hidden; height: 34vw; width: 100%;  box-sizing: border-box; position: relative;
             .class-hide{visibility: hidden; height: 0;}
             .inside-image{width:100vw;margin-top: 0;}
-            .inside-swf{ width:100vw; margin-top:-22vw;
+            .inside-swf{ width:100vw; margin-top:-30vw;
                 .box-swf{
                     embed{ width: 100vw; height: 100vw;}
                 }
             }
         }
         .box-main-menu{ position: absolute; top: 32px ; left: 0; width: 100%;
+            .class-hide{visibility: hidden; height: 0;}
             .logo{ display: inline-block; margin-left: 41px; padding-top: 20px;}
-            nav{display: inline-block; vertical-align: top; margin-left: 21.6%; padding-top: 25px;;
+            nav{display: inline-block; vertical-align: top; margin-left: 18.6%; padding-top: 25px;;
                 ul li{ display: inline-block; text-transform: uppercase; padding-right: 50px;
                     &:nth-child(4n){ margin-left: 20px;
                         &:before { content: '/'; display: inline-block;margin-left: 66px; color: white; font-family: 'Roboto'; font-size: 16rem; margin-right: 45px;}
@@ -45,6 +46,18 @@
         }
     }
 }
+
+.promoblock-section{position: relative; padding-top: 152.25rem; background-color: #ea4f4f;overflow:hidden;
+    .promoblock-wrapper{ width: 100%; max-width: 1920px;background-color: #d84747;  position: relative; z-index: 1;     padding-top: 32rem;
+        .promoblock-item{ display: inline-block; text-align: center; width: 32%;
+            .promoblock-text{text-transform: uppercase; color:#ffffff; font-size: 18rem; font-family: 'Roboto';  padding-top: 54rem; margin-bottom: 148rem;}
+        }
+    }
+    &:before{ content: ""; display: block; width: 3px; position: absolute; top: 0; bottom: 0; left: 50%; border-width: 0 1rem; border-style:  solid; border-color: #fff; }
+    &:after{content: '';position: absolute;left: -104%;width: 100%;height: 2000px;top: 138px;background: #d84747;z-index: 0;-webkit-transform-origin: 100% 0;transform-origin: 100% 0%;-moz-transform-origin: 100% 0%;-ms-transform-origin: 100% 0%;-webkit-transform: rotate(-94deg);transform: rotate(-94deg);-moz-transform: rotate(-94deg);-ms-transform: rotate(-94deg); }
+
+}
+
 
 
 

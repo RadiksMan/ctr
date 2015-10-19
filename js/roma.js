@@ -23,6 +23,46 @@ function removeTitleVideo(){
     });
 }
 
+function validationCall(form){
+
+  var thisForm = $(form);
+  var formSur = $('.blue-form-valid').serialize();
+
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()!='true') {
+                thisForm.trigger("reset");
+                popNext();
+            }
+            else {
+               $(this).trigger('reset');
+            }
+
+        }
+    });
+
+    function popNext(){
+    $.fancybox.open("#call_success",{
+        padding:0,
+        fitToView:false,
+        wrapCSS:"call-popup",
+        autoSize:true,
+        afterClose: function(){
+            clearTimeout(timer);
+        }
+    });
+    var timer = null;
+
+    timer = setTimeout(function(){
+        $.fancybox.close("#call_success");
+    },2000);
+    $('form').trigger("reset");
+}
+}
+
 
 $(document).on('mouseenter', '.vjs-big-play-button', function(){
     $('.vjs-big-play-button .vjs-control-text').addClass('video-circle-anim');
@@ -35,7 +75,12 @@ $(document).on('mouseleave', '.vjs-big-play-button', function(){
 $(document).ready(function(){
 	typedtext();
     removeTitleVideo();
+    validate('.blue-form-valid', {submitFunction:validationCall});
 });
 $(window).load(function(){
-    $('#my-video').append('<p class="video-desc">Видео о студии ctr.design</p>');
+    
+    
+    videojs("my-video").ready(function(){
+        $('#my-video').append('<p class="video-desc">Видео о студии ctr.design</p>');
+    });
 });

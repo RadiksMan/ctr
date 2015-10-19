@@ -1,14 +1,13 @@
-/* promoblock */
+/* all styles */
 
-.promoblock-wrapper{background-color:#da4643;padding:10px;}
-.atom-circle{
 
+
+/* /all styles */
+
+/* recomendations */
+
+.recomendations-main{position: relative;padding-top:152.25rem;
+    &:before, :after{content: '';display: block;position: absolute;}
 }
 
-@keyframes dasharray {
-  100% {
-    stroke-dasharray: 300 0;
-  }
-}
-
-/* /promoblock */
+/* /recomendations */
