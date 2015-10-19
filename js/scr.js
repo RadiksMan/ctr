@@ -183,6 +183,15 @@ function animationBlock(item){
     checkForAnimate();
 }
 
+function recomendationSlick(){
+    $('.recomendation-slider').slick({
+        slidesToShow: 1,
+        speed: 300,
+        slidesToShow: 1,
+        arrows: true
+    });
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -194,6 +203,7 @@ $(document).ready(function() {
 $(window).load(function(){
 
     animationBlock($('.animate-section'));
+    recomendationSlick();
 
 });
 
