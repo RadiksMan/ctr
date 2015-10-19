@@ -1,10 +1,8 @@
 /* promoblock */
 
 .promoblock-wrapper{background-color:#da4643;padding:10px;}
-.atom-circle{
-
-}
-
+.atom-circle{}
+.promoblock-item{display: inline-block;}
 @keyframes dasharray {
   100% {
     stroke-dasharray: 300 0;
