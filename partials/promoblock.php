@@ -4,7 +4,7 @@
         <div class="promoblock-item animate-it">
             <div class="promoblock-item-content  ">
 
-                <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="background-color: #da4643;">
+                <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" >
                     <g class="outside-cirles">
                     <circle id="outside-cirle1" cx="160" cy="160" r="130" stroke='#de5c5a' stroke-width="1" fill="transparent" />
                     <circle id="outside-cirle2" cx="160" cy="160" r="120" stroke='#ce423f' stroke-width="1" fill="transparent" />
