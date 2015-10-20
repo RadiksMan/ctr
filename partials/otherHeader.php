@@ -5,7 +5,7 @@
                 <img src="images/header-logo.png" alt="" />
             </div>
             <div class="logo-swf ">
-                <embed src="../images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
             </div>
         </div>
         <div class="block-nav block-nav-other-header">
@@ -27,4 +27,4 @@
         </div>
 
     </div>
-</div
+</div>
