@@ -216,6 +216,7 @@
   padding-top: 23px;
   text-decoration: none;
   text-align: center;
+  transition: all 500ms linear;
 }
 
 .works-container .works-align .works-mbox .works-item .item-button .item-button-border:hover {
@@ -423,7 +424,8 @@
 /*team*/
 .container-team {
   width: 100%;
-  padding-bottom: 606px;
+  padding-bottom: 603px;
+  overflow: hidden;
 }
 
 .container-team .team-align .items-wrapper {
@@ -439,7 +441,6 @@
 
 .container-team .team-align .items-wrapper .man-mbox .box-wrapper-team {
   position: relative;
-  width: 111px;
   display: inline-block;
 }
 
@@ -479,6 +480,19 @@
 .container-team .team-align .items-wrapper .man-mbox .box-wrapper-team .man-foto {
   position: relative;
   z-index: 2;
+}
+
+.container-team .team-align .items-wrapper .man-mbox .box-wrapper-team .man-foto img {
+  width: 111px;
+  transition: all 300ms ease;
+}
+
+.container-team .team-align .items-wrapper .man-mbox .box-wrapper-team:hover .man-foto {
+  width: 150px;
+}
+
+.container-team .team-align .items-wrapper .man-mbox .box-wrapper-team:hover .man-foto img {
+  width: 150px;
 }
 
 .container-team .team-align .items-wrapper .man-mbox:nth-child(2) .man-arrow {
