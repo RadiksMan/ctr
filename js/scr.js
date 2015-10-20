@@ -48,14 +48,33 @@ function u_tabs(link, block) {
 /* scrollUp */
 function scrollUp(block,targetBlock) {
 
-	$(block).click(function(e){
-		var target = $(targetBlock).offset().top;
+    $(block).click(function(e){
+        var target = $(targetBlock).offset().top;
+        $(scroller).animate({scrollTop:target},800);
+        return false;
+        e.preventDefault();
+    });
 
-		$(scroller).animate({scrollTop:target},800);
-		return false;
+    function showHideScrollUp(){
+        if($('body').scrollTop()>($(window).height()/3)){
+            $(block).addClass('active');
+        }
+        else{
+            $(block).removeClass('active');
+        }
+    }
 
-		e.preventDefault();
-	});
+    showHideScrollUp();
+
+    $(window).resize(function(){
+        showHideScrollUp();
+    });
+
+    $(window).scroll(function(){
+        showHideScrollUp();
+    });
+
+
 }
 
 
@@ -184,6 +203,7 @@ function animationBlock(item){
 }
 
 function recomendationSlick(){
+    console.log('s');
     $('.recomendation-slider').slick({
         slidesToShow: 1,
         speed: 300,
@@ -195,12 +215,15 @@ function recomendationSlick(){
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
-	$('.footer_placeholder').height($('.footer').outerHeight());
+
 
 	oneHeightItems();
+    scrollUp('.scroll-top','body');
 });
 
 $(window).load(function(){
+
+    $('.footer_placeholder').height($('.footer').outerHeight());
 
     animationBlock($('.animate-section'));
     recomendationSlick();

@@ -1,8 +1,8 @@
 <div class="wrapper promoblock-section">
-    <div class=" promoblock-wrapper">
+    <div class=" promoblock-wrapper animate-section">
 
-        <div class="promoblock-item animate-section">
-            <div class="promoblock-item-content">
+        <div class="promoblock-item animate-it">
+            <div class="promoblock-item-content  ">
 
                 <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="background-color: #da4643;">
                     <g class="outside-cirles">
@@ -79,8 +79,8 @@
             </div>
             <div class="promoblock-text"> Мы опытная команда <br/> быстрого реагирования</div>
         </div>
-        <div class="promoblock-item">
-        <div class="promoblock-item-content">
+        <div class="promoblock-item animate-it">
+        <div class="promoblock-item-content ">
             <svg version="1.1" width="328px" height="328px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
                 <defs>
                     <filter id="drop-shadow">
@@ -177,8 +177,8 @@
         </div>
             <div class="promoblock-text"> Мы работаем в <br/> очень сжатые сроки </div>
         </div>
-        <div class="promoblock-item">
-            <div class="promoblock-item-content">
+        <div class="promoblock-item animate-it">
+            <div class="promoblock-item-content ">
 
                 <svg version="1.1" width="290px" height="315px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
                     <defs>

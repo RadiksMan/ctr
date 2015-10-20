@@ -78,9 +78,5 @@ $(document).ready(function(){
     validate('.blue-form-valid', {submitFunction:validationCall});
 });
 $(window).load(function(){
-    
-    
-    videojs("my-video").ready(function(){
-        $('#my-video').append('<p class="video-desc">Видео о студии ctr.design</p>');
-    });
+    $('#my-video').append('<p class="video-desc">Видео о студии ctr.design</p>');
 });

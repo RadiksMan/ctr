@@ -1,10 +1,10 @@
 <div class="our-works-wrap">
 	<div class="our-works">
-		<div class="title-top">
+		<div class="title_top">
 			<span>&#032;&#047;&#032;Наши работы</span>
 		</div>
-		<div class="our-works-list cfix">
-			<div class="our-work-item">
+		<div class="our-works-list cfix animate-section">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork1.jpg" alt=""/>
 				</div>
@@ -14,7 +14,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork2.jpg" alt=""/>
 				</div>
@@ -24,7 +24,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork3.jpg" alt=""/>
 				</div>
@@ -34,7 +34,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork4.jpg" alt=""/>
 				</div>
@@ -44,7 +44,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-						<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork1.jpg" alt=""/>
 				</div>
@@ -54,7 +54,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork2.jpg" alt=""/>
 				</div>
@@ -64,7 +64,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork3.jpg" alt=""/>
 				</div>
@@ -74,7 +74,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork4.jpg" alt=""/>
 				</div>
@@ -84,7 +84,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-						<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork1.jpg" alt=""/>
 				</div>
@@ -94,7 +94,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork2.jpg" alt=""/>
 				</div>
@@ -104,7 +104,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork3.jpg" alt=""/>
 				</div>
@@ -114,7 +114,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork4.jpg" alt=""/>
 				</div>
@@ -124,7 +124,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-						<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork1.jpg" alt=""/>
 				</div>
@@ -134,7 +134,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork2.jpg" alt=""/>
 				</div>
@@ -144,7 +144,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork3.jpg" alt=""/>
 				</div>
@@ -154,7 +154,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork4.jpg" alt=""/>
 				</div>
@@ -164,7 +164,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork1.jpg" alt=""/>
 				</div>
@@ -174,7 +174,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork2.jpg" alt=""/>
 				</div>
@@ -184,7 +184,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork3.jpg" alt=""/>
 				</div>
@@ -194,7 +194,7 @@
 					<a href="#">Подробнее <span>&raquo;</span></a>
 				</div>
 			</div>
-			<div class="our-work-item">
+			<div class="our-work-item animate-delay">
 				<div class="our-work-image">
 					<img src="images/ourwork4.jpg" alt=""/>
 				</div>
