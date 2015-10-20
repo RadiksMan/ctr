@@ -1,5 +1,5 @@
 <div class="wrapper promoblock-section">
-    <div class=" promoblock-wrapper animate-section">
+    <div class=" wrapper-main promoblock-wrapper animate-section">
 
         <div class="promoblock-item animate-it">
             <div class="promoblock-item-content  ">
