@@ -194,10 +194,9 @@ var FlashDetect = new function(){
 };
 
 var functionChekedFlash = function() {
-        if(!FlashDetect.installed){
+    if(!FlashDetect.installed){
         $( ".inside-swf" ).addClass('class-hide');
         $( ".inside-image" ).removeClass('class-hide');
-
         $( ".logo-swf" ).addClass('class-hide');
         $( ".logo-img" ).removeClass('class-hide');
     }
@@ -209,9 +208,29 @@ var functionChekedFlash = function() {
     }
 }
 
+var functionDisableFlash = function() {
+    $( window ).scroll(function() {
+        if (($(window).scrollTop() >= $(".header-wrap").position().top + $(".header-wrap").height()) && ($(".header-wrap").height()+$(".header-wrap").position().top ) < ($(window).scrollTop() + $(window).height()))
+        {
+            $( ".inside-swf" ).addClass('class-hide');
+            $( ".inside-image" ).removeClass('class-hide');
+            $( ".logo-swf" ).addClass('class-hide');
+            $( ".logo-img" ).removeClass('class-hide');
+        }
+        else
+        {
+            $( ".inside-image" ).addClass('class-hide');
+            $( ".inside-swf" ).removeClass('class-hide');
+            $( ".logo-img" ).addClass('class-hide');
+            $( ".logo-swf" ).removeClass('class-hide');
+        }
+    });
+
+}
+
+
 
 $(document).ready(function() {
-
-functionChekedFlash() ;
-
+functionDisableFlash();
+functionChekedFlash();
 });

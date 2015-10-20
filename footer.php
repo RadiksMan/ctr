@@ -1,5 +1,9 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
+        <?php if($act == "index" || $act == "none"){?>
+            <!-- only on index page-->
+            <script src="http://vjs.zencdn.net/5.0.0/video.js"></script>
+        <?}?>
 		<div class="footer-container">
             <div class="foot-content cfix">
                 <div class="foot-mbox">

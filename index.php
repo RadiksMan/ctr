@@ -11,4 +11,5 @@
 	<section>
 		<?partial('blue_form');?>
 	</section>
+
 </main>
