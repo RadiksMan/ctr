@@ -1,5 +1,5 @@
-<div class="works-container">
-      <div class="works-align cfix">
+<div class="wrapper works-container">
+      <div class="wrapper-main works-align cfix">
 
             <div class="works-mbox left animate-section">
                     <div class="works-item  animate-it">

@@ -5,6 +5,10 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<title></title>
+	<!-- CANVAS-->
+
+
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>
@@ -19,7 +23,11 @@
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 
 	<!-- bootstrap -->
-
+			<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
+			<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
+			<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
+			<script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
+			<script src="js/team.js"></script>
 	<!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
 
 	<!-- /bootstrap -->
