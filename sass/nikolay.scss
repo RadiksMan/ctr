@@ -110,3 +110,24 @@
 }
 /*/we create*/
 
+
+
+/*team*/
+    .container-team{
+        .team-align{
+            .man-mbox{width:20%; float:left; text-align: center;
+                .box-wrapper-team{position:relative;width: 111px;display: inline-block;
+                    span{font-family: 'Roboto'; color:#333;}
+                    .man-arrow{width:0;height:0;border-width:150px 5px 5px 5px;border-style:solid;border-color:red transparent transparent transparent;position: absolute;left:calc(50% - 4px);; top:50%; z-index: 1;}
+                    .man-mame{margin-bottom: 5px;
+                        &>span{font-size: 25px;}
+                    }
+                    .man-prof{    margin-bottom: 9px;
+                        &>span{font-size: 16px;}
+                    }
+                    .man-foto{position: relative;z-index: 2;}
+                }
+            }
+        }
+    }
+/*/team*/
