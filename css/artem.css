@@ -270,17 +270,10 @@
   text-align: center;
   width: 32%;
   opacity: 0;
-<<<<<<< HEAD
-  transform: translate3d(0, -10%, 0);
-  -webkit-transform: translate3d(-30%, 0, 0);
-  -moz-transform: translate3d(-30%, 0, 0);
-  -ms-transform: translate3d(-30%, 0, 0);
-=======
   transform: translate3d(0, -30%, 0);
   -webkit-transform: translate3d(0, 30%, 0);
   -moz-transform: translate3d(0, -30%, 0);
   -ms-transform: translate3d(0, -30%, 0);
->>>>>>> 056f80def22c376650623de6e31a9025bb437e5c
   transition: transform 500ms ease, opacity 500ms ease;
   -webkit-transition: -webkit-transform 500ms ease, opacity 500ms ease;
   -moz-transition: transform 500ms ease, opacity 500ms ease;
