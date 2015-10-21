@@ -1,5 +1,5 @@
-<div class="our-works-wrap">
-	<div class="our-works">
+<div class="our-works-wrap wrapper">
+	<div class="our-works wrapper-main">
 		<div class="title_top">
 			<span>&#032;&#047;&#032;Наши работы</span>
 		</div>

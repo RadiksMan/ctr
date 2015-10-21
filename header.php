@@ -70,7 +70,7 @@
 
 	<script type="text/javascript">
 	// тексты typed js
-		var strings = ["google.com.ua"];
+		var strings = ["ctr.design"];
 	</script>
 
 <!-- /typed js -->

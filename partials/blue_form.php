@@ -1,5 +1,5 @@
-<div class="blue-form-wrapper shaped">
-	<div class="wrapper">
+<div class="blue-form-wrapper shaped wrapper">
+	<div class="wrapper-blue wrapper-main">
 		<div class="blue-form cfix">
 			<div class="blue-from-imageblock">
 				<div class="shapes-wrap">
