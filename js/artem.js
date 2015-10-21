@@ -219,7 +219,6 @@ var functionChekedFlash = function() {
     else{
         $( ".inside-swf" ).addClass('class-hide');
         $( ".inside-image" ).removeClass('class-hide');
-        console.log('not');
     }
 }
 
@@ -228,5 +227,8 @@ var functionChekedFlash = function() {
 
 
 $(window).load(function() {
-functionChekedFlash();
+    //functionChekedFlash();
 });
+$(document).ready(function(){
+    functionChekedFlash();
+})
