@@ -132,10 +132,10 @@
 	var canvas, stage, exportRoot;
 
 		function init() {
-			canvas = document.getElementById("canvas");
+			canvas1 = document.getElementById("canvas1");
 			exportRoot = new lib.logo_index();
 
-			stage = new createjs.Stage(canvas);
+			stage = new createjs.Stage(canvas1);
 			stage.addChild(exportRoot);
 			stage.update();
 
