@@ -8,7 +8,7 @@
   margin-top: -138px;
 }
 
-.blue-form-wrapper .wrapper {
+.blue-form-wrapper .wrapper-blue {
   width: 100%;
   max-width: 1460px;
   margin: 0 auto;
@@ -345,8 +345,8 @@
   background-position: 55% 50%;
   background-repeat: no-repeat;
   position: absolute;
-  top: 35%;
-  left: 45%;
+  top: 30%;
+  left: 65%;
 }
 
 .video-js .vjs-big-play-button:before {
@@ -587,8 +587,8 @@ p.video-desc {
 }
 
 .red_section_button a:hover {
-  background-color: #ec4d4a !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #ec4d4a !important;
   border: 2px solid #fff;
 }
 
