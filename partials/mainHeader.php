@@ -11,6 +11,7 @@
         <div class="inside-swf">
             <div class='box-swf'>
                 <embed src="images/ctr.design_header.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+
             </div>
         </div>
     </div>
@@ -20,8 +21,9 @@
             <div class="logo-img class-hide">
                 <img src="images/header-logo.png" alt="" />
             </div>
-            <div class="logo-swf ">
-                <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+            <div onload="init();" class="logo-swf ">
+               <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
+                <canvas id="canvas" width="239" height="83" style="background-color:none"></canvas>
             </div>
         </div>
         <div class="block-nav">

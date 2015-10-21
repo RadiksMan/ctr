@@ -114,8 +114,5 @@
             </div>
         </div>
 	</footer>
-    <div class="scroll-top">
-        <div class="scroll-top-img"><span>UP</span></div>
-    </div>
 </body>
 </html>
