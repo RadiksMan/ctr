@@ -20,13 +20,13 @@
 						<input type="text" name="name" placeholder="имя" required="required"/>
 					</div>
 					<div class="input-wrap animate-delay">
-						<input type="text" name="mail" placeholder="e-mail" required="required"/>
+						<input type="email" name="mail" placeholder="e-mail" required="required"/>
 					</div>
 					<div class="input-wrap last-input animate-delay">
 						<input type="text" name="message" placeholder="ваше сообщение" required="required"/>
 					</div>
 					<div class="input-wrap button-submit animate-delay">
-						<button type="submit">
+						<button type="submit" class="sendform">
 							<span>Отправить</span>
 						</button>
 					</div>

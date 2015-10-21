@@ -6,39 +6,38 @@
 
                 <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" >
                     <g class="outside-cirles">
-                    <circle id="outside-cirle1" cx="160" cy="160" r="130" stroke='#de5c5a' stroke-width="1" fill="transparent" />
-                    <circle id="outside-cirle2" cx="160" cy="160" r="120" stroke='#ce423f' stroke-width="1" fill="transparent" />
-                    <circle id="outside-cirle3" cx="160" cy="160" r="110" stroke='#ce423f' stroke-width="1" fill="transparent" />
-                    <circle id="outside-cirle4" cx="160" cy="160" r="100" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                        <circle id="outside-cirle1" cx="160" cy="160" r="130" stroke='#de5c5a' stroke-width="1" fill="transparent" />
+                        <circle id="outside-cirle2" cx="160" cy="160" r="120" stroke='#ce423f' stroke-width="1" fill="transparent" />
+                        <circle id="outside-cirle3" cx="160" cy="160" r="110" stroke='#ce423f' stroke-width="1" fill="transparent" />
+                        <circle id="outside-cirle4" cx="160" cy="160" r="100" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
                     </g>
                     <g class="small-circles">
-                    <circle id = 'small-circle1' cx="0" cy="0" r="45" stroke="#f0f0f0" stroke-width="5" fill="transparent" ></circle>
-                    <circle id = 'small-circle2' cx="0" cy="0" r="17" stroke="#f0f0f0" stroke-width="7" fill="transparent"></circle>
+                        <circle id = 'small-circle1' cx="0" cy="0" r="45" stroke="#f0f0f0" stroke-width="5" fill="transparent" ></circle>
+                        <circle id = 'small-circle2' cx="0" cy="0" r="10" stroke="#f0f0f0" stroke-width="7" fill="transparent"></circle>
                     </g>
                     <g class="atom-circle">
-                        <circle id="atom-circle" cx="160" cy="160" r="15" stroke="transparent" fill="#fff" />
+                        <circle id="atom-circle" cx="160" cy="160" r="5" stroke="transparent" fill="#fff" />
                     </g>
                     <g class="inside-cirles first-cirle">
-                    <ellipse id="first-cirle" cx="160" cy="160" rx="65" ry="25" stroke="#f0f0f0" stroke-width="4" fill="transparent" />
-                    <circle cx="96" cy="160" r="6" fill="#fff">
-                        <animate attributeName="cx"  values="96; 224;  96" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
-                        <animate attributeName="cy"  values="160; 178; 182; 185; 182; 178; 160; 142; 138; 135; 138; 142; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="4s" repeatCount="indefinite" />
-                    </circle>
+                        <ellipse id="first-cirle" cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                        <circle cx="96" cy="160" r="6" fill="#fff">
+                            <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+                            <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="4s" repeatCount="indefinite" />
+                        </circle>
                     </g>
-                    <g class="inside-cirles second-cirle" transform="rotate(45, 160, 160)">
-                    <ellipse cx="160" cy="160" rx="65" ry="25" stroke="#f0f0f0" stroke-width="4" fill="transparent" />
-                    <circle cx="96" cy="160" r="6" fill="#fff">
-                        <animate attributeName="cx"  values="96;224;96" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite"  />
-                        <animate attributeName="cy"  values="160;178;182;185;182;178;160;142;138;135;138;142;160" keyTimes="0;0.083;0.166; 0.249;0.332;0.415;0.498;0.581; 0.664;0.747;0.830; 0.913;1" dur="3s" repeatCount="indefinite"  />
-                    </circle>
+                    <g class="inside-cirles second-cirle" transform="rotate(60, 160, 160)">
+                        <ellipse cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                        <circle cx="96" cy="160" r="6" fill="#fff">
+                            <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite" />
+                            <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="3s" repeatCount="indefinite" />
+                        </circle>
                     </g>
-                    <g class="inside-cirles third-cirle" transform="rotate(-45, 160, 160)">
-                    <ellipse cx="160" cy="160" rx="65" ry="25" stroke="#f0f0f0" stroke-width="4" fill="transparent" />
-                    <circle cx="96" cy="160" r="6" fill="#fff">
-                        <animate attributeName="cx" values="96;224;96" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite" />
-                        <animate attributeName="cy"
-                            values="160;178;182;185;182;178;160;142;138;135;138;142;160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="2s" repeatCount="indefinite"  />
-                    </circle>
+                    <g class="inside-cirles third-cirle" transform="rotate(-60, 160, 160)">
+                        <ellipse cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                        <circle cx="96" cy="160" r="6" fill="#fff">
+                            <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite" />
+                            <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="2s" repeatCount="indefinite" />
+                        </circle>
                     </g>
 
                     <animate xlink:href="#outside-cirle1" attributeName="r" attributeType="XML" values="130;140;130" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
@@ -47,11 +46,11 @@
 
                     <animate xlink:href="#outside-cirle3" attributeName="r" attributeType="XML" values="110;120;110" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
 
-                    <animate xlink:href="#atom-circle" attributeName="r" attributeType="XML" values="13;15;13" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                    <animate xlink:href="#atom-circle" attributeName="r" attributeType="XML" values="10;13;10" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
 
                     <animate xlink:href="#small-circle1" attributeName="r" attributeType="XML" values="40;45;40" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
 
-                    <animate xlink:href="#small-circle2" attributeName="r" attributeType="XML" values="16;19;16" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                    <animate xlink:href="#small-circle2" attributeName="r" attributeType="XML" values="12;16;12" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
 
                     <animate xlink:href="#outside-cirle4" attributeName="r" attributeType="XML" values="100;110;100" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
 

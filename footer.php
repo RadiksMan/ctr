@@ -9,33 +9,33 @@
                     <div class="foot-mbox">
                         <div class="foot-mbox-align">
                             <div class="foot-menu-element">
-                                <a href="#">
-                                    <span>о нас</span>
+                                <a class="magic-wrapp" href="#">
+                                    <span data-hover="о нас">о нас</span>
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#">
-                                    <span>работы</span>
+                                <a class="magic-wrapp" href="#">
+                                    <span data-hover="работы">работы</span>
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#">
-                                    <span>рекомендации</span>
+                                <a class="magic-wrapp" href="#">
+                                    <span data-hover="рекомендации">рекомендации</span>
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#">
-                                    <span>команда</span>
+                                <a class="magic-wrapp" href="#">
+                                    <span data-hover="команда">команда</span>
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#">
-                                    <span>блог</span>
+                                <a class="magic-wrapp" href="#">
+                                    <span data-hover="блог">блог</span>
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#">
-                                    <span>связаться с нами</span>
+                                <a class="magic-wrapp" href="#">
+                                    <span data-hover="связаться с нами">связаться с нами</span>
                                 </a>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                         <img class="ic-sk" src="images/icon-skype.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span>a.lymarchuk</span>
+                                        <span data-hover="a.lymarchuk">a.lymarchuk</span>
                                     </div>
                                 </a>
                             </div>
@@ -58,7 +58,7 @@
                                         <img class="ic-ml" src="images/icon-mail.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span>a.lymarchuk@gmail.com</span>
+                                        <span data-hover="a.lymarchuk@gmail.com">a.lymarchuk@gmail.com</span>
                                     </div>
                                 </a>
                             </div>
@@ -68,7 +68,7 @@
                                         <img class="ic-ph" src="images/icon-phone.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span>+38 (093) 999 99 99</span>
+                                        <span data-hover="+38 (093) 999 99 99">+38 (093) 999 99 99</span>
                                     </div>
                                 </a>
                             </div>
@@ -82,7 +82,7 @@
                                         <img class="ic-vk" src="images/icon-vk.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span>vkontakte</span>
+                                        <span data-hover="vkontakte">vkontakte</span>
                                     </div>
                                 </a>
                             </div>
@@ -92,7 +92,7 @@
                                         <img class="ic-fb" src="images/icon-fb.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span>facebook</span>
+                                        <span data-hover="facebook">facebook</span>
                                     </div>
                                 </a>
                             </div>
@@ -102,7 +102,7 @@
                                         <img class="ic-gg" src="images/icon-gg.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span>google plus</span>
+                                        <span data-hover="google plus">google plus</span>
                                     </div>
                                 </a>
                             </div>

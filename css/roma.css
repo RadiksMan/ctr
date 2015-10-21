@@ -340,7 +340,7 @@
   right: 10px;
   border-radius: 50%;
   border: 5px solid #fff;
-  background-image: url(../../../images/play-button.png);
+  background-image: url(../images/play-button.png);
   background-position: 55% 50%;
   background-repeat: no-repeat;
   position: absolute;
@@ -364,14 +364,9 @@
   -webkit-animation: myOrbit 4s linear infinite;
   -moz-animation: myOrbit 4s linear infinite;
   -o-animation: myOrbit 4s linear infinite;
-  -webkit-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  -ms-animation-play-state: paused;
 }
 
 .video-js .vjs-big-play-button:hover:after {
-  top: 28px;
-  left: 28%;
   -webkit-animation: myOrbit 4s linear infinite;
   -moz-animation: myOrbit 4s linear infinite;
   -o-animation: myOrbit 4s linear infinite;
@@ -400,7 +395,7 @@
   }
 }
 
-.video-circle-anim {
+.vjs-control-text {
   -webkit-animation: pulse 1s linear infinite;
   animation: pulse 1s linear infinite;
 }
@@ -561,6 +556,10 @@ p.video-desc {
 }
 
 /* /form-call popup*/
+.error {
+  color: #f00 !important;
+}
+
 .error::-webkit-input-placeholder {
   color: #f00 !important;
 }
