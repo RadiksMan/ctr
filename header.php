@@ -147,15 +147,15 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
+
 	<div class="mega-main-wrapper">
-		<header class="header">
+		<header class="header <? if($act == "index" || $act == "none"){echo $act;} ?>">
 
-		<?php if($act == "index" || $act == "none"){
-			partial('mainHeader');
-		 }
-		else {
-			partial('otherHeader');
-		} ?>
+			<?php if($act == "index" || $act == "none"){
+				partial('mainHeader');
+			 }
+			else {
+				partial('otherHeader');
+			} ?>
 
-
-	</header>
+		</header>
