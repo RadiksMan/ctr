@@ -1,7 +1,6 @@
 .blue-form-wrapper {
   padding: 5%;
   position: relative;
-  overflow: hidden;
   min-width: 700px;
   padding-bottom: 9.4%;
   z-index: 1;
@@ -168,9 +167,9 @@
 .blue-form-wrapper:after {
   content: '';
   position: absolute;
-  left: -104%;
+  left: -105%;
   width: 100%;
-  height: 2000px;
+  height: 8000px;
   top: 138px;
   background: #00BCBC;
   z-index: 0;
@@ -178,10 +177,10 @@
   transform-origin: 100% 0%;
   -moz-transform-origin: 100% 0%;
   -ms-transform-origin: 100% 0%;
-  -webkit-transform: rotate(-94deg);
-  transform: rotate(-94deg);
-  -moz-transform: rotate(-94deg);
-  -ms-transform: rotate(-94deg);
+  -webkit-transform: rotate(-92deg);
+  transform: rotate(-92deg);
+  -moz-transform: rotate(-92deg);
+  -ms-transform: rotate(-92deg);
 }
 
 /* animation */
@@ -668,8 +667,55 @@ p.video-desc {
   color: #fff;
 }
 
-.our-works-wrap .our-works .our-work-item .our-work-desc a span {
-  font-size: 20rem;
+.our-works-wrap .our-works .our-work-item .our-work-desc a:hover .our-works-link-text:after {
+  width: 100%;
+}
+
+.our-works-wrap .our-works .our-work-item .our-work-desc a:hover .our-works-link-icon {
+  animation-play-state: running;
+  -webkit-animation-play-state: running;
+}
+
+.our-works-wrap .our-works .our-work-item .our-work-desc a .our-works-link-text {
+  font-size: 14rem;
+}
+
+.our-works-wrap .our-works .our-work-item .our-work-desc a .our-works-link-text:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  height: 1px;
+  background-color: #fff;
+  width: 0;
+  transition: width 300ms ease;
+}
+
+.our-works-wrap .our-works .our-work-item .our-work-desc a .our-works-link-icon {
+  font-size: 14rem;
+  display: block;
+  position: absolute;
+  right: -17px;
+  top: calc(50% - 9rem);
+  width: 12px;
+  height: 10px;
+  color: white;
+  -webkit-transform-origin: 50% 50%;
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: thumb;
+  animation-name: thumb;
+  -webkit-animation-duration: 750ms;
+  animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: thumb;
+  -webkit-animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
 
 .our-works-wrap .our-works .our-work-item:hover .our-work-desc {
@@ -681,7 +727,7 @@ p.video-desc {
   position: absolute;
   left: -104%;
   width: 100%;
-  height: 2000px;
+  height: 5000px;
   top: 55%;
   background: #00BCBC;
   z-index: 0;
