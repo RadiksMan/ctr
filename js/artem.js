@@ -193,23 +193,17 @@ var FlashDetect = new function(){
     }();
 };
 
-var functionDisableFlash = function() {
+function functionDisableFlash() {
     $( window ).scroll(function() {
         if (($(window).scrollTop() >= $(".header-wrap").position().top + $(".header-wrap").height()) && ($(".header-wrap").height()+$(".header-wrap").position().top ) < ($(window).scrollTop() + $(window).height()))
         {
             $( ".inside-swf" ).addClass('class-hide');
             $( ".inside-image" ).removeClass('class-hide');
-            console.log("true");
-
         }
         else
         {
             $( ".inside-image" ).addClass('class-hide');
             $( ".inside-swf" ).removeClass('class-hide');
-
-            console.log("else");
-
-
         }
 
     });
@@ -217,16 +211,16 @@ var functionDisableFlash = function() {
 }
 
 var functionChekedFlash = function() {
-    if(!FlashDetect.installed){
-        $( ".inside-swf" ).addClass('class-hide');
-        $( ".inside-image" ).removeClass('class-hide');
-    }
-    else{
+    if(FlashDetect.installed){
         $( ".inside-image" ).addClass('class-hide');
         $( ".inside-swf" ).removeClass('class-hide');
         functionDisableFlash();
     }
-    console.log(FlashDetect.installed);
+    else{
+        $( ".inside-swf" ).addClass('class-hide');
+        $( ".inside-image" ).removeClass('class-hide');
+        console.log('not');
+    }
 }
 
 
