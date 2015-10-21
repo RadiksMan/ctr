@@ -1,4 +1,9 @@
 /* all styles */
+.wrapper-main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 /* /all styles */
 /* recomendations */
 .recomendations-wrapper {
