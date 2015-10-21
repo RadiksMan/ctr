@@ -379,7 +379,7 @@
   position: absolute;
   left: -104%;
   width: 100%;
-  height: 2000px;
+  height: 5000px;
   top: 138px;
   background: #d84747;
   z-index: 0;
@@ -387,10 +387,10 @@
   transform-origin: 100% 0%;
   -moz-transform-origin: 100% 0%;
   -ms-transform-origin: 100% 0%;
-  -webkit-transform: rotate(-94deg);
-  transform: rotate(-94deg);
-  -moz-transform: rotate(-94deg);
-  -ms-transform: rotate(-94deg);
+  -webkit-transform: rotate(-92deg);
+  transform: rotate(-92deg);
+  -moz-transform: rotate(-92deg);
+  -ms-transform: rotate(-92deg);
 }
 
 .index {

@@ -5,7 +5,6 @@
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <title></title>
-        <!-- CANVAS-->
         <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>
         <!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
@@ -86,18 +85,18 @@
         <script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
         <script src="js/logo_index.js"></script>
         <script>
-            var canvas, stage, exportRoot;
+            var canvas1, stage1, exportRoot1;
 
                 function init() {
-                    canvas = document.getElementById("canvas");
-                    exportRoot = new lib.logo_index();
+                    canvas1 = document.getElementById("canvas1");
+                    exportRoot1 = new lib.logo_index();
 
-                    stage = new createjs.Stage(canvas);
-                    stage.addChild(exportRoot);
-                    stage.update();
+                    stage1 = new createjs.Stage(canvas1);
+                    stage1.addChild(exportRoot1);
+                    stage1.update();
 
                     createjs.Ticker.setFPS(lib.properties.fps);
-                    createjs.Ticker.addEventListener("tick", stage);
+                    createjs.Ticker.addEventListener("tick", stage1);
                 }
         </script>
     </head>
@@ -112,362 +111,424 @@
                 </div>
             </div>
         </div>
-        <header class="header">
-            <div class="header-wrap">
-                <div class="box-main-menu animate-section">
-                    <div class="logo ">
-                        <div class="logo-img class-hide">
-                            <img src="images/header-logo.png" alt="" />
+        <div  class="mega-main-wrapper">
+            <header class="header ">
+                <div class="header-wrap other-header-wrap">
+                    <div class="box-main-menu animate-section">
+                        <a href="index.html">
+                            <div class="logo other-logo-class">
+                                <div onload="init();" class="logo-swf ">
+                                    <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
+                                    <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="block-nav block-nav-other-header">
+                            <nav>
+                                <ul>
+                                    <li><a href="" data-hover="о нас ">о нас </a></li>
+                                    <li><a href="" data-hover="работы">работы</a></li>
+                                    <li><a href="" data-hover="Рекомендации">Рекомендации</a></li>
+                                    <li><a href="" data-hover="команда">команда</a></li>
+                                    <li><a href="" data-hover="блог">блог</a></li>
+                                </ul>
+                            </nav>
                         </div>
-                        <div class="logo-swf ">
-                            <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                        <div class="socials class-for-fix animate-it">
+                            <a href="#">
+                                <div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div>
+                            </a>
+                            <a href="#">
+                                <div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div>
+                            </a>
+                            <a href="#">
+                                <div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="block-nav block-nav-other-header">
-                        <nav>
-                            <ul>
-                                <li><a href="">о нас </a></li>
-                                <li><a href="">работы</a></li>
-                                <li><a href="">Рекомендации</a></li>
-                                <li><a href="">команда</a></li>
-                                <li><a href="">блог</a></li>
-                            </ul>
-                        </nav>
+                </div>
+            </header>
+            <div class="our-works-wrap wrapper">
+                <div class="our-works wrapper-main">
+                    <div class="title_top">
+                        <span>&#032;&#047;&#032;Наши работы</span>
                     </div>
-                    <div class="socials class-for-fix animate-it">
-                        <a href="#">
-                            <div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div>
-                        </a>
-                        <a href="#">
-                            <div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div>
-                        </a>
-                        <a href="#">
-                            <div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div>
-                        </a>
+                    <div class="our-works-list cfix animate-section">
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork1.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork2.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork3.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork4.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork1.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork2.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork3.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork4.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork1.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork2.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork3.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork4.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork1.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork2.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork3.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork4.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork1.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork2.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork3.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="our-work-item animate-delay">
+                            <div class="our-work-image">
+                                <img src="images/ourwork4.jpg" alt=""/>
+                            </div>
+                            <div class="our-work-desc">
+                                <h2>Adindex</h2>
+                                <p>Лендинг сервисов AdIndex</p>
+                                <a href="#">
+                                <span class="our-works-link-text">Подробнее</span>
+                                <span class="our-works-link-icon">&raquo;</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <div class="our-works-wrap wrapper">
-            <div class="our-works wrapper-main">
-                <div class="title_top">
-                    <span>&#032;&#047;&#032;Наши работы</span>
-                </div>
-                <div class="our-works-list cfix animate-section">
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork1.jpg" alt=""/>
+            <div class="footer_placeholder"></div>
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="foot-content cfix">
+                        <div class="foot-mbox">
+                            <div class="foot-mbox-align">
+                                <div class="foot-menu-element">
+                                    <a class="magic-wrapp" href="#">
+                                    <span data-hover="о нас">о нас</span>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a class="magic-wrapp" href="#">
+                                    <span data-hover="работы">работы</span>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a class="magic-wrapp" href="#">
+                                    <span data-hover="рекомендации">рекомендации</span>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a class="magic-wrapp" href="#">
+                                    <span data-hover="команда">команда</span>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a class="magic-wrapp" href="#">
+                                    <span data-hover="блог">блог</span>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a class="magic-wrapp" href="#">
+                                    <span data-hover="связаться с нами">связаться с нами</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
+                        <div class="foot-mbox">
+                            <div class="foot-mbox-align">
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-sk" src="images/icon-skype.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="a.lymarchuk">a.lymarchuk</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-ml" src="images/icon-mail.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="a.lymarchuk@gmail.com">a.lymarchuk@gmail.com</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-ph" src="images/icon-phone.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="+38 (093) 999 99 99">+38 (093) 999 99 99</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork2.jpg" alt=""/>
+                        <div class="foot-mbox">
+                            <div class="foot-mbox-align">
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-vk" src="images/icon-vk.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="vkontakte">vkontakte</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-fb" src="images/icon-fb.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="facebook">facebook</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-gg" src="images/icon-gg.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="google plus">google plus</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork3.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork4.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork1.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork2.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork3.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork4.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork1.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork2.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork3.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork4.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork1.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork2.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork3.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork4.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork1.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork2.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork3.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
-                        </div>
-                    </div>
-                    <div class="our-work-item animate-delay">
-                        <div class="our-work-image">
-                            <img src="images/ourwork4.jpg" alt=""/>
-                        </div>
-                        <div class="our-work-desc">
-                            <h2>Adindex</h2>
-                            <p>Лендинг сервисов AdIndex</p>
-                            <a href="#">Подробнее <span>&raquo;</span></a>
+                        <div class="foot-copyright">
+                            <span>© ctr.design studio 2015</span>
                         </div>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
-        <div class="footer_placeholder"></div>
-        <footer class="footer">
-            <div class="footer-container">
-                <div class="foot-content cfix">
-                    <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
-                                <a href="#">
-                                <span>о нас</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#">
-                                <span>работы</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#">
-                                <span>рекомендации</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#">
-                                <span>команда</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#">
-                                <span>блог</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#">
-                                <span>связаться с нами</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-sk" src="images/icon-skype.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span>a.lymarchuk</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-ml" src="images/icon-mail.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span>a.lymarchuk@gmail.com</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-ph" src="images/icon-phone.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span>+38 (093) 999 99 99</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-vk" src="images/icon-vk.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span>vkontakte</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-fb" src="images/icon-fb.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span>facebook</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-gg" src="images/icon-gg.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span>google plus</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="foot-copyright">
-                        <span>© ctr.design studio 2015</span>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </body>
 </html>
