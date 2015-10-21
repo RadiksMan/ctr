@@ -17,23 +17,25 @@
     </div>
 
     <div class="box-main-menu class-main-headed-fix animate-section">
-        <div class="logo ">
-            <div class="logo-img class-hide">
-                <img src="images/header-logo.png" alt="" />
+        <a href="index.html">
+            <div class="logo ">
+                <div class="logo-img class-hide">
+                    <img src="images/header-logo.png" alt="" />
+                </div>
+                <div onload="init();" class="logo-swf ">
+                   <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
+                    <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                </div>
             </div>
-            <div onload="init();" class="logo-swf ">
-               <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
-                <canvas id="canvas" width="239" height="83" style="background-color:none"></canvas>
-            </div>
-        </div>
+        </a>
         <div class="block-nav">
             <nav>
                 <ul>
-                   <li><a href="">о нас </a></li>
-                   <li><a href="">работы</a></li>
-                   <li><a href="">Рекомендации</a></li>
-                   <li><a href="">команда</a></li>
-                   <li><a href="">блог</a></li>
+                   <li><a href="" data-hover="о нас">о нас </a></li>
+                   <li><a href="" data-hover="работы">работы</a></li>
+                   <li><a href="" data-hover="Рекомендации">Рекомендации</a></li>
+                   <li><a href="" data-hover="команда">команда</a></li>
+                   <li><a href="" data-hover="блог">блог</a></li>
                 </ul>
             </nav>
         </div>
