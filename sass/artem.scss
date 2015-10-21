@@ -48,7 +48,8 @@
 
                         &:after  { content: '/'; color: #333333; font-family: 'Roboto'; font-weight: bold; font-size: 16rem; display: inline-block; margin-left: 50px;}
                         &:last-child{padding-right: 0px;  &:after{ content: ''; }  }
-                        a{text-decoration: none; color: black;     position: relative; display: inline-block;    -webkit-transition:  300ms ease transform;
+                        a{text-decoration: none; color: black;     position: relative; display: inline-block;
+                            -webkit-transition:  300ms ease transform;
                             -moz-transition:  0.3s ease transform;
                              transition:  0.3s ease transform;
 

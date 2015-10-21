@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head><!--
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -123,32 +123,35 @@
 	<![endif]-->
 
 	<!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
+
+
 	<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
-<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
-<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
-<script src="js/logo_index.js"></script>
+	<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
+	<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
+	<script src="js/logo_index.js"></script>
 
 	<script>
-	var canvas, stage, exportRoot;
+	var canvas1, stage1, exportRoot1;
 
 		function init() {
 			canvas1 = document.getElementById("canvas1");
-			exportRoot = new lib.logo_index();
+			exportRoot1 = new lib.logo_index();
 
-			stage = new createjs.Stage(canvas1);
-			stage.addChild(exportRoot);
-			stage.update();
+			stage1 = new createjs.Stage(canvas1);
+			stage1.addChild(exportRoot1);
+			stage1.update();
 
 			createjs.Ticker.setFPS(lib.properties.fps);
-			createjs.Ticker.addEventListener("tick", stage);
+			createjs.Ticker.addEventListener("tick", stage1);
 		}
 	</script>
 
-</head>
+
+ </head>
 <body>
 	<?partial('zHiddenBlock');?>
 
-	<div class="mega-main-wrapper">
+	<div  class="mega-main-wrapper">
 		<header class="header <? if($act == "index" || $act == "none"){echo $act;} ?>">
 
 			<?php if($act == "index" || $act == "none"){

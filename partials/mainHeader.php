@@ -2,7 +2,7 @@
 
     <div class="flow-form">
 
-        <div class="inside-image class-hide">
+        <div class="inside-image ">
             <div class='box-image '>
                 <img src="images/header.jpg" alt="" />
             </div>
@@ -19,9 +19,7 @@
     <div class="box-main-menu class-main-headed-fix animate-section">
         <a href="index.html">
             <div class="logo ">
-                <div class="logo-img class-hide">
-                    <img src="images/header-logo.png" alt="" />
-                </div>
+
                 <div onload="init();" class="logo-swf ">
                    <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
                     <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
