@@ -11,7 +11,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -21,7 +24,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -31,7 +37,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -41,7 +50,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -51,7 +63,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -61,7 +76,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -71,7 +89,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -81,7 +102,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -91,7 +115,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -101,7 +128,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -111,7 +141,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -121,7 +154,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -131,7 +167,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -141,7 +180,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -151,7 +193,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -161,7 +206,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -171,7 +219,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -181,7 +232,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -191,7 +245,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 			<div class="our-work-item animate-delay">
@@ -201,7 +258,10 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">Подробнее <span>&raquo;</span></a>
+					<a href="#">
+					    <span class="our-works-link-text">Подробнее</span>
+					    <span class="our-works-link-icon">&raquo;</span>
+					</a>
 				</div>
 			</div>
 		</div>
