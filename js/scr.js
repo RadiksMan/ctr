@@ -179,7 +179,7 @@ function animationBlock(item){
 
     function checkForAnimate(){
         var bottomCheck = $(window).height()+$(window).scrollTop();
-        var windowTop = $(window).scrollTop()+($(window).height()/1.5);
+        var windowTop = $(window).scrollTop()+($(window).height()/2);
         item.each(function(){
            if(windowTop>$(this).offset().top || bottomCheck > $('body').height()*0.98){
 
@@ -226,6 +226,7 @@ $(window).load(function(){
     $('.footer_placeholder').height($('.footer').outerHeight());
 
     animationBlock($('.animate-section'));
+    animationBlockDown($('.animate-section-down'));
     recomendationSlick();
 
 });
@@ -240,3 +241,35 @@ $(window).resize(function() {
 
 
 
+function animationBlockDown(item){
+
+    $(window).scroll(function(){
+        checkForAnimate();
+    });
+
+    function checkForAnimate(){
+        var bottomCheck = $(window).height()+$(window).scrollTop();
+        var windowTop = $(window).scrollTop()+($(window).height()/1.5);
+        item.each(function(){
+            console.log($(this).height());
+           if(windowTop>$(this).offset().top+$(this).height()+200 ){
+
+              var itemSect = $(this);
+              var point = 0;
+              itemSect.find('.animate-it').addClass('animated');
+
+
+              var timer = setInterval(function(){
+                 itemSect.find('.animate-delay').eq(point).addClass('animated');
+                 point++;
+                 if(itemSect.find('.animate-delay').length == point){
+                     clearInterval(timer);
+                 }
+              },200);
+
+
+           }
+        });
+    }
+    checkForAnimate();
+}

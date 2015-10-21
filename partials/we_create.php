@@ -18,12 +18,12 @@
                     </div>
             </div>
 
-            <div class="triangle-container animate-section">
+            <div class="triangle-container animate-section-down">
 
                   <div class="triangle-img  animate-it"><img src="images/triangle.png"></div>
                   <div class="triangle-text"><span>мы создаем</span></div>
                   <div class="man-back-container">
-                        <div class="man-back-box animate-section">
+                        <div class="man-back-box animate-section-down">
 
                               <div class="d7 layer animate-it"><img src="images/D0FA39D7.png"></div>
                               <div class="dd layer animate-it"><img src="images/D0FA39DD.png"></div>
