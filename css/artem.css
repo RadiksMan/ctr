@@ -1,7 +1,13 @@
+.header {
+  background-color: white;
+}
+
 .header .header-wrap {
   width: 100%;
   box-sizing: border-box;
   max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .header .header-wrap .flow-form {
@@ -343,4 +349,29 @@
   transform: rotate(-94deg);
   -moz-transform: rotate(-94deg);
   -ms-transform: rotate(-94deg);
+}
+
+.index {
+  background-color: #E7E4E4;
+}
+
+.none {
+  background-color: #E7E4E4;
+}
+
+@media screen and (min-width: 1920px) {
+  .header .header-wrap .flow-form .inside-image {
+    width: 1920px;
+  }
+  .header .header-wrap .flow-form {
+    height: 653px;
+  }
+  .header .header-wrap .flow-form .inside-swf {
+    width: 1920px;
+    margin-top: -576px;
+  }
+  .header .header-wrap .flow-form .inside-swf .box-swf embed {
+    width: 1920px;
+    height: 1920px;
+  }
 }

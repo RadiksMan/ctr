@@ -147,7 +147,7 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
-	<header class="header">
+	<header class="header <? if($act == "index" || $act == "none"){echo $act;} ?>">
 
 	<?php if($act == "index" || $act == "none"){
 		partial('mainHeader');
