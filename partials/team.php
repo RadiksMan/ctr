@@ -1,6 +1,7 @@
 
 <div class="wrapper container-team">
     <div class="wrapper-main team-align">
+        <div class="title-top animate-section"><span class="animate-it">/ наша команда</span></div>
         <canvas id="canvas" width="1920" height="817" style="background-color:#FFFFFF"></canvas>
         <div class="items-wrapper">
             <div class="man-mbox">
