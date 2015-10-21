@@ -2,6 +2,7 @@
 .footer-container {
   width: 100%;
   background-color: #01abaa;
+  padding-bottom: 94px;
 }
 
 .footer-container .foot-content {
@@ -75,11 +76,14 @@
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-sk {
   width: 41px;
+  top: 9px;
+  left: 8px;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ml {
   width: 40px;
   top: 16px;
+  left: 8px;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ph {
@@ -112,7 +116,7 @@
 
 .footer-container .foot-content .foot-copyright {
   position: absolute;
-  bottom: 0px;
+  bottom: 41px;
   left: calc(50% - 90px);
 }
 
@@ -151,8 +155,8 @@
   margin-bottom: 52px;
   -webkit-transform: translate(0, -5000px);
   transform: translate(0, -5000px);
-  transition: -webkit-transform 300ms linear;
-  transition: transform 300ms linear;
+  transition: -webkit-transform 600ms linear;
+  transition: transform 600ms linear;
 }
 
 .works-container .works-align .works-mbox .works-item.animated {
@@ -267,19 +271,20 @@
   font-size: 50rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: #56626c;
   letter-spacing: 3px;
 }
 
 .triangle-container .triangle-img {
   -webkit-transform: scale(0);
   transform: scale(0);
-  transition: transform 300ms linear;
+  transition: transform 600ms linear;
   -ms-transform: scale(0);
-  -ms-transition: transform 300ms linear;
+  -ms-transition: transform 600ms linear;
   -webkit-transform: scale(0);
-  -webkit-transition: -webkit-transform 300ms linear;
+  -webkit-transition: -webkit-transform 600ms linear;
   -moz-transform: scale(0);
-  -moz-transition: transform 300ms linear;
+  -moz-transition: transform 600ms linear;
   width: 695px;
 }
 
@@ -308,13 +313,13 @@
   top: 0;
   -webkit-transform: translate(2000px, 0);
   transform: translate(2000px, 0);
-  transition: transform 300ms linear;
+  transition: transform 600ms linear;
   -moz-transform: translate(2000px, 0);
-  -moz-transition: transform 300ms linear;
+  -moz-transition: transform 600ms linear;
   -webkit-transform: translate(2000px, 0);
-  -webkit-transition: -webkit-transform 300ms linear;
+  -webkit-transition: -webkit-transform 600ms linear;
   -ms-transform: translate(2000px, 0);
-  -ms-transition: transform 300ms linear;
+  -ms-transition: transform 600ms linear;
 }
 
 .man-back-container .man-back-box .d7.animated {
@@ -330,13 +335,13 @@
   top: 520px;
   -webkit-transform: translate(-2000px, 0);
   transform: translate(-2000px, 0);
-  transition: transform 300ms linear;
+  transition: transform 600ms linear;
   -moz-transform: translate(-2000px, 0);
-  -moz-transition: transform 300ms linear;
+  -moz-transition: transform 600ms linear;
   -webkit-transform: translate(-2000px, 0);
-  -webkit-transition: -webkit-transform 300ms linear;
+  -webkit-transition: -webkit-transform 600ms linear;
   -ms-transform: translate(-2000px, 0);
-  -ms-transition: transform 300ms linear;
+  -ms-transition: transform 600ms linear;
 }
 
 .man-back-container .man-back-box .dd.animated {
@@ -352,13 +357,13 @@
   top: 520px;
   -webkit-transform: translate(-2000px, 0);
   transform: translate(-2000px, 0);
-  transition: transform 300ms linear;
+  transition: transform 600ms linear;
   -moz-transform: translate(-2000px, 0);
-  -moz-transition: transform 300ms linear;
+  -moz-transition: transform 600ms linear;
   -webkit-transform: translate(-2000px, 0);
-  -webkit-transition: -webkit-transform 300ms linear;
+  -webkit-transition: -webkit-transform 600ms linear;
   -ms-transform: translate(-2000px, 0);
-  -ms-transition: transform 300ms linear;
+  -ms-transition: transform 600ms linear;
 }
 
 .man-back-container .man-back-box .db.animated {
@@ -374,13 +379,13 @@
   top: 228px;
   -webkit-transform: translate(0, 500px);
   transform: translate(0, 500px);
-  transition: transform 300ms linear;
+  transition: transform 600ms linear;
   -moz-transform: translate(0, 500px);
-  -moz-transition: transform 300ms linear;
+  -moz-transition: transform 600ms linear;
   -webkit-transform: translate(0, 500px);
-  -webkit-transition: -webkit-transform 300ms linear;
+  -webkit-transition: -webkit-transform 600ms linear;
   -ms-transform: translate(0, 500px);
-  -ms-transition: transform 300ms linear;
+  -ms-transition: transform 600ms linear;
 }
 
 .man-back-container .man-back-box .df.animated {
@@ -395,10 +400,10 @@
   left: 552px;
   top: 229px;
   opacity: 0;
-  transition: opacity 300ms linear;
-  -webkit-transition: opacity 300ms linear;
-  -ms-transition: opacity 300ms linear;
-  -moz-transition: opacity 300ms linear;
+  transition: opacity 600ms linear;
+  -webkit-transition: opacity 600ms linear;
+  -ms-transition: opacity 600ms linear;
+  -moz-transition: opacity 600ms linear;
 }
 
 .man-back-container .man-back-box .dc.animated {
@@ -410,10 +415,10 @@
   left: 552px;
   top: -1px;
   opacity: 0;
-  transition: opacity 300ms linear;
-  -webkit-transition: opacity 300ms linear;
-  -ms-transition: opacity 300ms linear;
-  -moz-transition: opacity 300ms linear;
+  transition: opacity 600ms linear;
+  -webkit-transition: opacity 600ms linear;
+  -ms-transition: opacity 600ms linear;
+  -moz-transition: opacity 600ms linear;
 }
 
 .man-back-container .man-back-box .d5.animated {
