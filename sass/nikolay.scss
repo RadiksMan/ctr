@@ -1,6 +1,6 @@
 /*footer*/
         .footer-container{width: 100%;background-color: #01abaa;padding-bottom: 94px;
-            .foot-content{width: 75%; margin: 0 auto; padding-top: 85px;
+            .foot-content{width: 75%; margin: 0 auto; padding-top: 85px; max-width: 1920px;
                 .foot-mbox{display: inline-block;  float:left;  ; vertical-align: top;
                     &:nth-child(3){margin-right: 0; float:right;}
 
@@ -116,6 +116,7 @@
 
     .container-team{width:100%;    padding-bottom: 603px; overflow: hidden;
         .team-align{
+            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';}
             .items-wrapper{    width: 68%;   margin: -606px auto 0;
                 .man-mbox{width:20%; float:left; text-align: center;
                     .box-wrapper-team{position:relative;display: inline-block;

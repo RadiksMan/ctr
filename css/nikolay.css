@@ -9,6 +9,7 @@
   width: 75%;
   margin: 0 auto;
   padding-top: 85px;
+  max-width: 1920px;
 }
 
 .footer-container .foot-content .foot-mbox {
@@ -431,6 +432,15 @@
   width: 100%;
   padding-bottom: 603px;
   overflow: hidden;
+}
+
+.container-team .team-align .title-top {
+  padding-left: 110px;
+  color: #303030;
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Gotham';
 }
 
 .container-team .team-align .items-wrapper {
