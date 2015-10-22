@@ -2,7 +2,7 @@
 
     <div class="flow-form">
 
-        <div class="inside-image class-hide">
+        <div class="inside-image ">
             <div class='box-image '>
                 <img src="images/header.jpg" alt="" />
             </div>

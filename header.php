@@ -5,7 +5,7 @@
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<title></title>
-	<!-- CANVAS-->
+
 
 
 
@@ -124,12 +124,11 @@
 
 	<!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
 
-
-</head>
+ </head>
 <body>
 	<?partial('zHiddenBlock');?>
 
-	<div class="mega-main-wrapper">
+	<div  class="mega-main-wrapper">
 		<header class="header <? if($act == "index" || $act == "none"){echo $act;} ?>">
 
 			<?php if($act == "index" || $act == "none"){
