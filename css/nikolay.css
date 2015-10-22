@@ -181,6 +181,9 @@
   margin: 0 auto;
   position: relative;
   max-width: 1504px;
+  padding-bottom: 300px;
+  margin-bottom: -300px;
+  overflow: hidden;
 }
 
 .works-container .works-align .works-mbox {
