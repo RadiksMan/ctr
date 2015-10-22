@@ -102,8 +102,6 @@
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box img {
   width: 50px;
-  top: 10px;
-  left: 10px;
   position: absolute;
 }
 
@@ -115,13 +113,14 @@
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ml {
   width: 40px;
-  top: 13px;
-  left: 8px;
+  top: 15px;
+  left: 9px;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ph {
   width: 38px;
   top: 11px;
+  left: 10px;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-vk {
