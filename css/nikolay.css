@@ -180,6 +180,7 @@
   width: 79%;
   margin: 0 auto;
   position: relative;
+  max-width: 1504px;
 }
 
 .works-container .works-align .works-mbox {

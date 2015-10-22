@@ -55,7 +55,7 @@
 /*we create*/
 .margin-top-138px{    margin-top: -138px;}
 .works-container{width:100%;background-color: #fff;    padding-bottom: 222px; overflow: hidden;
-    .works-align{width: 79%; margin: 0 auto; position:relative;
+    .works-align{width: 79%; margin: 0 auto; position:relative;    max-width: 1504px;
         .works-mbox{padding-top: 199px;
             .works-item{     margin-bottom: 52px;transform:translate(0,-5000px);transition:transform 600ms linear;
                 &.animated{  transform:translate(0,0);}
