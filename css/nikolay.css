@@ -479,6 +479,7 @@
   font-family: 'Gotham';
   top: 155px;
   margin-bottom: -25px;
+  position: relative;
 }
 
 .container-team .team-align .items-wrapper {
