@@ -25,16 +25,10 @@
 
                         &:after  { content: '/'; color: white; font-family: 'Roboto'; font-size: 16rem; display: inline-block; margin-left: 50px;}
                         &:last-child{padding-right: 0px;  &:after{ content: ''; }  }
-                        a{text-decoration: none; color: white;     position: relative; display: inline-block;    -webkit-transition:  300ms ease transform;
-                            -moz-transition:  0.3s ease transform;
-                             transition:  0.3s ease transform;
-
+                        a{text-decoration: none; color: white;     position: relative; display: inline-block;    -webkit-transition:  300ms ease transform;-moz-transition:  0.3s ease transform;transition:  0.3s ease transform;
                             &:before{position: absolute; top: 100%; content: attr(data-hover);font-weight: 900;     width: 120%;  -webkit-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0);     transform: translate3d(0,0,0);}
-
                             &:hover{text-decoration: none;outline:none;
                                 text-transform: uppercase; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: -webkit-transform 0.3s;   -moz-transition: -moz-transform 0.3s; transition: transform 0.3s;}
-
-
                         }
                     }
                 }
@@ -48,17 +42,10 @@
 
                         &:after  { content: '/'; color: #333333; font-family: 'Roboto'; font-weight: bold; font-size: 16rem; display: inline-block; margin-left: 50px;}
                         &:last-child{padding-right: 0px;  &:after{ content: ''; }  }
-                        a{text-decoration: none; color: black;     position: relative; display: inline-block;
-                            -webkit-transition:  300ms ease transform;
-                            -moz-transition:  0.3s ease transform;
-                             transition:  0.3s ease transform;
-
+                        a{text-decoration: none; color: black;     position: relative; display: inline-block;-webkit-transition:  300ms ease transform;-moz-transition:  0.3s ease transform;transition:  0.3s ease transform;font-weight: normal;
                             &:before{position: absolute; top: 100%; content: attr(data-hover);font-weight: 900;     width: 120%;  -webkit-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0);     transform: translate3d(0,0,0);}
-
                             &:hover{text-decoration: none;outline:none;
                                 text-transform: uppercase; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: -webkit-transform 0.3s;   -moz-transition: -moz-transform 0.3s; transition: transform 0.3s;}
-
-
                         }
                     }
                 }

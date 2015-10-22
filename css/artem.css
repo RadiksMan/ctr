@@ -196,6 +196,7 @@
   display: inline-block;
   transition: 0.3s ease -webkit-transform;
   transition: 0.3s ease transform;
+  font-weight: normal;
 }
 
 .header .header-wrap .box-main-menu .block-nav-other-header nav ul li a:before {
