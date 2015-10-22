@@ -6,9 +6,6 @@
 	<meta name="keywords" content="" />
 	<title></title>
 
-
-
-
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>

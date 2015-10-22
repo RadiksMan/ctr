@@ -467,6 +467,7 @@
   width: 100%;
   padding-bottom: 603px;
   overflow: hidden;
+  margin-top: -140px;
 }
 
 .container-team .team-align .title-top {
@@ -476,6 +477,8 @@
   font-weight: 900;
   text-transform: uppercase;
   font-family: 'Gotham';
+  top: 155px;
+  margin-bottom: -25px;
 }
 
 .container-team .team-align .items-wrapper {
