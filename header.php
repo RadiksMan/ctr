@@ -23,11 +23,7 @@
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 
 	<!-- bootstrap -->
-			<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
-			<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
-			<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
-			<script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
-			<script src="js/team.js"></script>
+
 	<!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
 
 	<!-- /bootstrap -->
@@ -64,9 +60,16 @@
 
 <!-- typed js -->
 
+	<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
+	<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
+	<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
+	<script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
+
 	<script type="text/javascript" src="js/typed.js"></script>
 
 	<script type="text/javascript" src="js/logo_index.js"></script>
+
+	<script src="js/team.js"></script>
 
 	<script type="text/javascript">
 	// тексты typed js
@@ -78,9 +81,6 @@
 <!-- video js -->
 
 <link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
-
-
-
 
 <!-- video js -->
 
@@ -123,26 +123,7 @@
 	<![endif]-->
 
 	<!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
-	<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
-<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
-<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
-<script src="js/logo_index.js"></script>
 
-	<script>
-	var canvas, stage, exportRoot;
-
-		function init() {
-			canvas1 = document.getElementById("canvas1");
-			exportRoot = new lib.logo_index();
-
-			stage = new createjs.Stage(canvas1);
-			stage.addChild(exportRoot);
-			stage.update();
-
-			createjs.Ticker.setFPS(lib.properties.fps);
-			createjs.Ticker.addEventListener("tick", stage);
-		}
-	</script>
 
 </head>
 <body>

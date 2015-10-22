@@ -203,13 +203,14 @@ function animationBlock(item){
 }
 
 function recomendationSlick(){
-    console.log('s');
+
     $('.recomendation-slider').slick({
         slidesToShow: 1,
         speed: 300,
         slidesToShow: 1,
         arrows: true
     });
+
 }
 
 /* DOCUMENT READY  */
