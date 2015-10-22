@@ -223,12 +223,10 @@ var functionChekedFlash = function() {
 }
 
 
-
-
-
 $(window).load(function() {
     //functionChekedFlash();
 });
 $(document).ready(function(){
+
     functionChekedFlash();
 })
