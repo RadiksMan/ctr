@@ -43,7 +43,7 @@
                     <div class="foot-mbox">
                         <div class="foot-mbox-align">
                             <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
+                                <a href="skype:a.lymarchuk" class="foot-icon-box">
                                     <div class="icon-box">
                                         <img class="ic-sk" src="images/icon-skype.svg">
                                     </div>
@@ -53,7 +53,7 @@
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
+                                <a href="mailto:a.lymarchuk@gmail.com" class="foot-icon-box">
                                     <div class="icon-box">
                                         <img class="ic-ml" src="images/icon-mail.svg">
                                     </div>
@@ -63,7 +63,7 @@
                                 </a>
                             </div>
                             <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
+                                <a href="tel:+38(093)9999999" class="foot-icon-box">
                                     <div class="icon-box">
                                         <img class="ic-ph" src="images/icon-phone.svg">
                                     </div>

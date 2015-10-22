@@ -30,10 +30,10 @@
                             .foot-icon-box{
                                 &:after{ content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}//float cfix
                                 .icon-box{border-radius: 50%;border-color: #fff; border-width: 3px;display: block;width: 64px;height: 64px;border-style: solid;position: relative;float:left;
-                                     img {width:50px;top:10px;left:10px;position:absolute;}
+                                     img {width:50px;position:absolute;}
                                     .ic-sk{width: 41px;top: 9px;left: 8px;}
-                                    .ic-ml{width: 40px;top: 13px;left: 8px;}
-                                    .ic-ph{width: 38px;top: 11px;}
+                                    .ic-ml{width: 40px;top: 15px;left: 9px;}
+                                    .ic-ph{width: 38px;top: 11px;left:10px;}
                                     .ic-vk{width: 39px;top: 21px;left: 9px;}
                                     .ic-fb{width: 19px;top: 11px;left: 20px;}
                                     .ic-gg{width: 36px;top: 14px;left: 11px;}
@@ -55,7 +55,7 @@
 /*we create*/
 .margin-top-138px{    margin-top: -138px;}
 .works-container{width:100%;background-color: #fff;    padding-bottom: 222px; overflow: hidden;
-    .works-align{width: 79%; margin: 0 auto; position:relative;
+    .works-align{width: 79%; margin: 0 auto; position:relative;    max-width: 1504px;padding-bottom: 300px;margin-bottom: -300px;overflow: hidden;
         .works-mbox{padding-top: 199px;
             .works-item{     margin-bottom: 52px;transform:translate(0,-5000px);transition:transform 600ms linear;
                 &.animated{  transform:translate(0,0);}
