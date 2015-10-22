@@ -9,28 +9,28 @@ lib.properties = {
 	fps: 30,
 	color: "#FFFFFF",
 	manifest: [
-		{src:"../images/_10.png", id:"_10"},
-		{src:"../images/_11.png", id:"_11"},
-		{src:"../images/_111.png", id:"_111"},
-		{src:"../images/_12.png", id:"_12"},
-		{src:"../images/_13.png", id:"_13"},
-		{src:"../images/_16.png", id:"_16"},
-		{src:"../images/_18.png", id:"_18"},
-		{src:"../images/_19.png", id:"_19"},
-		{src:"../images/_20.png", id:"_20"},
-		{src:"../images/_22.png", id:"_22"},
-		{src:"../images/_23.png", id:"_23"},
-		{src:"../images/_24.png", id:"_24"},
-		{src:"../images/_25.png", id:"_25"},
-		{src:"../images/_3.png", id:"_3"},
-		{src:"../images/_4.png", id:"_4"},
-		{src:"../images/_5.png", id:"_5"},
-		{src:"../images/_6.png", id:"_6"},
-		{src:"../images/_7.png", id:"_7"},
-		{src:"../images/_8.png", id:"_8"},
-		{src:"../images/_9.png", id:"_9"},
-		{src:"../images/Path.png", id:"Path"},
-		{src:"../images/Растровоеизображение1.png", id:"Растровоеизображение1"}
+		{src:"./images/_10.png", id:"_10"},
+		{src:"./images/_11.png", id:"_11"},
+		{src:"./images/_111.png", id:"_111"},
+		{src:"./images/_12.png", id:"_12"},
+		{src:"./images/_13.png", id:"_13"},
+		{src:"./images/_16.png", id:"_16"},
+		{src:"./images/_18.png", id:"_18"},
+		{src:"./images/_19.png", id:"_19"},
+		{src:"./images/_20.png", id:"_20"},
+		{src:"./images/_22.png", id:"_22"},
+		{src:"./images/_23.png", id:"_23"},
+		{src:"./images/_24.png", id:"_24"},
+		{src:"./images/_25.png", id:"_25"},
+		{src:"./images/_3.png", id:"_3"},
+		{src:"./images/_4.png", id:"_4"},
+		{src:"./images/_5.png", id:"_5"},
+		{src:"./images/_6.png", id:"_6"},
+		{src:"./images/_7.png", id:"_7"},
+		{src:"./images/_8.png", id:"_8"},
+		{src:"./images/_9.png", id:"_9"},
+		{src:"./images/Path.png", id:"Path"},
+		{src:"./images/rastImg.png", id:"rastImg"}
 	]
 };
 
@@ -166,8 +166,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,68,26);
 p.nominalBounds = new cjs.Rectangle(0,0,1920,678);
 
 
-(lib.Растровоеизображение1 = function() {
-	this.initialize(img.Растровоеизображение1);
+(lib.rastImg = function() {
+	this.initialize(img.rastImg);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,114,61);
 
@@ -419,7 +419,7 @@ p.nominalBounds = new cjs.Rectangle(-7.9,-5.4,15.9,10.8);
 	this.initialize();
 
 	// Слой 1
-	this.instance = new lib.Растровоеизображение1();
+	this.instance = new lib.rastImg();
 	this.instance.setTransform(-55.4,-28.5);
 
 	this.addChild(this.instance);
