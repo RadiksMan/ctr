@@ -47,8 +47,8 @@
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element span {
-  font-family: 'Gotham';
-  font-weight: 900;
+  font-family: 'Roboto';
+  font-weight: 400;
   color: #fff;
   text-transform: uppercase;
   font-size: 18rem;
@@ -62,7 +62,7 @@
   position: absolute;
   top: 100%;
   content: attr(data-hover);
-  font-weight: 400;
+  font-weight: 900;
   font-family: 'Roboto',sans-serif;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -81,10 +81,6 @@
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box:after {
   content: '';
   display: block;
-  height: 0;
-  font-size: 1px;
-  line-height: 1px;
-  overflow: hidden;
   clear: both;
 }
 
@@ -139,6 +135,33 @@
   width: 36px;
   top: 14px;
   left: 11px;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box:hover {
+  box-shadow: 0 0 0 5px white;
+  color: #fff;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box:hover:before {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+
+.footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box:before {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 2px #fff;
+  transition: -webkit-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-text {

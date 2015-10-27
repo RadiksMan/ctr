@@ -76,6 +76,11 @@ $(document).ready(function(){
 	typedtext();
     removeTitleVideo();
     validate('.blue-form-valid', {submitFunction:validationCall});
+
+    $(".recomendation-link a").fancybox({
+        fitToView       :   false,
+        autoSize        :   true
+    });
 });
 $(window).load(function(){
     $('#my-video').append('<p class="video-desc">Видео о студии ctr.design</p>');

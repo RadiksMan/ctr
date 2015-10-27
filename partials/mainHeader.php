@@ -31,11 +31,11 @@
         <div class="block-nav">
             <nav>
                 <ul>
-                   <li><a href="" data-hover="о нас">о нас </a></li>
-                   <li><a href="" data-hover="работы">работы</a></li>
-                   <li><a href="" data-hover="Рекомендации">Рекомендации</a></li>
-                   <li><a href="" data-hover="команда">команда</a></li>
-                   <li><a href="" data-hover="блог">блог</a></li>
+                   <li><a href="">о нас </a></li>
+                   <li><a href="">работы</a></li>
+                   <li><a href="">Рекомендации</a></li>
+                   <li><a href="">команда</a></li>
+                   <li><a href="">блог</a></li>
                 </ul>
             </nav>
         </div>
