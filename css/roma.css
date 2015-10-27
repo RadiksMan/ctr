@@ -637,6 +637,7 @@ p.video-desc {
   -moz-transition: left 500ms ease;
   -webkit-transition: left 500ms ease;
   -ms-transition: left 500ms ease;
+  max-height: 212px;
 }
 
 .our-works-wrap .our-works .our-work-item .our-work-desc h2 {
@@ -653,6 +654,8 @@ p.video-desc {
   font-family: 'Roboto',sans-serif;
   font-size: 18rem;
   color: #fff;
+  word-wrap: break-word;
+  padding-right: 10px;
 }
 
 .our-works-wrap .our-works .our-work-item .our-work-desc a {
