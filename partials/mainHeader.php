@@ -10,8 +10,9 @@
 
         <div class="inside-swf">
             <div class='box-swf'>
-                <embed src="images/ctr.design_header.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-
+                <video autoplay  poster="images/header-logo.png"  loop>
+                    <source src="video/ctr.design_1.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
