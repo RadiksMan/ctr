@@ -6,7 +6,7 @@
                         <div class="title-text"><i></i> <span>лендинги</span></div>
                   </div>
             </div>
-            <div class="works-item  animate-section">
+            <div class="works-item-box  animate-section">
                 <div class="works-item animate-it">
                     <div class="item-headed">Баннеры</div>
                     <div class="item-anim"></div>
