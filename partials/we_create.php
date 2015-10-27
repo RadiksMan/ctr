@@ -1,58 +1,32 @@
 <div class="wrapper works-container">
-      <div class="wrapper-main works-align cfix">
-
-            <div class="works-mbox left animate-section">
-                    <div class="works-item  animate-it">
-                          <div class="item-title">
-                                <div class="title-text"><i></i> <span>лендинги</span></div>
-                          </div>
-                          <div class="item-text"><span>Разработка посадочных страниц (landing page) с высокой конверсией.</span></div>
-                          <div class="item-button"><a href="#" class="item-button-border"><span>оформить заявку</span></a></div>
-                    </div>
-                    <div class="works-item  animate-it">
-                          <div class="item-title">
-                              <div class="title-text"><i></i><span>баннеры</span></div>
-                          </div>
-                          <div class="item-text"><span>Разработка флеш- баннеров с высоким уровнем CTR. Адаптация под любые рекламные сети.</span></div>
-                          <div class="item-button"><a href="#" class="item-button-border"><span>оформить заявку</span></a></div>
-                    </div>
-            </div>
-
-            <div class="triangle-container animate-section-down">
-
-                  <div class="triangle-img  animate-it"><img src="images/triangle.png"></div>
-                  <div class="triangle-text"><span>мы создаем</span></div>
-                  <div class="man-back-container">
-                        <div class="man-back-box animate-section-down">
-
-                              <div class="d7 layer animate-it"><img src="images/D0FA39D7.png"></div>
-                              <div class="dd layer animate-it"><img src="images/D0FA39DD.png"></div>
-                              <div class="db layer animate-it"><img src="images/D0FA39DB.png"></div>
-                              <div class="df layer animate-it"><img src="images/D0FA39DF.png"></div>
-                              <div class="dc layer animate-it"><img src="images/D0FA39DC.png"></div>
-                              <div class="d5 layer animate-it"><img src="images/D0FA39D5.png"></div>
-                        </div>
+    <div class="wrapper-main works-align cfix">
+        <div class="works-mbox left ">
+            <div class="works-item-title  animate-section">
+                  <div class="item-title animate-it">
+                        <div class="title-text"><i></i> <span>лендинги</span></div>
                   </div>
             </div>
-
-            <div class="works-mbox right animate-section">
-                    <div class="works-item  animate-it">
-                          <div class="item-title">
-                               <div class="title-text"><i></i><span>веб-сайты</span></div>
-                          </div>
-                          <div class="item-text"><span>Разработка веб-сайтов, интернет-магазинов и многоледругое.</span></div>
-                          <div class="item-button"><a href="#" class="item-button-border"><span>оформить заявку</span></a></div>
-                    </div>
-                    <div class="works-item  animate-it">
-                          <div class="item-title">
-                              <div class="title-text"><i></i><span>фирменный стиль</span></div>
-                          </div>
-                          <div class="item-text"><span>Разработка веб-сайтов, интернет-магазинов и многоле другое.</span></div>
-                          <div class="item-button"><a href="#" class="item-button-border"><span>оформить заявку</span></a></div>
-                    </div>
+            <div class="works-item  animate-section">
+                <div class="works-item animate-it">
+                    <div class="item-headed">Баннеры</div>
+                    <div class="item-anim"></div>
+                    <div class="item-setting">Разработка <b>HTML</b> и <b>FLASH</b> баннеров c высоким <b>CTR</b>. Адаптация под любые рекламные сети. </div>
+                    <div class="item-button"><a href="">оформить заявку</a> </div>
+                </div>
+                <div class="works-item animate-it">
+                    <div class="item-headed"> Landing page <br />и веб-сайты</div>
+                    <div class="item-anim"></div>
+                    <div class="item-setting">Разработка посадочных страниц и веб-сайтов с высокой конверсией.</div>
+                    <div class="item-button"> <a href="">оформить заявку</a></div>
+                </div>
+                <div class="works-item animate-it">
+                    <div class="item-headed">АЙДЕНТИКА</div>
+                    <div class="item-anim"></div>
+                    <div class="item-setting">Разработка фирменного стиля, создание логотипа и многое другое.</div>
+                    <div class="item-button"> <a href="">оформить заявку</a></div>
+                </div>
             </div>
+        </div>
 
-
-
-      </div>
+    </div>
 </div>

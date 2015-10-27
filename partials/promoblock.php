@@ -6,9 +6,9 @@
 
                 <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" >
                     <g class="outside-cirles">
-                        <circle id="outside-cirle1" cx="160" cy="160" r="130" stroke='#de5c5a' stroke-width="1" fill="transparent" />
-                        <circle id="outside-cirle2" cx="160" cy="160" r="120" stroke='#ce423f' stroke-width="1" fill="transparent" />
-                        <circle id="outside-cirle3" cx="160" cy="160" r="110" stroke='#ce423f' stroke-width="1" fill="transparent" />
+                        <circle id="outside-cirle1" cx="160" cy="160" r="130" style="fill:none;stroke:#be3e3e;stroke-width:1"  fill="transparent" />
+                        <circle id="outside-cirle2" cx="160" cy="160" r="120" style="fill:none;stroke:#be3e3e;stroke-width:1" fill="transparent" />
+                        <circle id="outside-cirle3" cx="160" cy="160" r="110" style="fill:none;stroke:#dc5858; stroke-width:1" fill="transparent" />
                         <circle id="outside-cirle4" cx="160" cy="160" r="100" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
                     </g>
                     <g class="small-circles">
@@ -82,11 +82,11 @@
         <div class="promoblock-item-content ">
             <svg version="1.1" width="328px" height="328px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
 
-                <polygon id='BGQ3' points="56,39 288,60 268,291 35,271" style="fill:none;stroke:#a94644;stroke-width:2"   />
+                <polygon id='BGQ3' points="56,39 288,60 268,291 35,271" style="fill:none;stroke:#be3e3e;stroke-width:1"   />
 
-                <polygon id='BGQ2' points="86,19 308,91 237,312 16,240" style="fill:none;stroke:#a63f3d;stroke-width:2"  />
+                <polygon id='BGQ2' points="86,19 308,91 237,312 16,240" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
 
-                <polygon id='BGQ1' points="4,214 114,8 320,118 210,324" style="fill:none;stroke:#dc5858; stroke-width:2"  />
+                <polygon id='BGQ1' points="4,214 114,8 320,118 210,324" style="fill:none;stroke:#dc5858; stroke-width:1"  />
 
                 <polygon id='QMain3' points="228,70 257,70 257,100 228,100" style="fill:none;stroke:white;stroke-width:3"  />
 
