@@ -1,7 +1,7 @@
 <div class="our-works-wrap wrapper">
 	<div class="our-works wrapper-main">
 		<div class="title_top">
-			<span>&#032;&#047;&#032;Наши работы</span>
+			<span>&#047;НАШИ РАБОТЫ</span>
 		</div>
 		<div class="our-works-list cfix animate-section">
 			<div class="our-work-item animate-delay">

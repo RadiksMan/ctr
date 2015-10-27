@@ -63,6 +63,35 @@ function validationCall(form){
 }
 }
 
+function ourworkhover(){
+    var Timer = 0;
+    var animation = false;
+
+    $('.our-work-item').hover(function(){
+         var curritem = $(this);
+        if (animation == false) {
+            animation = true;
+            curritem.addClass('active-work');
+        }else{
+            console.log('sadf');
+            setTimeout(function(){
+                animation = true;
+                curritem.addClass('active-work');
+                },500);
+        }
+
+    },
+    function(){
+        var curritem = $(this);
+        setTimeout(function(){
+            curritem.removeClass('active-work');
+            animation = false;
+        }, 500);
+
+    }
+    );
+}
+
 
 $(document).on('mouseenter', '.vjs-big-play-button', function(){
     $('.vjs-big-play-button .vjs-control-text').addClass('video-circle-anim');
@@ -81,6 +110,7 @@ $(document).ready(function(){
         fitToView       :   false,
         autoSize        :   true
     });
+    ourworkhover();
 });
 $(window).load(function(){
     $('#my-video').append('<p class="video-desc">Видео о студии ctr.design</p>');
