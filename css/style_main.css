@@ -41,10 +41,10 @@
   -moz-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   background-color: #00bcbc;
-  transform: rotate(-94deg);
-  -webkit-transform: rotate(-94deg);
-  -moz-transform: rotate(-94deg);
-  -ms-transform: rotate(-94deg);
+  transform: rotate(-92deg);
+  -webkit-transform: rotate(-92deg);
+  -moz-transform: rotate(-92deg);
+  -ms-transform: rotate(-92deg);
 }
 
 .recomendations-wrapper .title_top {

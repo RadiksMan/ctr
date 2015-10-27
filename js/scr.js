@@ -203,13 +203,14 @@ function animationBlock(item){
 }
 
 function recomendationSlick(){
-    console.log('s');
+
     $('.recomendation-slider').slick({
         slidesToShow: 1,
         speed: 300,
         slidesToShow: 1,
         arrows: true
     });
+
 }
 
 /* DOCUMENT READY  */
@@ -251,7 +252,7 @@ function animationBlockDown(item){
         var bottomCheck = $(window).height()+$(window).scrollTop();
         var windowTop = $(window).scrollTop()+($(window).height()/1.5);
         item.each(function(){
-            console.log($(this).height());
+
            if(windowTop>$(this).offset().top+$(this).height()+200 ){
 
               var itemSect = $(this);

@@ -149,12 +149,6 @@
 
                     <text id='text-cach' x="0" y="78" fill="white" transform="rotate(-44 110,38)"  style=" font-size: 20px;font-family: Roboto, sans-serif; font-weight: 900; line-height: 20px">КАЧЕСТВЕННО</text>
 
-
-                    <animateTransform xlink:href="#nike1" attributeName="transform" attributeType="XML" type="scale" from="0 0" to="1 1" dur="2s" begin="0s" fill="freeze" />
-                    <animateTransform xlink:href="#nike2" attributeName="transform" attributeType="XML" type="scale" from="2 2 " to="1 1" dur="2s" begin="0s" fill="freeze" />
-
-
-
                     <animateTransform
                         xlink:href="#triangleMain3"
                         attributeName="transform"
@@ -173,8 +167,10 @@
                         from="0  212.7 128"
                         to="-360 212.7 128"
                         dur="6"
-                        begin="0s"  fill="freeze" repeatCount="indefinite"
+                        begin="500px"  fill="freeze" repeatCount="indefinite"
                     />
+
+
                 </svg>
             </div>
             <div class="promoblock-text">Мы работаем на <br/> качественный результат</div>

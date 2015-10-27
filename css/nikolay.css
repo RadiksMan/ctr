@@ -102,8 +102,6 @@
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box img {
   width: 50px;
-  top: 10px;
-  left: 10px;
   position: absolute;
 }
 
@@ -115,13 +113,14 @@
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ml {
   width: 40px;
-  top: 13px;
-  left: 8px;
+  top: 15px;
+  left: 9px;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-ph {
   width: 38px;
   top: 11px;
+  left: 10px;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-box .ic-vk {
@@ -181,6 +180,10 @@
   width: 79%;
   margin: 0 auto;
   position: relative;
+  max-width: 1504px;
+  padding-bottom: 300px;
+  margin-bottom: -300px;
+  overflow: hidden;
 }
 
 .works-container .works-align .works-mbox {
@@ -467,6 +470,7 @@
   width: 100%;
   padding-bottom: 603px;
   overflow: hidden;
+  margin-top: -140px;
 }
 
 .container-team .team-align .title-top {
@@ -476,6 +480,9 @@
   font-weight: 900;
   text-transform: uppercase;
   font-family: 'Gotham';
+  top: 155px;
+  margin-bottom: -25px;
+  position: relative;
 }
 
 .container-team .team-align .items-wrapper {
