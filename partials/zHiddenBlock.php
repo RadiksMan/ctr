@@ -11,7 +11,7 @@
     <div id="rec_more">
         <div class="rec-more">
              <div class="rec_more">
-             	<div class="rec-more-top">
+             	<div class="rec-more-top cfix">
              		<div class="rec-more-img-wrap">
              			<div class="rec-more-img">
              				<img src="images/user-foto1.png" alt=""/>
