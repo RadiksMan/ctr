@@ -3,7 +3,7 @@
         <div class="wrapper recomendations-wrapper">
             <div class="wrapper-main recomendation-wrapper-main">
                 <div class="title_top animate-section">
-                    <span class="animate-it">/&nbsp;&nbsp;НАШ БЛОГ</span>
+                    <span class="animate-it">/&nbsp;&nbsp;НАС РЕКОМЕНДУЮТ</span>
                 </div>
                 <div class="recomendations-main animate-section">
                     <div class="recomendation-slider animate-it">
@@ -22,7 +22,7 @@
                                     <p>Александр Лымарчук человек с которым приятно сотрудничать. Мы не один год пользуемся егоуслугами и всегда это хорошая цена...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -42,7 +42,7 @@
                                     <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -62,7 +62,7 @@
                                     <p>Знакома с Александром уже несколько лет, еще с RMBN. Все выполняется в кратчайшие сроки, особенно удобно...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -82,7 +82,7 @@
                                     <p>Александр Лымарчук человек с которым приятно сотрудничать. Мы не один год пользуемся егоуслугами и всегда это хорошая цена...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -102,7 +102,7 @@
                                     <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -122,7 +122,7 @@
                                     <p>Знакома с Александром уже несколько лет, еще с RMBN. Все выполняется в кратчайшие сроки, особенно удобно...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -144,7 +144,7 @@
                                     <p>Александр Лымарчук человек с которым приятно сотрудничать. Мы не один год пользуемся егоуслугами и всегда это хорошая цена...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -164,7 +164,7 @@
                                     <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -184,7 +184,7 @@
                                     <p>Знакома с Александром уже несколько лет, еще с RMBN. Все выполняется в кратчайшие сроки, особенно удобно...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -204,7 +204,7 @@
                                     <p>Александр Лымарчук человек с которым приятно сотрудничать. Мы не один год пользуемся егоуслугами и всегда это хорошая цена...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -224,7 +224,7 @@
                                     <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -244,7 +244,7 @@
                                     <p>Знакома с Александром уже несколько лет, еще с RMBN. Все выполняется в кратчайшие сроки, особенно удобно...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -266,7 +266,7 @@
                                     <p>Александр Лымарчук человек с которым приятно сотрудничать. Мы не один год пользуемся егоуслугами и всегда это хорошая цена...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -286,7 +286,7 @@
                                     <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -306,7 +306,7 @@
                                     <p>Знакома с Александром уже несколько лет, еще с RMBN. Все выполняется в кратчайшие сроки, особенно удобно...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -326,7 +326,7 @@
                                     <p>Александр Лымарчук человек с которым приятно сотрудничать. Мы не один год пользуемся егоуслугами и всегда это хорошая цена...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -346,7 +346,7 @@
                                     <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>
@@ -366,7 +366,7 @@
                                     <p>Знакома с Александром уже несколько лет, еще с RMBN. Все выполняется в кратчайшие сроки, особенно удобно...</p>
                                 </div>
                                 <div class="recomendation-link">
-                                    <a href="#">
+                                    <a href="#rec_more">
                                         <span class="recomendation-link-text">ЧИТАТЬ ДАЛЬШЕ</span>
                                         <span class="recomendation-link-icon"></span>
                                     </a>

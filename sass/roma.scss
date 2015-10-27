@@ -174,9 +174,9 @@
 		.title_top{padding-bottom: 20px;}
 		.our-work-item{display: inline-block;float: left;position: relative;overflow: hidden;
 			img{max-width: 100%;}
-			.our-work-desc{position: absolute;background-color: #353535;top: 0px;width: 50%;min-height: 100%;padding-left: 10px;padding-top: 10px;box-sizing:border-box;left: -50%;transition: left 500ms ease; -moz-transition: left 500ms ease; -webkit-transition: left 500ms ease; -ms-transition: left 500ms ease;
+			.our-work-desc{position: absolute;background-color: #353535;top: 0px;width: 50%;min-height: 100%;padding-left: 10px;padding-top: 10px;box-sizing:border-box;left: -50%;transition: left 500ms ease; -moz-transition: left 500ms ease; -webkit-transition: left 500ms ease; -ms-transition: left 500ms ease;max-height: 212px;
 				h2{text-align: left;text-transform: uppercase;font-family: 'Gotham',sans-serif; font-weight: 900;color: #fff;font-size: 22rem;margin-bottom: 20px;}
-				p{font-family: 'Roboto',sans-serif;font-size: 18rem;color: #fff;}
+				p{font-family: 'Roboto',sans-serif;font-size: 18rem;color: #fff;word-wrap: break-word;padding-right: 10px;}
 				a{position: absolute;bottom: 10px; right: 20px;text-transform: uppercase;font-family: 'Roboto',sans-serif;font-size: 14rem;text-decoration: none;color: #fff;
 					&:hover{
 						.our-works-link-text:after{width: 100%;}
@@ -197,3 +197,9 @@
 }
 
 /* /our works */
+
+/* rec-more */
+
+#rec_more{max-width: 640px;}
+
+/* /rec-more */

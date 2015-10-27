@@ -10,7 +10,7 @@
                         <div class="foot-mbox-align">
                             <div class="foot-menu-element">
                                 <a class="magic-wrapp" href="#">
-                                    <span data-hover="о нас">о нас</span>
+                                    <span data-hover="о нас">о нас&#160;&#160;</span>
                                 </a>
                             </div>
                             <div class="foot-menu-element">
