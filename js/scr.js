@@ -204,11 +204,32 @@ function animationBlock(item){
 
 function recomendationSlick(){
 
+
     $('.recomendation-slider').slick({
         slidesToShow: 1,
         speed: 300,
         slidesToShow: 1,
-        arrows: true
+        arrows: true,
+        responsive: [
+            {
+              breakpoint: 1025,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                speed: 300,
+                arrows: true
+              }
+            },
+            {
+                breakpoint:769,
+                settings:{
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    speed: 300,
+                    arrows: true
+                }
+            }
+        ]
     });
 
 }
