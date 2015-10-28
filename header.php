@@ -67,7 +67,10 @@
 
 	<script type="text/javascript" src="js/logo_index.js"></script>
 
-	<script src="js/team.js"></script>
+	<script  src="js/team.js"></script>
+	<script  src="js/anim1/index.js"></script>
+	<script  src="js/anim2/index.js"></script>
+	<script  src="js/anim3/zombie.js"></script>
 
 	<script type="text/javascript">
 	// тексты typed js

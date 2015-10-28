@@ -378,7 +378,6 @@
 
 .works-container {
   width: 100%;
-  height: 500px;
 }
 
 .works-container .works-align {
@@ -396,6 +395,9 @@
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  font-size: 50rem;
+  font-family: 'Roboto';
+  font-weight: 700;
 }
 
 .works-container .works-align .works-mbox .works-item-box {
@@ -411,28 +413,42 @@
   vertical-align: top;
 }
 
+.works-container .works-align .works-mbox .works-item-box .works-item .item-headed {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 10rem 31rem 10rem 31rem;
+}
+
+.works-container .works-align .works-mbox .works-item-box .works-item .item-anim {
+  width: 100%;
+}
+
 .works-container .works-align .works-mbox .works-item-box .works-item .item-setting {
   font-size: 18rem;
   font-family: 'Roboto';
   font-weight: 400;
-  padding: 10rem 31rem 10rem 31rem;
+  padding: 10rem 10rem 10rem 10rem;
 }
 
-.works-container .works-align .works-mbox .works-item-box .works-item .item-button {
-  border: 1px solid #56626c;
-  border-radius: 2px;
-  background-color: white;
-  text-transform: uppercase;
-  padding: 10rem 31rem 10rem 31rem;
-  min-width: 235rem;
-}
-
-.works-container .works-align .works-mbox .works-item-box .works-item .item-button a {
+.works-container .works-align .works-mbox .works-item-box .works-item a {
   text-decoration: none;
+}
+
+.works-container .works-align .works-mbox .works-item-box .works-item a .item-button {
   font-size: 18rem;
   font-family: 'Roboto';
   font-weight: 400;
   color: #56626c;
+  padding: 10rem 31rem 10rem 31rem;
+  text-decoration: none;
+  border: 1px solid #56626c;
+  min-width: 235rem;
+  border-radius: 2px;
+  background-color: white;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1920px) {
