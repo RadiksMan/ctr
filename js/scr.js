@@ -234,6 +234,21 @@ function recomendationSlick(){
 
 }
 
+function deviceNav(){
+    $(document).on('click','.sendwich-icon', function(){
+        if($(window).width()<1025){
+            if($(this).is('.active')){
+                $(this).removeClass('active');
+                $('.block-nav nav').slideUp(300);
+            }
+            else{
+                $(this).addClass('active');
+                $('.block-nav nav').slideDown(300);
+            }
+        }
+    });
+};
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -250,6 +265,7 @@ $(window).load(function(){
     animationBlock($('.animate-section'));
     animationBlockDown($('.animate-section-down'));
     recomendationSlick();
+    deviceNav();
 
 });
 

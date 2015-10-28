@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                             <div class="recomendation-item-device">
-                                <div class="recomendation-comment animate-delay">
+                                <div class="recomendation-comment animate-it">
                                     <div class="recomendation-comment-top">
                                         <div class="recomendation-user">
                                             <div class="recomendation-user-wrap">
@@ -304,7 +304,7 @@
                                 </div>
                             </div>
                             <div class="recomendation-item-device">
-                                <div class="recomendation-comment animate-delay">
+                                <div class="recomendation-comment animate-it">
                                     <div class="recomendation-comment-top">
                                         <div class="recomendation-user">
                                             <div class="recomendation-user-wrap">
@@ -464,7 +464,7 @@
                                 </div>
                             </div>
                             <div class="recomendation-item-device">
-                                <div class="recomendation-comment animate-delay">
+                                <div class="recomendation-comment animate-it">
                                     <div class="recomendation-comment-top">
                                         <div class="recomendation-user">
                                             <div class="recomendation-user-wrap">

@@ -1,5 +1,15 @@
+<?
+
+  if (!isset($_REQUEST['act']) || $_REQUEST['act']==__ROOT__.'/') $act='none';
+  else {
+    $act=explode('/',$_REQUEST['act']);
+    $act=$act[count($act)-1];
+  }
+
+?>
+
 <div class="header-wrap other-header-wrap">
-    <div class="box-main-menu animate-section">
+    <div class="box-main-menu cfix animate-section">
         <a href="index.html">
             <div class="logo other-logo-class">
                 <div class="logo-img class-hide">
@@ -7,18 +17,58 @@
                 </div>
                 <div class="logo-swf">
                    <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
-                    <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                    <div class="logo-swf-wrap">
+                      <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                    </div>
+                    <div class="logo-page-wrap-text">
+                        <? if($act == 'recomendations'){?>
+                          / нас рекомендуют
+                        <? } ?>
+                    </div>
                 </div>
             </div>
         </a>
         <div class="block-nav block-nav-other-header">
+            <span class="sendwich-icon">
+              <span></span>
+            </span>
             <nav>
                 <ul>
-                   <li><a href="">о нас </a></li>
-                   <li><a href="">работы</a></li>
-                   <li><a href="">Рекомендации</a></li>
-                   <li><a href="">команда</a></li>
-                   <li><a href="">блог</a></li>
+                  <li>
+                    <a href="#">
+                      <span class="nav-table">о нас </span>
+                      <span class="nav-device">о нАС</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="nav-table">работы</span>
+                      <span class="nav-device">НАШИ РАБОТЫ</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="nav-table">Рекомендации</span>
+                      <span class="nav-device">НАШИ РЕКОМЕНДАЦИИ</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="nav-table">команда</span>
+                      <span class="nav-device">НАША КОМАНДА</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="nav-table">блог</span>
+                      <span class="nav-device">НАШ БЛОГ</span>
+                    </a>
+                  </li>
+                  <li class="device-nav-item">
+                    <a href="#">
+                      <span class="nav-device">СВЯЗАТЬСЯ С НАМИ</span>
+                    </a>
+                  </li>
                 </ul>
             </nav>
         </div>
