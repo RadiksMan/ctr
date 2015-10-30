@@ -2,6 +2,9 @@
     <div class="red_section_middle_wrap cfix wrapper-main">
         <div class="red_section_logo">
             <embed src="images/red_section_logo.svg">
+            <div class="logo-device">
+              <p>CTR.DESIGN<span>Дизайн на который кликают</span></p>
+            </div>
         </div>
         <div class="red_section_middle_as">
             <div class="red_section_middle_aside aside_left">
