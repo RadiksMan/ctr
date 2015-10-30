@@ -111,6 +111,9 @@
                                 <div class="blog_item_img">
                                     <img src="images/blog_item_img.png" alt="">
                                 </div>
+                                <div class="blog_item_img_ipad">
+                                    <img src="images/blog_item_img_ipad.png" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -162,6 +165,9 @@
                             <div class="blog_item_cell_wrap">
                                 <div class="blog_item_img">
                                     <img src="images/blog_item_img.png" alt="">
+                                </div>
+                                <div class="blog_item_img_ipad">
+                                    <img src="images/blog_item_img_ipad.png" alt="">
                                 </div>
                             </div>
                         </div>
