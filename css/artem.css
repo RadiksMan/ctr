@@ -383,11 +383,13 @@
 .works-container .works-align {
   width: 100%;
   max-width: 1400px;
+  padding-bottom: 194rem;
 }
 
 .works-container .works-align .works-mbox {
   margin: 0 auto;
   width: 100%;
+  padding-top: 72rem;
 }
 
 .works-container .works-align .works-mbox .works-item-title {
@@ -398,19 +400,30 @@
   font-size: 50rem;
   font-family: 'Roboto';
   font-weight: 700;
+  padding-bottom: 30rem;
 }
 
 .works-container .works-align .works-mbox .works-item-box {
   width: 100%;
   text-align: center;
+  padding-top: 40rem;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item {
   display: inline-block;
-  width: 25%;
-  padding-left: 4%;
-  padding-right: 4%;
-  vertical-align: top;
+  width: 300rem;
+  margin-left: calc(98%/4 - 900rem/4);
+  margin-right: calc(98%/4 - 900rem/4);
+  vertical-align: bottom;
+  opacity: 0;
+  transform: translate3d(0, -30%, 0);
+  -webkit-transform: translate3d(0, 30%, 0);
+  -moz-transform: translate3d(0, -30%, 0);
+  -ms-transform: translate3d(0, -30%, 0);
+  transition: transform 500ms ease, opacity 500ms ease;
+  -webkit-transition: -webkit-transform 500ms ease, opacity 500ms ease;
+  -moz-transition: transform 500ms ease, opacity 500ms ease;
+  -ms-transition: transform 500ms ease, opacity 500ms ease;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item .item-headed {
@@ -419,22 +432,28 @@
   font-size: 25rem;
   font-family: 'Roboto';
   font-weight: 400;
-  padding: 10rem 31rem 10rem 31rem;
+  padding: 10rem 31rem 38rem 31rem;
+  vertical-align: top;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item .item-anim {
   width: 100%;
+  display: block;
+  height: 280rem;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item .item-setting {
   font-size: 18rem;
   font-family: 'Roboto';
   font-weight: 400;
-  padding: 10rem 10rem 10rem 10rem;
+  padding: 57rem 10rem 45rem 10rem;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item a {
   text-decoration: none;
+  vertical-align: bottom;
+  display: block;
+  cursor: pointer;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item a .item-button {
@@ -442,13 +461,46 @@
   font-family: 'Roboto';
   font-weight: 400;
   color: #56626c;
-  padding: 10rem 31rem 10rem 31rem;
+  padding: 23rem 31rem 20rem 31rem;
   text-decoration: none;
-  border: 1px solid #56626c;
+  border: 2px solid #56626c;
   min-width: 235rem;
   border-radius: 2px;
   background-color: white;
   text-transform: uppercase;
+  margin-right: 30rem;
+  margin-left: 30rem;
+}
+
+.works-container .works-align .works-mbox .works-item-box .works-item a:hover .item-button {
+  color: white;
+  background-color: #666666;
+}
+
+.works-container .works-align .works-mbox .works-item-box .works-item:first-child {
+  margin-left: 0%;
+  opacity: 0;
+  transform: translate3d(-30%, 0, 0);
+  -webkit-transform: translate3d(-30%, 0, 0);
+  -moz-transform: translate3d(-30%, 0, 0);
+  -ms-transform: translate3d(-30%, 0, 0);
+}
+
+.works-container .works-align .works-mbox .works-item-box .works-item:last-child {
+  margin-right: 0%;
+  opacity: 0;
+  transform: translate3d(30%, 0, 0);
+  -webkit-transform: translate3d(30%, 0, 0);
+  -moz-transform: translate3d(30%, 0, 0);
+  -ms-transform: translate3d(30%, 0, 0);
+}
+
+.works-container .works-align .works-mbox .works-item-box .works-item.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
 }
 
 @media screen and (min-width: 1920px) {
