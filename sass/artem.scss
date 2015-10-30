@@ -1,5 +1,6 @@
 .header{background-color: white;
     .header-wrap{ width: 100%; box-sizing: border-box; max-width: 2048px; margin: 0 auto; position: relative;
+        .box-small-image{width: 100%;top: 0; left: 0;}
         .flow-form{overflow: hidden; height: 34vw; width: 100%;  box-sizing: border-box; position: relative;
             .class-hide{visibility: hidden; height: 0;}
             .inside-image{width:100vw;margin-top: 0;}
@@ -24,10 +25,8 @@
             .block-nav { display: inline-block; vertical-align: top; margin-left: 21.6%; padding-top: 25px;
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;overflow: visible;position: relative;margin-right: 130px;
-                        &:before { top: 0; left: -20px;  -webkit-transform: rotate(105deg); -moz-transform: rotate(105deg);  transform: rotate(105deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0;  transform-origin: 0 0; position: absolute; width: 20px; height: 2px; background: #fff; content: ''; opacity: 1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;transition: all 0.3s; pointer-events: none;
-    }
-                        &:after  {     position: absolute; width: 20px; height: 2px;background: #fff;content: '';opacity: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;pointer-events: none;right: -20px;bottom: -5px;-webkit-transform: rotate(105deg);-moz-transform: rotate(105deg);transform: rotate(105deg);-webkit-transform-origin: 100% 0;-moz-transform-origin: 100% 0;transform-origin: 100% 0;
-    }
+                        &:before { top: 0; left: -20px;  -webkit-transform: rotate(105deg); -moz-transform: rotate(105deg);  transform: rotate(105deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0;  transform-origin: 0 0; position: absolute; width: 20px; height: 2px; background: #fff; content: ''; opacity: 1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;transition: all 0.3s; pointer-events: none;}
+                        &:after  {     position: absolute; width: 20px; height: 2px;background: #fff;content: '';opacity: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;pointer-events: none;right: -20px;bottom: -5px;-webkit-transform: rotate(105deg);-moz-transform: rotate(105deg);transform: rotate(105deg);-webkit-transform-origin: 100% 0;-moz-transform-origin: 100% 0;transform-origin: 100% 0;}
                         &:hover {
                             &:before{    left: 50%;width: 40px;top: -10px; -webkit-transform: rotate(0deg) translateX(-50%);-moz-transform: rotate(0deg) translateX(-50%);transform: rotate(0deg) translateX(-50%);}
                             &:after{    right: 50%;width: 40px;bottom: -10px; -webkit-transform: rotate(0deg) translateX(50%);-moz-transform: rotate(0deg) translateX(50%); transform: rotate(0deg) translateX(50%);}
@@ -103,7 +102,7 @@
             .works-item-box {width: 100%;text-align: center; padding-top: 40rem; padding-bottom: 40rem; border-top: 1px solid #f5f5f5;position: relative;
                 &:after{content: "";position: absolute; width: 100%; height: 1rem; background-color:#f5f5f5; bottom: 260rem;left: 0; }
 
-                .works-item { display: inline-block; width: 300rem;margin-left: calc(98%/4 - 900rem/4);margin-right: calc(98%/4 - 900rem/4); vertical-align: bottom; opacity: 0;transform:translate3d(0,-30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0,-30%,0);-ms-transform:translate3d(0,-30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
+                .works-item { display: inline-block; width: 300rem; margin-left: calc(98%/4 - 900rem/4);margin-right: calc(98%/4 - 900rem/4); vertical-align: bottom; opacity: 0;transform:translate3d(0,-30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0,-30%,0);-ms-transform:translate3d(0,-30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
                     .item-headed{text-align: center;text-transform: uppercase; font-size: 25rem; font-family: 'Roboto'; font-weight: 400;padding: 10rem 31rem 38rem 31rem; vertical-align: top; }
                     .item-anim{width: 100%; display:block;height: 280rem;   }
                     .item-setting{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; padding: 57rem 10rem 45rem 10rem;}
@@ -152,12 +151,37 @@
 @media screen and (max-width: 1024px){
 }
 @media screen and (max-width: 992px){
+    .works-container .works-align .works-mbox .works-item-box {width: 100%; border-top: 0px solid #f5f5f5;
+        .works-item { display: block; width: 100%; padding: 75rem calc(100%/2 - 300rem/2); margin: 0;
+            &:first-child{margin: 0; padding-top: 0rem}
+            &:nth-child(2){background-color: #f9f9f9;
+                a .item-button{background-color:#f9f9f9;   color: #56626c;
+                    &:hover{color: white; background-color: #666666;}
+                }
+
+            }
+            &:last-child{margin: 0;}
+        }
+    }
+    .works-container .works-align .works-mbox .works-item-box:after {background-color: transparent;}
+    .works-container .works-align {    padding-bottom: 0rem;}
+    .works-container .works-align .works-mbox .works-item-title {font-size: 50rem;}
+    .promoblock-section .promoblock-wrapper .promoblock-item{display:block; margin: 0 auto; width: 100%;}
+    .promoblock-section:before {display: none;}
+    .promoblock-section {overflow: visible;padding-top: 20rem;}
+    .promoblock-section .promoblock-wrapper .promoblock-item .promoblock-text {font-size:35rem; padding-bottom: 175rem; margin-bottom: 0;}
+
 }
+
+
+
 @media screen and (max-width: 767px){
 }
 @media screen and (max-width: 666px){
 }
 @media screen and (max-width: 479px){
+    .works-container .works-align .works-mbox .works-item-title {font-size: 40rem;}
+    .promoblock-section .promoblock-wrapper .promoblock-item .promoblock-text {font-size:20rem;}
 }
 @media screen and (max-width: 320px){
 }

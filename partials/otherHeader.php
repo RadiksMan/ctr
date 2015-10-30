@@ -24,6 +24,9 @@
                         <? if($act == 'recomendations'){?>
                           / нас рекомендуют
                         <? } ?>
+                        <? if($act == 'blog'){?>
+                          /  НАШ БЛОГ
+                        <? } ?>
                     </div>
                 </div>
             </div>
