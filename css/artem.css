@@ -10,6 +10,12 @@
   position: relative;
 }
 
+.header .header-wrap .box-small-image {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .header .header-wrap .flow-form {
   overflow: hidden;
   height: 34vw;

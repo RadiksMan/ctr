@@ -1,5 +1,6 @@
 .header{background-color: white;
     .header-wrap{ width: 100%; box-sizing: border-box; max-width: 2048px; margin: 0 auto; position: relative;
+        .box-small-image{width: 100%;top: 0; left: 0;}
         .flow-form{overflow: hidden; height: 34vw; width: 100%;  box-sizing: border-box; position: relative;
             .class-hide{visibility: hidden; height: 0;}
             .inside-image{width:100vw;margin-top: 0;}

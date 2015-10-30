@@ -1,10 +1,10 @@
 <div class="header-wrap ">
-
+    <div class='box-small-image'>
+        <img src="images/small-header.jpg" alt="" />
+    </div>
     <div class="flow-form">
         <div class="inside-image class-hide">
-            <div class='box-image '>
-                <img src="images/header.jpg" alt="" />
-            </div>
+
         </div>
         <div class="inside-preloader ">
             <div class='box-preloader '>
