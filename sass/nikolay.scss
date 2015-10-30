@@ -8,7 +8,7 @@
                         .foot-menu-element{margin-bottom: 20px;
                             a{text-decoration: none;}
                             .magic-wrapp{overflow: hidden;padding: 0 4px;    height: 1em; display:block;     margin-bottom: 26px;}
-                            span{font-family: 'Roboto';font-weight: 400; color: #fff;text-transform: uppercase;font-size: 18rem;position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;
+                            span{font-family: 'Roboto';font-weight: 400; color: #fff;text-transform: uppercase;font-size: 16rem;position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;
                                 &:before {position: absolute; top: 100%;content: attr(data-hover);font-weight: 900;font-family: 'Roboto',sans-serif;-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
                                 &:hover {-webkit-transform: translateY(-100%);-moz-transform: translateY(-100%);transform: translateY(-100%);}
                                 &:focus {-webkit-transform: translateY(-100%);-moz-transform: translateY(-100%);transform: translateY(-100%);}
@@ -78,3 +78,48 @@
         }
     }
 /*/team*/
+
+@media screen and (max-width: 1366px){
+
+    /* footer */
+
+    .footer-container .foot-content{width: 90%;
+        .foot-mbox{width: 30%;}
+        .foot-mbox:nth-child(1){margin-right: 70px;}
+        .foot-mbox:nth-child(3){width: 20%;}
+    }
+
+    /* /fotter */
+
+}
+@media screen and (max-width: 1024px){
+
+    /* footer */
+
+    .footer-container .foot-content{width: 100%;
+        .foot-mbox{width: 30%;}
+        .foot-mbox:nth-child(3){width: 20%;}
+    }
+
+    /* /footer */
+
+}
+@media screen and (max-width: 992px){
+
+    /* footer */
+
+    .footer-container .foot-content{padding-top: 150px;
+        .foot-mbox{display: block;width: 100%!important;
+            .icon-text{display: none;}
+            .foot-menu-element{display: inline-block;width: calc(33.33% - 3rem);text-align: center;
+                a{display: inline-block;}
+            }
+        }
+        .foot-mbox:nth-child(1){display: none;}
+        .foot-mbox:nth-child(3){position: absolute;top: 65px;}
+        .foot-copyright{display: none;}
+    }
+
+    /* /footer */
+
+}
