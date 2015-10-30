@@ -43,12 +43,16 @@
 
 
 /*team*/
-
-    .container-team{width:100%;    padding-bottom: 603px; overflow: hidden;margin-top: -140px;
+    .canv-wrapp-main{position: relative;     padding: 0 0 817px;
+        .canv-wrapp{    position: absolute; left: 50%;
+            .canv-align{    position: absolute;    transform: translateX(-50%);}
+        }
+    }
+    .container-team{width:100%;   overflow: hidden;margin-top: -233px;
         .team-align{
-            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 155px; margin-bottom: -25px;position: relative; }
-            .items-wrapper{    width: 68%;   margin: -606px auto 0;
-                .man-mbox{width:20%; float:left; text-align: center;
+            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 161px; margin-bottom: -25px;position: relative; z-index: 2; }
+            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top: 16.7%; z-index: 2;
+                .man-mbox{width:20%; float:left; text-align: center; z-index: 1; position: relative;
                     .box-wrapper-team{position:relative;display: inline-block;
                         span{font-family: 'Roboto'; color:#333;}
                         .man-arrow{width:0;height:0;border-width:150px 5px 5px 5px;border-style:solid;border-color:gray transparent transparent transparent;position: absolute;left:calc(50% - 4px); top:50%; z-index: 1;}
@@ -77,7 +81,15 @@
             }
         }
     }
+
+    .pseudo-canv{display: none;}
 /*/team*/
+@media screen and (max-width: 2048px){
+}
+
+@media screen and (max-width: 1920px){
+    .container-team {&.wrapper{margin-top: -328px;}}
+}
 
 @media screen and (max-width: 1366px){
 
@@ -91,6 +103,17 @@
 
     /* /fotter */
 
+}
+
+@media screen and (max-width: 1280px){
+.pseudo-canv{display: block;
+    .pseudo-wrapp{
+        .pseudo-align{
+            img{}
+        }
+    }
+}
+.canv-wrapp-main {display:none;}
 }
 @media screen and (max-width: 1024px){
 
@@ -122,4 +145,13 @@
 
     /* /footer */
 
+}
+
+@media screen and (max-width: 767px){
+}
+@media screen and (max-width: 666px){
+}
+@media screen and (max-width: 479px){
+}
+@media screen and (max-width: 320px){
 }
