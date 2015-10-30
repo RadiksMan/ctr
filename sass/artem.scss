@@ -75,6 +75,9 @@
 .other-logo-class{ padding-top: 51px !important;;}
 .class-for-fix { padding-top: 40px !important;}
 
+
+// promoblock
+
 .promoblock-section{position: relative; padding-top: 152.25rem; background-color: #ea4f4f;overflow:hidden;
     .promoblock-wrapper{ width: 100%; max-width: 1400px;background-color: #d84747;  position: relative; z-index: 1;     padding-top: 32rem; margin: 0 auto;
         .promoblock-item{ display: inline-block; text-align: center; width: 32%; opacity: 0;transform:translate3d(0,-30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0,-30%,0);-ms-transform:translate3d(0,-30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
@@ -92,26 +95,37 @@
 }
 .index{background-color: #E7E4E4;}
 .none{background-color: #E7E4E4;}
+// end promoblock
 
+// work
 .works-container{width: 100%;
-    .works-align{width: 100%; max-width: 1400px;
-        .works-mbox{margin: 0 auto;width: 100%;
-            .works-item-title{display: block; width: 100%; text-align: center;text-transform: uppercase; font-size: 50rem; font-family: 'Roboto'; font-weight: 700;
+    .works-align{width: 100%; max-width: 1400px; padding-bottom: 194rem;
+        .works-mbox{margin: 0 auto;width: 100%; padding-top: 72rem;
+            .works-item-title{display: block; width: 100%; text-align: center;text-transform: uppercase; font-size: 50rem; font-family: 'Roboto'; font-weight: 700; padding-bottom: 30rem;
 
             }
-            .works-item-box {width: 100%;text-align: center;
-                .works-item { display: inline-block; width: 25%; padding-left: 4%; padding-right: 4%; vertical-align: top;
-                    .item-headed{text-align: center;text-transform: uppercase; font-size: 25rem; font-family: 'Roboto'; font-weight: 400;padding: 10rem 31rem 10rem 31rem;}
-                    .item-anim{width: 100%;}
-                    .item-setting{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; padding: 10rem 10rem 10rem 10rem;}
-                    a{text-decoration: none;
-                        .item-button{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; color: #56626c;padding: 10rem 31rem 10rem 31rem; text-decoration: none; border: 1px solid #56626c;min-width: 235rem; border-radius: 2px; background-color: white; text-transform: uppercase;}
+            .works-item-box {width: 100%;text-align: center; padding-top: 40rem;
+                .works-item { display: inline-block; width: 300rem;margin-left: calc(98%/4 - 900rem/4);margin-right: calc(98%/4 - 900rem/4); vertical-align: bottom; opacity: 0;transform:translate3d(0,-30%,0);-webkit-transform:translate3d(0,30%,0);-moz-transform:translate3d(0,-30%,0);-ms-transform:translate3d(0,-30%,0);transition:transform 500ms ease, opacity 500ms ease;-webkit-transition:transform 500ms ease, opacity 500ms ease;-moz-transition:transform 500ms ease, opacity 500ms ease;-ms-transition:transform 500ms ease, opacity 500ms ease;
+                    .item-headed{text-align: center;text-transform: uppercase; font-size: 25rem; font-family: 'Roboto'; font-weight: 400;padding: 10rem 31rem 38rem 31rem; vertical-align: top; }
+                    .item-anim{width: 100%; display:block;height: 280rem;   }
+                    .item-setting{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; padding: 57rem 10rem 45rem 10rem;}
+                    a{text-decoration: none; vertical-align: bottom; display: block; cursor: pointer;
+                        .item-button{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; color: #56626c;padding: 23rem 31rem 20rem 31rem; text-decoration: none; border: 2px solid #56626c;min-width: 235rem; border-radius: 2px; background-color: white; text-transform: uppercase; margin-right: 30rem; margin-left: 30rem;}
+                        &:hover{
+                            .item-button{color: white; background-color: #666666;}
+                        }
                     }
+                    &:first-child{margin-left: 0%; opacity: 0;transform:translate3d(-30%,0,0);-webkit-transform:translate3d(-30%,0,0);-moz-transform:translate3d(-30%,0,0);-ms-transform:translate3d(-30%,0,0); }
+                    &:last-child{margin-right: 0%; opacity: 0;transform:translate3d(30%,0,0);-webkit-transform:translate3d(30%,0,0);-moz-transform:translate3d(30%,0,0);-ms-transform:translate3d(30%,0,0); }
+
+                    &.animated { opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
                 }
             }
         }
     }
 }
+
+// end work
 
 
 

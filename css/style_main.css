@@ -608,6 +608,30 @@
   /* /recomendations */
 }
 
+@media screen and (max-width: 767px) {
+  /* outher header */
+  .header .header-wrap .box-main-menu .logo {
+    margin-left: 15rem;
+  }
+  .header .header-wrap .box-main-menu .logo-page-wrap-text {
+    font-size: 21rem;
+  }
+  .header .header-wrap .box-main-menu .logo-swf-wrap {
+    position: absolute;
+    left: 50%;
+    top: 80rem;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .header .header-wrap .box-main-menu .block-nav-other-header {
+    padding-top: 15rem;
+  }
+  .header .header-wrap .box-main-menu .block-nav-other-header nav ul li a {
+    font-size: 24rem;
+  }
+  /* /outher header */
+}
+
 @media screen and (max-width: 666px) {
   /* recomendations */
   .recomendations-wrapper:before {

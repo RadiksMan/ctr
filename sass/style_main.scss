@@ -229,7 +229,28 @@
     /* /recomendations */
 
 }
+@media screen and (max-width: 767px){
+
+    /* outher header */
+
+    .header{
+        .header-wrap{
+            .box-main-menu{
+                .logo{margin-left: 15rem;}
+                .logo-page-wrap-text{font-size: 21rem;}
+                .logo-swf-wrap{position: absolute;left: 50%;top: 80rem;transform:translate(-50%,0);}
+                .block-nav-other-header{padding-top: 15rem;
+                    nav ul li a{font-size: 24rem;}
+                }
+            }
+        }
+    }
+
+    /* /outher header */
+
+}
 @media screen and (max-width: 666px){
+
 
     /* recomendations */
 
