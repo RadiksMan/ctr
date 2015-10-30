@@ -393,7 +393,6 @@
   width: 27rem;
   height: 21rem;
   padding-top: 8.5rem;
-  display: block;
   position: relative;
   z-index: 2;
 }
@@ -454,7 +453,11 @@
   display: none;
 }
 
-.header .header-wrap .box-main-menu .block-nav nav ul li .device-nav-item {
+.header .header-wrap .box-main-menu .block-nav nav ul li.device-nav-item {
+  display: none;
+}
+
+.logo-page-wrap-text {
   display: none;
 }
 
@@ -494,8 +497,11 @@
     display: block;
     float: right;
     margin-left: 0;
-    padding-top: 10rem;
-    margin-right: 10rem;
+    padding-top: 60rem;
+    margin-right: 15rem;
+  }
+  .header .header-wrap .box-main-menu .block-nav-other-header .sendwich-icon {
+    display: block;
   }
   .header .header-wrap .box-main-menu .block-nav-other-header nav {
     position: absolute;
@@ -530,6 +536,9 @@
   .header .header-wrap .box-main-menu .block-nav-other-header nav ul li a .nav-device {
     display: block;
   }
+  .header .header-wrap .box-main-menu .block-nav-other-header nav ul li.device-nav-item {
+    display: block;
+  }
   .header .header-wrap .box-main-menu .block-nav-other-header nav ul li.device-nav-item a {
     color: #ff4e4e;
   }
@@ -549,6 +558,15 @@
   }
   .recomendation-slider .recomendation-item-device {
     display: block;
+  }
+  .recomendation-slider .slick-arrow {
+    opacity: 1;
+  }
+  .recomendation-slider .slick-arrow.slick-next {
+    right: 0;
+  }
+  .recomendation-slider .slick-arrow.slick-prev {
+    left: 0;
   }
   /* /recomendations */
 }
@@ -590,6 +608,30 @@
   /* /recomendations */
 }
 
+@media screen and (max-width: 767px) {
+  /* outher header */
+  .header .header-wrap .box-main-menu .logo {
+    margin-left: 15rem;
+  }
+  .header .header-wrap .box-main-menu .logo-page-wrap-text {
+    font-size: 21rem;
+  }
+  .header .header-wrap .box-main-menu .logo-swf-wrap {
+    position: absolute;
+    left: 50%;
+    top: 80rem;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .header .header-wrap .box-main-menu .block-nav-other-header {
+    padding-top: 15rem;
+  }
+  .header .header-wrap .box-main-menu .block-nav-other-header nav ul li a {
+    font-size: 24rem;
+  }
+  /* /outher header */
+}
+
 @media screen and (max-width: 666px) {
   /* recomendations */
   .recomendations-wrapper:before {
@@ -610,6 +652,12 @@
 
 @media screen and (max-width: 479px) {
   /* recomendations */
+  .recomendation-slider .slick-arrow.slick-prev {
+    left: calc(50% - 60rem);
+  }
+  .recomendation-slider .slick-arrow.slick-next {
+    right: calc(50% - 60rem);
+  }
   .recomendation-slider .recomendation-item-device .recomendation-comment-top {
     display: block;
   }
