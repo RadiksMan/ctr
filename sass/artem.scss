@@ -26,7 +26,7 @@
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;overflow: visible;position: relative;margin-right: 130px;
                         &:before { top: 0; left: -20px;  -webkit-transform: rotate(105deg); -moz-transform: rotate(105deg);  transform: rotate(105deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0;  transform-origin: 0 0; position: absolute; width: 20px; height: 2px; background: #fff; content: ''; opacity: 1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;transition: all 0.3s; pointer-events: none;}
-                        &:after  {     position: absolute; width: 20px; height: 2px;background: #fff;content: '';opacity: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;pointer-events: none;right: -20px;bottom: -5px;-webkit-transform: rotate(105deg);-moz-transform: rotate(105deg);transform: rotate(105deg);-webkit-transform-origin: 100% 0;-moz-transform-origin: 100% 0;transform-origin: 100% 0;}
+                        &:after  {     position: absolute; width: 20px; height: 2px;background: #fff;content: '';opacity: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;pointer-events: none;right: -20px;bottom: -2px;-webkit-transform: rotate(105deg);-moz-transform: rotate(105deg);transform: rotate(105deg);-webkit-transform-origin: 100% 0;-moz-transform-origin: 100% 0;transform-origin: 100% 0;}
                         &:hover {
                             &:before{    left: 50%;width: 40px;top: -10px; -webkit-transform: rotate(0deg) translateX(-50%);-moz-transform: rotate(0deg) translateX(-50%);transform: rotate(0deg) translateX(-50%);}
                             &:after{    right: 50%;width: 40px;bottom: -10px; -webkit-transform: rotate(0deg) translateX(50%);-moz-transform: rotate(0deg) translateX(50%); transform: rotate(0deg) translateX(50%);}
@@ -37,7 +37,7 @@
                     }
                 }
             }
-            .block-nav-other-header { display: inline-block; vertical-align: top; margin-left: 26%; padding-top: 56px;
+            .block-nav-other-header { display: inline-block; vertical-align: top; float: right; margin: 0; padding-top: 56px;
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;  font-weight: bold;
                         &:after, &:before  {background-color: black;}
@@ -68,7 +68,7 @@
     }
 }
 .other-logo-class{ padding-top: 51px !important;;}
-.class-for-fix { padding-top: 40px !important;}
+.class-for-fix { padding-top: 40px !important; float: right;}
 
 
 // promoblock
@@ -142,10 +142,13 @@
         .inside-swf{ width:1920px; }
     }
 }
-@media screen and (min-width: 1366px){
+@media screen and (max-width: 1366px){
+    .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 41px;}
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (max-width: 1280px){
+    .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 41px;}
+
 
 }
 @media screen and (max-width: 1024px){

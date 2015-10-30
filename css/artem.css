@@ -133,7 +133,7 @@
   transition: all 0.3s;
   pointer-events: none;
   right: -20px;
-  bottom: -5px;
+  bottom: -2px;
   -webkit-transform: rotate(105deg);
   transform: rotate(105deg);
   -webkit-transform-origin: 100% 0;
@@ -174,7 +174,8 @@
 .header .header-wrap .box-main-menu .block-nav-other-header {
   display: inline-block;
   vertical-align: top;
-  margin-left: 26%;
+  float: right;
+  margin: 0;
   padding-top: 56px;
 }
 
@@ -275,6 +276,7 @@
 
 .class-for-fix {
   padding-top: 40px !important;
+  float: right;
 }
 
 .promoblock-section {
@@ -548,6 +550,18 @@
   }
   .header .header-wrap .flow-form .inside-swf {
     width: 1920px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 41px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 41px;
   }
 }
 

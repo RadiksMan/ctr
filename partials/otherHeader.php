@@ -31,6 +31,11 @@
                 </div>
             </div>
         </a>
+        <div class="socials class-for-fix animate-it">
+            <a href="#"><div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div> </a>
+            <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
+            <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
+        </div>
         <div class="block-nav block-nav-other-header">
             <span class="sendwich-icon">
               <span></span>
@@ -76,11 +81,7 @@
             </nav>
         </div>
 
-        <div class="socials class-for-fix animate-it">
-            <a href="#"><div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div> </a>
-            <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
-            <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
-        </div>
+
 
     </div>
 </div>
