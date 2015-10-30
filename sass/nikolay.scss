@@ -51,7 +51,7 @@
     .container-team{width:100%;   overflow: hidden;margin-top: -233px;
         .team-align{
             .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 161px; margin-bottom: -25px;position: relative; z-index: 2; }
-            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top: 16.7%; z-index: 2;
+            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top: 103px; z-index: 2;
                 .man-mbox{width:20%; float:left; text-align: center; z-index: 1; position: relative;
                     .box-wrapper-team{position:relative;display: inline-block;
                         span{font-family: 'Roboto'; color:#333;}
@@ -114,6 +114,12 @@
     }
 }
 .canv-wrapp-main {display:none;}
+.container-team{
+    .team-align{
+        .items-wrapper{width: 100%; left:0;}
+    }
+}
+
 }
 @media screen and (max-width: 1024px){
 

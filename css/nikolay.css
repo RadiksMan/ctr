@@ -227,7 +227,7 @@
   width: 1294px;
   position: absolute;
   left: calc(50% - 647px);
-  top: 16.7%;
+  top: 103px;
   z-index: 2;
 }
 
@@ -345,6 +345,10 @@
   }
   .canv-wrapp-main {
     display: none;
+  }
+  .container-team .team-align .items-wrapper {
+    width: 100%;
+    left: 0;
   }
 }
 
