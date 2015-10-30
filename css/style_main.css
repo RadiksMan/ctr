@@ -571,7 +571,7 @@
   /* /recomendations */
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1024px) {
   /* recomendations */
   .recomendations-wrapper:before {
     left: -125%;
@@ -579,6 +579,14 @@
   .recomendations-wrapper {
     padding-bottom: 130rem;
   }
+  .recomendation-item {
+    padding: 0 30px;
+  }
+  /* /recomendations */
+}
+
+@media screen and (max-width: 992px) {
+  /* recomendations */
   .recomendation-item {
     padding: 0 10px;
   }
