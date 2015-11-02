@@ -849,6 +849,9 @@ p.video-desc {
 }
 
 @media screen and (max-width: 1024px) {
+  .our-works-wrap .our-works .title_top {
+    display: none;
+  }
   /* red section */
   .red_section {
     min-height: 1rem;
