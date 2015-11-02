@@ -27,6 +27,9 @@
                         <? if($act == 'blog'){?>
                           /  НАШ БЛОГ
                         <? } ?>
+                        <? if($act == 'team'){?>
+                          /  НАША команда
+                        <? } ?>
                     </div>
                 </div>
             </div>
@@ -36,7 +39,7 @@
             <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
             <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
         </div>
-        <div class="block-nav block-nav-other-header">
+        <div class="block-nav block-nav-other-header <? if($act == "team"){echo $act;}?>">
             <span class="sendwich-icon">
               <span></span>
             </span>
