@@ -827,6 +827,10 @@ p.video-desc {
   display: none;
 }
 
+.logo-device {
+  display: none;
+}
+
 /* /promo text */
 @media screen and (max-width: 1366px) {
   .typed-wrap {
