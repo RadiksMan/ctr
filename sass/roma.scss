@@ -331,12 +331,12 @@
 	/* /red section */
 
 	/* blue form */
-	.blue-form-wrapper{min-width: 1rem;
+	.blue-form-wrapper{min-width: 1rem;background-color: #00BCBC;margin-top: 0;
 		.form-blue{margin-right: 0;}
 		form .input-wrap {text-align: center;
 			button{float: none;}
 		}
-		&:after{left: -150%;width: 150%;}
+		&:after{display: none;}
 	}
 	.form-logo{display: none;}
 	.form-logo-device{display: block;

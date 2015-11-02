@@ -1022,6 +1022,8 @@ p.video-desc {
   /* blue form */
   .blue-form-wrapper {
     min-width: 1rem;
+    background-color: #00BCBC;
+    margin-top: 0;
   }
   .blue-form-wrapper .form-blue {
     margin-right: 0;
@@ -1033,8 +1035,7 @@ p.video-desc {
     float: none;
   }
   .blue-form-wrapper:after {
-    left: -150%;
-    width: 150%;
+    display: none;
   }
   .form-logo {
     display: none;
