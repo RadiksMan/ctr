@@ -16,6 +16,12 @@
            <? if($act == 'blog'){?>
                           /  НАШ БЛОГ
           <? } ?>
+          <? if($act == 'team'){?>
+                          /  НАШа команда
+          <? } ?>
+          <? if($act == 'our_work'){?>
+                          /  НАШи работы
+          <? } ?>
   </div>
     <div class="box-main-menu cfix animate-section">
         <a href="index.html">
