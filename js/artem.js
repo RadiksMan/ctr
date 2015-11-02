@@ -1,15 +1,15 @@
 $(document).ready(function(){
-   console.log($(window).width());
-    if ($(window).width()<667) {
+
+    if ($(window).width()<=667) {
         $('.flow-form').remove();
-        $('.logo ').remove();
+        $('.logo-swf-wrap').remove();
     };
-    if ($(window).width()>666) {
+    if ($(window).width()>667) {
         $('.box-small-image').remove();
     };
 
 
-   if ($(window).width()<667){
+   if ($(window).width()<=667){
         $('.inside-swf').remove();
         $('.inside-preloader').remove();
         $(".inside-image").removeClass("class-hide");
@@ -21,7 +21,7 @@ $(document).ready(function(){
                 vid.oncanplay = function() {
                     $(".inside-preloader").addClass("class-hide");
                     $(".inside-swf").removeClass("class-hide");
-                console.log("load");
+
                 };
         }
     }

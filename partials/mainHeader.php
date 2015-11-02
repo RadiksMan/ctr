@@ -13,7 +13,7 @@
         </div>
 
         <div class="inside-swf class-hide">
-            <div class='box-swf'>
+            <div class='box-swf '>
                 <video id="video-box" autoplay="true" loop>
                     <source src="video/ctr.design_1.mp4" type="video/mp4">
                     <source src="video/ctr.design.webm" type="video/webm">
@@ -25,7 +25,7 @@
     <div class="box-main-menu class-main-headed-fix">
         <a href="index.html">
             <div class="logo ">
-                <div class="logo-swf">
+                <div class="logo-swf logo-swf-wrap">
                     <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
                 </div>
             </div>
