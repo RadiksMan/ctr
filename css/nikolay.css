@@ -191,6 +191,7 @@
 .canv-wrapp-main {
   position: relative;
   padding: 0 0 817px;
+  margin-top: -170px;
 }
 
 .canv-wrapp-main .canv-wrapp {
@@ -204,12 +205,6 @@
   transform: translateX(-50%);
 }
 
-.container-team {
-  width: 100%;
-  overflow: hidden;
-  margin-top: -233px;
-}
-
 .container-team .team-align .title-top {
   padding-left: 110px;
   color: #303030;
@@ -217,7 +212,7 @@
   font-weight: 900;
   text-transform: uppercase;
   font-family: 'Gotham';
-  top: 161px;
+  top: 19px;
   margin-bottom: -25px;
   position: relative;
   z-index: 2;
@@ -227,7 +222,7 @@
   width: 1294px;
   position: absolute;
   left: calc(50% - 647px);
-  top: 103px;
+  top: 210px;
   z-index: 2;
 }
 
@@ -311,14 +306,20 @@
   transform: rotate(29deg);
 }
 
+.header {
+  background-color: transparent;
+  z-index: 100;
+  position: relative;
+}
+
 .pseudo-canv {
   display: none;
 }
 
 /*/team*/
-@media screen and (max-width: 1920px) {
-  .container-team.wrapper {
-    margin-top: -328px;
+@media screen and (max-width: 1600px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 80px;
   }
 }
 

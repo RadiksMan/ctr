@@ -43,15 +43,15 @@
 
 
 /*team*/
-    .canv-wrapp-main{position: relative;     padding: 0 0 817px;
+    .canv-wrapp-main{position: relative;     padding: 0 0 817px;    margin-top: -170px;
         .canv-wrapp{    position: absolute; left: 50%;
             .canv-align{    position: absolute;    transform: translateX(-50%);}
         }
     }
-    .container-team{width:100%;   overflow: hidden;margin-top: -233px;
+    .container-team{
         .team-align{
-            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 161px; margin-bottom: -25px;position: relative; z-index: 2; }
-            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top: 103px; z-index: 2;
+            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 19px; margin-bottom: -25px;position: relative; z-index: 2; }
+            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top:  210px; z-index: 2;
                 .man-mbox{width:20%; float:left; text-align: center; z-index: 1; position: relative;
                     .box-wrapper-team{position:relative;display: inline-block;
                         span{font-family: 'Roboto'; color:#333;}
@@ -81,14 +81,17 @@
             }
         }
     }
-
+    .header{  background-color: transparent;    z-index: 100;    position: relative;}
     .pseudo-canv{display: none;}
 /*/team*/
 @media screen and (max-width: 2048px){
 }
 
 @media screen and (max-width: 1920px){
-    .container-team {&.wrapper{margin-top: -328px;}}
+
+}
+@media screen and (max-width: 1600px){
+.header .header-wrap .box-main-menu .block-nav nav ul li {margin-right: 80px;}
 }
 
 @media screen and (max-width: 1366px){
