@@ -39,7 +39,7 @@
             <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
             <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
         </div>
-        <div class="block-nav block-nav-other-header <? if($act == "team"){echo $act;}?>">
+        <div class="block-nav block-nav-other-header <? if($act != "index" || $act != "none" ){echo team;}?>">
             <span class="sendwich-icon">
               <span></span>
             </span>
