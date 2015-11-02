@@ -8,7 +8,7 @@
                         .foot-menu-element{margin-bottom: 20px;
                             a{text-decoration: none;}
                             .magic-wrapp{overflow: hidden;padding: 0 4px;    height: 1em; display:block;     margin-bottom: 26px;}
-                            span{font-family: 'Roboto';font-weight: 400; color: #fff;text-transform: uppercase;font-size: 18rem;position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;
+                            span{font-family: 'Roboto';font-weight: 400; color: #fff;text-transform: uppercase;font-size: 16rem;position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;
                                 &:before {position: absolute; top: 100%;content: attr(data-hover);font-weight: 900;font-family: 'Roboto',sans-serif;-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
                                 &:hover {-webkit-transform: translateY(-100%);-moz-transform: translateY(-100%);transform: translateY(-100%);}
                                 &:focus {-webkit-transform: translateY(-100%);-moz-transform: translateY(-100%);transform: translateY(-100%);}
@@ -43,12 +43,16 @@
 
 
 /*team*/
-
-    .container-team{width:100%;    padding-bottom: 603px; overflow: hidden;margin-top: -140px;
+    .canv-wrapp-main{position: relative;     padding: 0 0 817px;
+        .canv-wrapp{    position: absolute; left: 50%;
+            .canv-align{    position: absolute;    transform: translateX(-50%);}
+        }
+    }
+    .container-team{width:100%;   overflow: hidden;margin-top: -233px;
         .team-align{
-            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 155px; margin-bottom: -25px;position: relative; }
-            .items-wrapper{    width: 68%;   margin: -606px auto 0;
-                .man-mbox{width:20%; float:left; text-align: center;
+            .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 161px; margin-bottom: -25px;position: relative; z-index: 2; }
+            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top: 103px; z-index: 2;
+                .man-mbox{width:20%; float:left; text-align: center; z-index: 1; position: relative;
                     .box-wrapper-team{position:relative;display: inline-block;
                         span{font-family: 'Roboto'; color:#333;}
                         .man-arrow{width:0;height:0;border-width:150px 5px 5px 5px;border-style:solid;border-color:gray transparent transparent transparent;position: absolute;left:calc(50% - 4px); top:50%; z-index: 1;}
@@ -77,4 +81,83 @@
             }
         }
     }
+
+    .pseudo-canv{display: none;}
 /*/team*/
+@media screen and (max-width: 2048px){
+}
+
+@media screen and (max-width: 1920px){
+    .container-team {&.wrapper{margin-top: -328px;}}
+}
+
+@media screen and (max-width: 1366px){
+
+    /* footer */
+
+    .footer-container .foot-content{width: 90%;
+        .foot-mbox{width: 30%;}
+        .foot-mbox:nth-child(1){margin-right: 70px;}
+        .foot-mbox:nth-child(3){width: 20%;}
+    }
+
+    /* /fotter */
+
+}
+
+@media screen and (max-width: 1280px){
+.pseudo-canv{display: block;
+    .pseudo-wrapp{
+        .pseudo-align{
+            img{}
+        }
+    }
+}
+.canv-wrapp-main {display:none;}
+.container-team{
+    .team-align{
+        .items-wrapper{width: 100%; left:0;}
+    }
+}
+
+}
+@media screen and (max-width: 1024px){
+
+    /* footer */
+
+    .footer-container .foot-content{width: 100%;
+        .foot-mbox{width: 30%;}
+        .foot-mbox:nth-child(3){width: 20%;}
+    }
+
+    /* /footer */
+
+}
+@media screen and (max-width: 992px){
+
+    /* footer */
+
+    .footer-container .foot-content{padding-top: 150px;
+        .foot-mbox{display: block;width: 100%!important;
+            .icon-text{display: none;}
+            .foot-menu-element{display: inline-block;width: calc(33.33% - 3rem);text-align: center;
+                a{display: inline-block;}
+            }
+        }
+        .foot-mbox:nth-child(1){display: none;}
+        .foot-mbox:nth-child(3){position: absolute;top: 65px;}
+        .foot-copyright{display: none;}
+    }
+
+    /* /footer */
+
+}
+
+@media screen and (max-width: 767px){
+}
+@media screen and (max-width: 666px){
+}
+@media screen and (max-width: 479px){
+}
+@media screen and (max-width: 320px){
+}

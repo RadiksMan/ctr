@@ -97,6 +97,25 @@ function oneHeightItems(){
 	}
 
 	oneHeight($('.oneHeight'));
+
+    if($(window).width()>767 && $(window).width()<1025){
+        $('.blog_item').each(function(){
+            oneHeight($(this).find('.blog_item_cell:not(.blog_item_img_phone)'));
+        })
+    }else{
+        $('.blog_item').find('.blog_item_cell').removeAttr('style');
+    }
+
+    $(window).resize(function(){
+        if($(window).width()>767 && $(window).width()<1025){
+            $('.blog_item').each(function(){
+                oneHeight($(this).find('.blog_item_cell:not(.blog_item_img_phone)'));
+            })
+        }else{
+            $('.blog_item').find('.blog_item_cell').removeAttr('style');
+        }
+
+    });
 }
 
 function validate(form, options){

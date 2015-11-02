@@ -159,7 +159,8 @@
             .box-main-menu{
                 >a{float: left;}
                 .socials{display: none;}
-                .block-nav-other-header{display: block;float: right;margin-left: 0;padding-top: 60rem;margin-right: 15rem;
+                .block-nav{display: block;float: right;margin-left: 0;padding-top: 20rem;margin-right: 15rem;
+                    &.block-nav-other-header{padding-top:60rem;}
                     .sendwich-icon{display: block;}
                     nav{position: absolute;top: 0;right: 0;left: 0;z-index: 1;background-color:rgba(0,0,0,.81);padding-top:50rem;padding-bottom:50rem;display: none;
                         ul{
@@ -183,6 +184,13 @@
 
     /* /outher header */
 
+    /* main header */
+
+    .header .header-wrap .class-main-headed-fix{top:0;}
+
+    /* /main header */
+
+
     /* recomendations */
 
     .recomendations-wrapper{
@@ -203,13 +211,22 @@
     /* /recomendations */
 
 }
-@media screen and (max-width: 959px){
+@media screen and (max-width: 1024px){
 
     /* recomendations */
 
     .recomendations-wrapper:before{left: -125%;}
 
     .recomendations-wrapper{padding-bottom: 130rem;}
+
+    .recomendation-item{padding: 0 30px;}
+
+    /* /recomendations */
+
+}
+@media screen and (max-width: 992px){
+
+    /* recomendations */
 
     .recomendation-item{padding: 0 10px;}
 
@@ -239,7 +256,7 @@
                 .logo{margin-left: 15rem;}
                 .logo-page-wrap-text{font-size: 21rem;}
                 .logo-swf-wrap{position: absolute;left: 50%;top: 80rem;transform:translate(-50%,0);}
-                .block-nav-other-header{padding-top: 15rem;
+                .block-nav-other-header, .block-nav{padding-top: 15rem;
                     nav ul li a{font-size: 24rem;}
                 }
             }

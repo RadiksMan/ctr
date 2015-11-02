@@ -1,13 +1,19 @@
 <main class="main">
     <section>
         <div class="blog_page">
-
             <div class="title_top">
                 <span>/&nbsp;&nbsp;НАШ БЛОГ</span>
             </div>
             <div class="blog_page_wrap ">
                 <div class="blog_page_table">
                     <div class="blog_item animate-section">
+                        <div class="blog_item_cell item_right cfix animate-it blog_item_img_phone">
+                            <div class="blog_item_cell_wrap">
+                                <div class="blog_item_img">
+                                    <img src="images/blog_item_img_iphone.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                         <div class="blog_item_cell item_left cfix animate-it">
                             <div class="blog_item_cell_wrap">
                                 <div class="blog_item_top_line blue cfix">
@@ -63,6 +69,13 @@
                         </div>
                     </div>
                     <div class="blog_item animate-section">
+                        <div class="blog_item_cell item_right cfix animate-it blog_item_img_phone">
+                            <div class="blog_item_cell_wrap">
+                                <div class="blog_item_img">
+                                    <img src="images/blog_item_img_iphone.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                         <div class="blog_item_cell item_left cfix animate-it">
                             <div class="blog_item_cell_wrap">
                                 <div class="blog_item_top_line green cfix">
@@ -118,6 +131,13 @@
                         </div>
                     </div>
                     <div class="blog_item animate-section">
+                        <div class="blog_item_cell item_right cfix animate-it blog_item_img_phone">
+                            <div class="blog_item_cell_wrap">
+                                <div class="blog_item_img">
+                                    <img src="images/blog_item_img_iphone.png" alt="">
+                                </div>
+                            </div>
+                        </div>
                         <div class="blog_item_cell item_left cfix animate-it">
                             <div class="blog_item_cell_wrap">
                                 <div class="blog_item_top_line orange cfix">

@@ -1,10 +1,10 @@
 <div class="header-wrap ">
-
+    <div class='box-small-image'>
+        <img src="images/small-header.jpg" alt="" />
+    </div>
     <div class="flow-form">
         <div class="inside-image class-hide">
-            <div class='box-image '>
-                <img src="images/header.jpg" alt="" />
-            </div>
+
         </div>
         <div class="inside-preloader ">
             <div class='box-preloader '>
@@ -30,23 +30,57 @@
                 </div>
             </div>
         </a>
-        <div class="block-nav">
-            <nav>
-                <ul>
-                   <li><a href="">о нас </a></li>
-                   <li><a href="">работы</a></li>
-                   <li><a href="">Рекомендации</a></li>
-                   <li><a href="">команда</a></li>
-                   <li><a href="">блог</a></li>
-                </ul>
-            </nav>
-        </div>
-
         <div class="socials animate-it">
             <a href="#"><div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div> </a>
             <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
             <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
         </div>
+        <div class="block-nav">
+            <span class="sendwich-icon">
+              <span></span>
+            </span>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="nav-table">о нас </span>
+                            <span class="nav-device">о нАС</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nav-table">работы</span>
+                            <span class="nav-device">НАШИ РАБОТЫ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nav-table">Рекомендации</span>
+                            <span class="nav-device">НАШИ РЕКОМЕНДАЦИИ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nav-table">команда</span>
+                            <span class="nav-device">НАША КОМАНДА</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nav-table">блог</span>
+                            <span class="nav-device">НАШ БЛОГ</span>
+                        </a>
+                    </li>
+                    <li class="device-nav-item">
+                        <a href="#">
+                            <span class="nav-device">СВЯЗАТЬСЯ С НАМИ</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
 
     </div>
 </div>
