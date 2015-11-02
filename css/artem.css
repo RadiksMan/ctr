@@ -567,6 +567,9 @@
   .header .header-wrap .box-main-menu .block-nav nav ul li {
     margin-right: 41px;
   }
+  .header .header-wrap .box-main-menu .socials {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 992px) {
