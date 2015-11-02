@@ -161,9 +161,9 @@
             .box-main-menu{
                 >a{float: left;}
                 .socials{display: none;}
-                .block-nav{display: block;float: right;margin-left: 0;padding-top: 20rem;margin-right: 15rem;
-                    &.block-nav-other-header{padding-top:60rem;}
-                    .sendwich-icon{display: block;}
+                .block-nav{display: block;float: right;margin-left: 0;margin-right: 15rem;position: static;
+                    &.block-nav-other-header .sendwich-icon{top:60rem;}
+                    .sendwich-icon{display: block;position: absolute;right: 15rem;top: 20rem;}
                     nav{position: absolute;top: 0;right: 0;left: 0;z-index: 1;background-color:rgba(0,0,0,.81);padding-top:50rem;padding-bottom:50rem;display: none;
                         ul{
                             li{display: block;margin-right: 0;padding-left: 10%;margin-bottom: 20rem;
@@ -210,13 +210,6 @@
         }
     }
 
-    /* /recomendations */
-
-}
-@media screen and (max-width: 1024px){
-
-    /* recomendations */
-
     .recomendations-wrapper:before{left: -125%;}
 
     .recomendations-wrapper{padding-bottom: 130rem;}
@@ -261,7 +254,8 @@
                 .logo{margin-left: 15rem;}
 
                 //.logo-swf-wrap{position: absolute;left: 50%;top: 80rem;transform:translate(-50%,0);}
-                .block-nav-other-header, .block-nav{padding-top: 15rem;
+                .block-nav.block-nav-other-header, .block-nav{
+                    .sendwich-icon{top: 15rem;}
                     nav ul li a{font-size: 24rem;}
                 }
             }
