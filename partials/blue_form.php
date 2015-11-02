@@ -15,6 +15,9 @@
 				<div class="form-logo cfix animate-it">
 					<embed src="images/blue_form_logo.svg" alt=""/>
 				</div>
+				<div class="form-logo-device animate-it">
+					<p>СВЯЖИТЕСЬ С НАМИ ПРЯМО СЕЙЧАС</p>
+				</div>
 				<form action="" method="POST" class="blue-form-valid">
 					<div class="input-wrap animate-delay">
 						<input type="text" name="name" placeholder="имя" required="required"/>
