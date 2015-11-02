@@ -72,8 +72,8 @@
 }
 .recomendation-content{min-height: 100rem;margin-bottom: 10rem;}
 .recomendation-link{text-align: right;
-    a{display: inline-block;font-size: 16px;font-weight: 700;color:#fff;text-decoration: none;text-transform: uppercase;
-        padding-right: 25px;position: relative;
+    a{display: inline-block;font-size: 16px;font-weight: 700;color:#fff;text-decoration: none;text-transform: uppercase;padding-right: 25px;position: relative;
+        &:focus{outline:none;}
         .recomendation-link-icon{display: block;position: absolute;right: 0;top: calc(50% - 6rem);width: 12px;height: 10px;background-image:url(../images/link-arrow.png);-webkit-transform-origin:50% 50%;animation-play-state: paused;-webkit-animation-play-state: paused;animation-name: thumb;animation-duration: 750ms;animation-iteration-count: infinite;animation-timing-function: linear;-webkit-animation-name: thumb;-webkit-animation-duration: 750ms;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: linear;
         }
         .recomendation-link-text{display: inline-block;position: relative;
