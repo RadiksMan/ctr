@@ -316,13 +316,11 @@
   display: none;
 }
 
-/*/team*/
-@media screen and (max-width: 1600px) {
-  .header .header-wrap .box-main-menu .block-nav nav ul li {
-    margin-right: 80px;
-  }
+.blue-items {
+  display: none;
 }
 
+/*/team*/
 @media screen and (max-width: 1366px) {
   /* footer */
   .footer-container .foot-content {
@@ -355,6 +353,12 @@
 
 @media screen and (max-width: 1024px) {
   /* footer */
+  .on-canv {
+    display: none;
+  }
+  .blue-items {
+    display: block;
+  }
   .footer-container .foot-content {
     width: 100%;
   }

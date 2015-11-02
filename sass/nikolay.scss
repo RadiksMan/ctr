@@ -83,6 +83,7 @@
     }
     .header{  background-color: transparent;    z-index: 100;    position: relative;}
     .pseudo-canv{display: none;}
+    .blue-items{display: none;}
 /*/team*/
 @media screen and (max-width: 2048px){
 }
@@ -91,7 +92,7 @@
 
 }
 @media screen and (max-width: 1600px){
-.header .header-wrap .box-main-menu .block-nav nav ul li {margin-right: 80px;}
+
 }
 
 @media screen and (max-width: 1366px){
@@ -127,7 +128,8 @@
 @media screen and (max-width: 1024px){
 
     /* footer */
-
+    .on-canv{display: none;}
+    .blue-items{display: block;}
     .footer-container .foot-content{width: 100%;
         .foot-mbox{width: 30%;}
         .foot-mbox:nth-child(3){width: 20%;}
