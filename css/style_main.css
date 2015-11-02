@@ -305,6 +305,10 @@
   position: relative;
 }
 
+.recomendation-link a:focus {
+  outline: none;
+}
+
 .recomendation-link a .recomendation-link-icon {
   display: block;
   position: absolute;
