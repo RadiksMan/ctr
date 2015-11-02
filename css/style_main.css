@@ -489,7 +489,7 @@
   }
   .header {
     position: relative;
-    z-index: 1;
+    z-index: 5;
   }
   .header .header-wrap .box-main-menu > a {
     float: left;
