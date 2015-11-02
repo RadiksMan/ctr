@@ -108,7 +108,7 @@
                     .item-anim{width: 100%; display:block;height: 280rem;   }
                     .item-setting{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; padding: 57rem 10rem 45rem 10rem;}
                     a{text-decoration: none; vertical-align: bottom; display: block; cursor: pointer;
-                        .item-button{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; color: #56626c;padding: 23rem 31rem 20rem 31rem; text-decoration: none; border: 2px solid #56626c;min-width: 235rem; border-radius: 2px; background-color: white; text-transform: uppercase; margin-right: 30rem; margin-left: 30rem;}
+                        .item-button{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; color: #56626c;padding: 23rem 31rem 20rem 31rem; text-decoration: none; border: 2px solid #56626c;min-width: 235rem; border-radius: 2px; background-color: white; text-transform: uppercase; margin-right: 30rem; margin-left: 30rem;transition:all 300ms linear;}
                         &:hover{
                             .item-button{color: white; background-color: #666666;}
                         }

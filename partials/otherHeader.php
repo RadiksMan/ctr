@@ -28,6 +28,7 @@
                     <div class="logo-swf-wrap">
                       <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
                     </div>
+
                 </div>
             </div>
         </a>
@@ -37,7 +38,7 @@
             <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
             <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
         </div>
-        <div class="block-nav block-nav-other-header">
+        <div class="block-nav block-nav-other-header <? if($act != "index" || $act != "none" ){echo team;}?>">
             <span class="sendwich-icon">
               <span></span>
             </span>

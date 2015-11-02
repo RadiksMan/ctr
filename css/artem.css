@@ -489,6 +489,7 @@
   text-transform: uppercase;
   margin-right: 30rem;
   margin-left: 30rem;
+  transition: all 300ms linear;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item a:hover .item-button {
