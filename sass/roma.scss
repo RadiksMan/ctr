@@ -224,10 +224,14 @@
 /* promo text */
 
 .device-text-promo{display: none;}
+.form-logo-device{display: none;}
 
 /* /promo text */
 
 @media screen and (max-width: 1024px){
+
+/* red section */
+
 	.red_section {min-height: 1rem;background-color: #EC4D4B;
 		&:after{display: none;}
 		.red_section_middle_wrap{padding-top: 70rem;
@@ -251,13 +255,46 @@
 		}
 	}
 	.device-text-promo{display: block;font-size: 21rem;color: #fff;line-height: 22rem;padding: 20rem 5%;text-align: center;font-weight: normal;}
+
+/* red section */
+
+/* blue form */
+
+.blue-form-wrapper {
+	.form-logo{ padding-left: 0;
+		embed{width: 488rem;max-width: 100%;}
+	}
+	form .input-wrap{text-align: right;}
+	.blue-from-imageblock {top: 37%;
+		.shapes-wrap{width: 54.7%; height: 74.6%;top: 0;	left: 0;
+			.shapes{background-size: 100%;}
+		}
+		.illustration {
+			.mac{top: 5%;left: -5%;width: 341rem;
+				embed{max-width: 100%;}
+			}
+			.imac{bottom: 27.7%;left: 26%;width: 134rem;
+				embed{max-width: 100%;}
+			}
+			.imac-smaller{width: 52rem;left: 20.4%;bottom: 27.4%;
+				embed{max-width: 100%;}
+			}
+		}
+	}
+}
+
+
+/* /blue form */
+
 }
 
 @media screen and (max-width: 959px){
-
+.blue-from-imageblock {display: none;}
 }
 
 @media screen and (max-width: 666px){
+
+	/* red section */
 	.red_section {
 		.red_section_middle_wrap{
 			.red_section_logo{
@@ -272,9 +309,31 @@
 			}
 		}
 	}
-	.device-text-promo{display: none;}
+	.device-text-promo{display: none;display: none;}
+
+	/* /red section */
+
+	/* blue form */
+	.blue-form-wrapper{min-width: 1rem;
+		.form-blue{margin-right: 0;}
+		form .input-wrap {text-align: center;
+			button{float: none;}
+		}
+		&:after{left: -150%;width: 150%;}
+	}
+	.form-logo{display: none;}
+	.form-logo-device{display: block;
+		p{font-size: 45rem; font-family: 'Roboto', sans-serif; font-weight: 500; text-transform: uppercase;color: #fff;text-align: left;padding: 0 5%;padding-bottom: 30rem;}
+	}
+
+
+	/* /blue form */
 }
 
 @media screen and (max-width: 479px){
-
+	  .blue-form-wrapper{  background-color: #00BCBC;
+	  	&:before{display: block;content: '';border: 20px solid #007473;position: absolute;top: 50%;transform:translateY(-50%);width: 53%;height: 85%;z-index: 3;left: -50%;}
+	  }
+	  .form-logo-device p{font-size: 25rem}
+	  .blue-form-wrapper .blue-form{padding-top: 20rem;}
 }
