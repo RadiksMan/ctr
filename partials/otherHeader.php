@@ -9,10 +9,24 @@
 ?>
 
 <div class="header-wrap other-header-wrap">
+  <div class="logo-page-wrap-text">
+          <? if($act == 'recomendations'){?>
+                          / нас рекомендуют
+          <? } ?>
+           <? if($act == 'blog'){?>
+                          /  НАШ БЛОГ
+          <? } ?>
+          <? if($act == 'team'){?>
+                          /  НАШа команда
+          <? } ?>
+          <? if($act == 'our_work'){?>
+                          /  НАШи работы
+          <? } ?>
+  </div>
     <div class="box-main-menu cfix animate-section">
         <a href="index.html">
             <div class="logo other-logo-class">
-                <div class="logo-img class-hide">
+                <div class="inside-image class-hide">
                     <img src="images/header-logo.png" alt="" />
                 </div>
                 <div class="logo-swf">
@@ -20,26 +34,17 @@
                     <div class="logo-swf-wrap">
                       <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
                     </div>
-                    <div class="logo-page-wrap-text">
-                        <? if($act == 'recomendations'){?>
-                          / нас рекомендуют
-                        <? } ?>
-                        <? if($act == 'blog'){?>
-                          /  НАШ БЛОГ
-                        <? } ?>
-                        <? if($act == 'team'){?>
-                          /  НАША команда
-                        <? } ?>
-                    </div>
+
                 </div>
             </div>
         </a>
+
         <div class="socials class-for-fix animate-it">
             <a href="#"><div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div> </a>
             <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
             <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
         </div>
-        <div class="block-nav block-nav-other-header <? if($act == "team"){echo $act;}?>">
+        <div class="block-nav block-nav-other-header <? if($act != "index" || $act != "none" ){echo team;}?>">
             <span class="sendwich-icon">
               <span></span>
             </span>
