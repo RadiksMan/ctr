@@ -615,7 +615,7 @@ p.video-desc {
 }
 
 .our-works-wrap .our-works .our-work-item {
-  display: inline-block;
+  width: 25%;
   float: left;
   position: relative;
   z-index: 0;
