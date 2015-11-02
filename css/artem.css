@@ -634,6 +634,11 @@
   .header .other-header-wrap .box-main-menu {
     margin-left: calc(50% - 236px/2);
   }
+  .team {
+    position: absolute;
+    right: 10px;
+    top: -15px;
+  }
 }
 
 @media screen and (max-width: 479px) {

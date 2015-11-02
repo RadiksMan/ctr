@@ -393,7 +393,6 @@
   width: 27rem;
   height: 21rem;
   padding-top: 8.5rem;
-  position: relative;
   z-index: 2;
 }
 
@@ -631,6 +630,9 @@
 
 @media screen and (max-width: 767px) {
   /* outher header */
+  .other-header-wrap {
+    position: static;
+  }
   .other-header-wrap .logo-page-wrap-text {
     font-size: 21rem;
     margin-top: 10rem;
