@@ -57,45 +57,45 @@
             </div>
         </div>
 
-        <div class="blue-items items-wrapper">
+        <div class="blue-items cfix">
             <div class="man-mbox">
                 <div class="box-wrapper-team">
-                    <div class="man-arrow"></div>
-                    <div class="man-mame"><span>Vlad</span></div>
-                    <div class="man-prof"><span>[designer]</span></div>
-                    <div class="man-foto"><img src="images/portrait_vlad.png"></div>
-                </div>
-            </div>
-            <div class="man-mbox">
-                <div class="box-wrapper-team">
-                    <div class="man-arrow"></div>
-                    <div class="man-mame"><span>Sergey</span></div>
-                    <div class="man-prof"><span>[designer]</span></div>
-                    <div class="man-foto"><img src="images/portrait_serg.png"></div>
-                </div>
-            </div>
-            <div class="man-mbox">
-                <div class="box-wrapper-team">
-                    <div class="man-arrow"></div>
+                    <div class="man-foto"><img src="images/portrait_midd-b.png"></div>
                     <div class="man-mame"><span>Alexander</span></div>
                     <div class="man-prof"><span>[art-director]</span></div>
-                    <div class="man-foto"><img src="images/portrait_midd.png"></div>
+
                 </div>
             </div>
             <div class="man-mbox">
                 <div class="box-wrapper-team">
-                    <div class="man-arrow"></div>
+                    <div class="man-foto"><img src="images/portrait_vlad-b.png"></div>
+                    <div class="man-mame"><span>Vlad</span></div>
+                    <div class="man-prof"><span>[designer]</span></div>
+                </div>
+            </div>
+            <div class="man-mbox">
+                <div class="box-wrapper-team">
+                    <div class="man-foto"><img src="images/portrait_nick-b.png"></div>
                     <div class="man-mame"><span>Nikolay</span></div>
                     <div class="man-prof"><span>[designer]</span></div>
-                    <div class="man-foto"><img src="images/portrait_nick.png"></div>
+
                 </div>
             </div>
             <div class="man-mbox">
                 <div class="box-wrapper-team">
-                    <div class="man-arrow"></div>
+                    <div class="man-foto"><img src="images/portrait_serg-b.png"></div>
+                    <div class="man-mame"><span>Sergey</span></div>
+                    <div class="man-prof"><span>[designer]</span></div>
+
+                </div>
+            </div>
+
+            <div class="man-mbox">
+                <div class="box-wrapper-team">
+                    <div class="man-foto"><img src="images/portrait_alex-b.png"></div>
                     <div class="man-mame"><span>Alexey</span></div>
                     <div class="man-prof"><span>[designer]</span></div>
-                    <div class="man-foto"><img src="images/portrait_alex.png"></div>
+
                 </div>
             </div>
         </div>
