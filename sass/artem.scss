@@ -22,7 +22,7 @@
             .class-hide{visibility: hidden; height: 0;}
             .logo{ display: inline-block; margin-left: 41px; padding-top: 15px; overflow: hidden;}
 
-            .block-nav { display: inline-block; vertical-align: top; margin-left: 21.6%; padding-top: 25px;
+            .block-nav {float: right; vertical-align: top;  padding-top: 25px;
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;overflow: visible;position: relative;margin-right: 130px;
                         &:before { top: 0; left: -20px;  -webkit-transform: rotate(105deg); -moz-transform: rotate(105deg);  transform: rotate(105deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0;  transform-origin: 0 0; position: absolute; width: 20px; height: 2px; background: #fff; content: ''; opacity: 1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;transition: all 0.3s; pointer-events: none;}
@@ -37,7 +37,7 @@
                     }
                 }
             }
-            .block-nav-other-header { display: inline-block; vertical-align: top; float: right; margin: 0; padding-top: 56px;
+            .block-nav-other-header {  vertical-align: top; float: right; margin: 0; padding-top: 56px;
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;  font-weight: bold;
                         &:after, &:before  {background-color: black;}
@@ -136,12 +136,18 @@
         }
     }
 }
+
+
 @media screen and (min-width: 1920px){
     .header .header-wrap .flow-form .inside-image{width:1920px; }
     .header .header-wrap .flow-form{height: 653px;
         .inside-swf{ width:1920px; }
     }
 }
+@media screen and (max-width: 1600px){
+    .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 80px;}
+}
+
 @media screen and (max-width: 1366px){
     .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 41px;}
 }

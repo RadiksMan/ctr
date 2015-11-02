@@ -88,9 +88,8 @@
 }
 
 .header .header-wrap .box-main-menu .block-nav {
-  display: inline-block;
+  float: right;
   vertical-align: top;
-  margin-left: 21.6%;
   padding-top: 25px;
 }
 
@@ -172,7 +171,6 @@
 }
 
 .header .header-wrap .box-main-menu .block-nav-other-header {
-  display: inline-block;
   vertical-align: top;
   float: right;
   margin: 0;
@@ -550,6 +548,12 @@
   }
   .header .header-wrap .flow-form .inside-swf {
     width: 1920px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 80px;
   }
 }
 
