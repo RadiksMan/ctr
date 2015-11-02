@@ -304,7 +304,9 @@
 .blue-from-imageblock {display: none;}
 .our-works-wrap .our-works .our-work-item{width: 61%; margin: 0 auto;float: none;}
 .our-works-wrap .our-works .our-work-item.active-work:hover .our-work-desc{width: 70%}
-.our-works-wrap{min-width: 1px}
+.our-works-wrap{min-width: 1px;
+	&:after{left: 0;transform: rotate(0deg);top: 50%}
+}
 
 }
 

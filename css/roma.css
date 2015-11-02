@@ -993,6 +993,12 @@ p.video-desc {
   .our-works-wrap {
     min-width: 1px;
   }
+  .our-works-wrap:after {
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 666px) {
