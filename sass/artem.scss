@@ -1,5 +1,6 @@
 .header{background-color: white;
     .header-wrap{ width: 100%; box-sizing: border-box; max-width: 2048px; margin: 0 auto; position: relative;
+        .box-small-image{width: 100%;top: 0; left: 0;}
         .flow-form{overflow: hidden; height: 34vw; width: 100%;  box-sizing: border-box; position: relative;
             .class-hide{visibility: hidden; height: 0;}
             .inside-image{width:100vw;margin-top: 0;}
@@ -21,11 +22,11 @@
             .class-hide{visibility: hidden; height: 0;}
             .logo{ display: inline-block; margin-left: 41px; padding-top: 15px; overflow: hidden;}
 
-            .block-nav { display: inline-block; vertical-align: top; margin-left: 21.6%; padding-top: 25px;
+            .block-nav {float: right; vertical-align: top;  padding-top: 25px;
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;overflow: visible;position: relative;margin-right: 130px;
                         &:before { top: 0; left: -20px;  -webkit-transform: rotate(105deg); -moz-transform: rotate(105deg);  transform: rotate(105deg); -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0;  transform-origin: 0 0; position: absolute; width: 20px; height: 2px; background: #fff; content: ''; opacity: 1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;transition: all 0.3s; pointer-events: none;}
-                        &:after  {     position: absolute; width: 20px; height: 2px;background: #fff;content: '';opacity: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;pointer-events: none;right: -20px;bottom: -5px;-webkit-transform: rotate(105deg);-moz-transform: rotate(105deg);transform: rotate(105deg);-webkit-transform-origin: 100% 0;-moz-transform-origin: 100% 0;transform-origin: 100% 0;}
+                        &:after  {     position: absolute; width: 20px; height: 2px;background: #fff;content: '';opacity: 1;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;transition: all 0.3s;pointer-events: none;right: -20px;bottom: -2px;-webkit-transform: rotate(105deg);-moz-transform: rotate(105deg);transform: rotate(105deg);-webkit-transform-origin: 100% 0;-moz-transform-origin: 100% 0;transform-origin: 100% 0;}
                         &:hover {
                             &:before{    left: 50%;width: 40px;top: -10px; -webkit-transform: rotate(0deg) translateX(-50%);-moz-transform: rotate(0deg) translateX(-50%);transform: rotate(0deg) translateX(-50%);}
                             &:after{    right: 50%;width: 40px;bottom: -10px; -webkit-transform: rotate(0deg) translateX(50%);-moz-transform: rotate(0deg) translateX(50%); transform: rotate(0deg) translateX(50%);}
@@ -36,7 +37,7 @@
                     }
                 }
             }
-            .block-nav-other-header { display: inline-block; vertical-align: top; margin-left: 26%; padding-top: 56px;
+            .block-nav-other-header {  vertical-align: top; float: right; margin: 0; padding-top: 56px;
                 nav{display: inline-block;
                     ul li{ display: inline-block; text-transform: uppercase;  font-weight: bold;
                         &:after, &:before  {background-color: black;}
@@ -67,7 +68,7 @@
     }
 }
 .other-logo-class{ margin-top: 51px !important;;}
-.class-for-fix { padding-top: 40px !important;}
+.class-for-fix { padding-top: 40px !important; float: right;}
 
 
 // promoblock
@@ -106,7 +107,7 @@
                     .item-anim{width: 100%; display:block;height: 280rem;   }
                     .item-setting{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; padding: 57rem 10rem 45rem 10rem;}
                     a{text-decoration: none; vertical-align: bottom; display: block; cursor: pointer;
-                        .item-button{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; color: #56626c;padding: 23rem 31rem 20rem 31rem; text-decoration: none; border: 2px solid #56626c;min-width: 235rem; border-radius: 2px; background-color: white; text-transform: uppercase; margin-right: 30rem; margin-left: 30rem;}
+                        .item-button{font-size: 18rem; font-family: 'Roboto'; font-weight: 400; color: #56626c;padding: 23rem 31rem 20rem 31rem; text-decoration: none; border: 2px solid #56626c;min-width: 235rem; border-radius: 2px; background-color: white; text-transform: uppercase; margin-right: 30rem; margin-left: 30rem;transition:all 300ms linear;}
                         &:hover{
                             .item-button{color: white; background-color: #666666;}
                         }
@@ -135,16 +136,25 @@
         }
     }
 }
+
+
 @media screen and (min-width: 1920px){
     .header .header-wrap .flow-form .inside-image{width:1920px; }
     .header .header-wrap .flow-form{height: 653px;
         .inside-swf{ width:1920px; }
     }
 }
-@media screen and (min-width: 1366px){
+@media screen and (max-width: 1600px){
+    .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 80px;}
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (max-width: 1366px){
+    .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 41px;}
+}
+
+@media screen and (max-width: 1280px){
+    .header .header-wrap .box-main-menu .block-nav nav ul li { margin-right: 41px;}
+    .header .header-wrap .box-main-menu .socials {margin-right: 0;}
 
 }
 @media screen and (max-width: 1024px){
@@ -175,10 +185,17 @@
 
 
 @media screen and (max-width: 767px){
+    .header .header-wrap .box-main-menu .logo-page-wrap-text {}
+    .header .other-header-wrap .box-main-menu {margin-left: calc(50% - 236px/2); }
+    .team{position: absolute;     right: 10px;    top: -15px;}
 }
+
 @media screen and (max-width: 666px){
+
+
 }
 @media screen and (max-width: 479px){
+
     .works-container .works-align .works-mbox .works-item-title {font-size: 40rem;}
     .promoblock-section .promoblock-wrapper .promoblock-item .promoblock-text {font-size:20rem;}
 }

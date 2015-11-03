@@ -10,6 +10,12 @@
   position: relative;
 }
 
+.header .header-wrap .box-small-image {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .header .header-wrap .flow-form {
   overflow: hidden;
   height: 34vw;
@@ -82,9 +88,8 @@
 }
 
 .header .header-wrap .box-main-menu .block-nav {
-  display: inline-block;
+  float: right;
   vertical-align: top;
-  margin-left: 21.6%;
   padding-top: 25px;
 }
 
@@ -127,7 +132,7 @@
   transition: all 0.3s;
   pointer-events: none;
   right: -20px;
-  bottom: -5px;
+  bottom: -2px;
   -webkit-transform: rotate(105deg);
   transform: rotate(105deg);
   -webkit-transform-origin: 100% 0;
@@ -166,9 +171,9 @@
 }
 
 .header .header-wrap .box-main-menu .block-nav-other-header {
-  display: inline-block;
   vertical-align: top;
-  margin-left: 26%;
+  float: right;
+  margin: 0;
   padding-top: 56px;
 }
 
@@ -269,6 +274,7 @@
 
 .class-for-fix {
   padding-top: 40px !important;
+  float: right;
 }
 
 .promoblock-section {
@@ -483,6 +489,7 @@
   text-transform: uppercase;
   margin-right: 30rem;
   margin-left: 30rem;
+  transition: all 300ms linear;
 }
 
 .works-container .works-align .works-mbox .works-item-box .works-item a:hover .item-button {
@@ -545,6 +552,27 @@
   }
 }
 
+@media screen and (max-width: 1600px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 41px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header .header-wrap .box-main-menu .block-nav nav ul li {
+    margin-right: 41px;
+  }
+  .header .header-wrap .box-main-menu .socials {
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .works-container .works-align .works-mbox .works-item-box {
     width: 100%;
@@ -599,6 +627,17 @@
     font-size: 35rem;
     padding-bottom: 175rem;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header .other-header-wrap .box-main-menu {
+    margin-left: calc(50% - 236px/2);
+  }
+  .team {
+    position: absolute;
+    right: 10px;
+    top: -15px;
   }
 }
 

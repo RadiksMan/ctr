@@ -286,7 +286,7 @@
 /* /animation */
 /* typed */
 .typed-wrap {
-  top: -41.5%;
+  top: -163px;
   position: absolute;
   left: 17%;
   color: #fff;
@@ -615,7 +615,7 @@ p.video-desc {
 }
 
 .our-works-wrap .our-works .our-work-item {
-  display: inline-block;
+  width: 25%;
   float: left;
   position: relative;
   z-index: 0;
@@ -823,8 +823,50 @@ p.video-desc {
   display: none;
 }
 
+.form-logo-device {
+  display: none;
+}
+
+.logo-device {
+  display: none;
+}
+
 /* /promo text */
+.red_section .red_section_middle_wrap .red_section_logo .logo-device {
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .typed-wrap {
+    top: -163px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .typed-wrap {
+    top: -160px;
+    left: 21%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .typed-wrap {
+    top: -155px;
+    left: 22%;
+  }
+  .red_section .red_section_logo {
+    padding-left: 0;
+  }
+  .red_section .red_section_middle_aside.aside_left .red_section_button {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 1024px) {
+  .our-works-wrap .our-works .title_top {
+    display: none;
+  }
+  /* red section */
   .red_section {
     min-height: 1rem;
     background-color: #EC4D4B;
@@ -895,9 +937,88 @@ p.video-desc {
     text-align: center;
     font-weight: normal;
   }
+  /* red section */
+  /* blue form */
+  .blue-form-wrapper .form-logo {
+    padding-left: 0;
+  }
+  .blue-form-wrapper .form-logo embed {
+    width: 488rem;
+    max-width: 100%;
+  }
+  .blue-form-wrapper form .input-wrap {
+    text-align: right;
+  }
+  .blue-form-wrapper .blue-from-imageblock {
+    top: 37%;
+  }
+  .blue-form-wrapper .blue-from-imageblock .shapes-wrap {
+    width: 54.7%;
+    height: 74.6%;
+    top: 0;
+    left: 0;
+  }
+  .blue-form-wrapper .blue-from-imageblock .shapes-wrap .shapes {
+    background-size: 100%;
+  }
+  .blue-form-wrapper .blue-from-imageblock .illustration .mac {
+    top: 5%;
+    left: -5%;
+    width: 341rem;
+  }
+  .blue-form-wrapper .blue-from-imageblock .illustration .mac embed {
+    max-width: 100%;
+  }
+  .blue-form-wrapper .blue-from-imageblock .illustration .imac {
+    bottom: 27.7%;
+    left: 26%;
+    width: 134rem;
+  }
+  .blue-form-wrapper .blue-from-imageblock .illustration .imac embed {
+    max-width: 100%;
+  }
+  .blue-form-wrapper .blue-from-imageblock .illustration .imac-smaller {
+    width: 52rem;
+    left: 20.4%;
+    bottom: 27.4%;
+  }
+  .blue-form-wrapper .blue-from-imageblock .illustration .imac-smaller embed {
+    max-width: 100%;
+  }
+  /* /blue form */
+  .typed-wrap {
+    top: -46%;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .blue-from-imageblock {
+    display: none;
+  }
+  .our-works-wrap .our-works .our-work-item {
+    width: 61%;
+    margin: 0 auto;
+    float: none;
+  }
+  .our-works-wrap .our-works .our-work-item.active-work:hover .our-work-desc {
+    width: 70%;
+  }
+  .our-works-wrap {
+    min-width: 1px;
+  }
+  .our-works-wrap:after {
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 666px) {
+  .our-works-wrap .our-works .our-work-item {
+    width: 85%;
+  }
+  /* red section */
   .red_section .red_section_middle_wrap .red_section_logo .logo-device p {
     font-size: 37rem;
     text-align: left;
@@ -914,5 +1035,67 @@ p.video-desc {
   }
   .device-text-promo {
     display: none;
+    display: none;
+  }
+  /* /red section */
+  /* blue form */
+  .blue-form-wrapper {
+    min-width: 1rem;
+    background-color: #00BCBC;
+    margin-top: 0;
+  }
+  .blue-form-wrapper .form-blue {
+    margin-right: 0;
+  }
+  .blue-form-wrapper form .input-wrap {
+    text-align: center;
+  }
+  .blue-form-wrapper form .input-wrap button {
+    float: none;
+  }
+  .blue-form-wrapper:after {
+    display: none;
+  }
+  .form-logo {
+    display: none;
+  }
+  .form-logo-device {
+    display: block;
+  }
+  .form-logo-device p {
+    font-size: 45rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    padding: 0 5%;
+    padding-bottom: 30rem;
+  }
+  /* /blue form */
+}
+
+@media screen and (max-width: 479px) {
+  .blue-form-wrapper {
+    background-color: #00BCBC;
+  }
+  .blue-form-wrapper:before {
+    display: block;
+    content: '';
+    border: 20px solid #007473;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 53%;
+    height: 85%;
+    z-index: 3;
+    left: -50%;
+  }
+  .form-logo-device p {
+    font-size: 25rem;
+  }
+  .blue-form-wrapper .blue-form {
+    padding-top: 20rem;
   }
 }

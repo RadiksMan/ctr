@@ -21,7 +21,6 @@ function drawCanvas(){
 
     function handleComplete4() {
         exportRoot4 = new libb.zombie();
-        console.log("sdfgsdfgs");
         stage4 = new createjs.Stage(canvas4);
         stage4.addChild(exportRoot4);
         stage4.update();
@@ -41,12 +40,11 @@ function drawCanvas(){
         loader3.loadManifest(lib3.properties.manifest);
     }
     function handleFileLoad3(evt) {
-             if (evt.item.type == "image") { images3[evt.item.id] = evt.result; console.log("333333"); }
+             if (evt.item.type == "image") { images3[evt.item.id] = evt.result;}
         }
 
     function handleComplete3() {
         exportRoot3 = new lib3.index();
-        console.log("4444");
         stage3 = new createjs.Stage(canvas3);
         stage3.addChild(exportRoot3);
         stage3.update();
@@ -139,3 +137,4 @@ function drawCanvas(){
 $(window).load(function(){
     drawCanvas();
 });
+

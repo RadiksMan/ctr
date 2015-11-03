@@ -107,7 +107,7 @@ $(document).ready(function(){
     validate('.blue-form-valid', {submitFunction:validationCall});
 
     $(".recomendation-link a").fancybox({
-        fitToView       :   false,
+        fitToView       :   true,
         autoSize        :   true
     });
     ourworkhover();

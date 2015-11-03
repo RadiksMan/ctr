@@ -102,7 +102,7 @@
                                         <img class="ic-gg" src="images/icon-gg.svg">
                                     </div>
                                     <div class="icon-text">
-                                        <span data-hover="google plus">google plus</span>
+                                        <span data-hover="google plus">google plus&nbsp;</span>
                                     </div>
                                 </a>
                             </div>
