@@ -64,7 +64,7 @@
 
 /* typed */
 
-.typed-wrap{top: -46.5%;position: absolute;left: 17%;color: #fff;}
+.typed-wrap{top: -163px;position: absolute;left: 17%;color: #fff;}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -227,13 +227,16 @@
 .form-logo-device{display: none;}
 
 /* /promo text */
-
+.red_section{.red_section_middle_wrap{.red_section_logo{.logo-device{display:none;}}}}
+@media screen and (max-width: 1600px){
+.typed-wrap{top: -163px;}
+}
 @media screen and (max-width: 1366px){
-	.typed-wrap{top: -44.5%;left: 21%;}
+	.typed-wrap{top: -160px;left: 21%;}
 }
 
 @media screen and (max-width: 1280px){
-	.typed-wrap{top: -40.5%;left: 22%;}
+	.typed-wrap{top: -155px;left: 22%;}
 	.red_section .red_section_logo{padding-left: 0;}
 	.red_section .red_section_middle_aside.aside_left .red_section_button{text-align: center;}
 }
@@ -296,7 +299,7 @@
 
 
 /* /blue form */
-
+.typed-wrap{top: -46%}
 }
 
 @media screen and (max-width: 959px){

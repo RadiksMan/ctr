@@ -494,3 +494,9 @@
   }
   /*/team*/
 }
+
+@media screen and (max-width: 479px) {
+  .blue-form-wrapper {
+    margin-top: -75rem;
+  }
+}

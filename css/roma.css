@@ -286,7 +286,7 @@
 /* /animation */
 /* typed */
 .typed-wrap {
-  top: -46.5%;
+  top: -163px;
   position: absolute;
   left: 17%;
   color: #fff;
@@ -828,16 +828,26 @@ p.video-desc {
 }
 
 /* /promo text */
+.red_section .red_section_middle_wrap .red_section_logo .logo-device {
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .typed-wrap {
+    top: -163px;
+  }
+}
+
 @media screen and (max-width: 1366px) {
   .typed-wrap {
-    top: -44.5%;
+    top: -160px;
     left: 21%;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .typed-wrap {
-    top: -40.5%;
+    top: -155px;
     left: 22%;
   }
   .red_section .red_section_logo {
@@ -972,6 +982,9 @@ p.video-desc {
     max-width: 100%;
   }
   /* /blue form */
+  .typed-wrap {
+    top: -46%;
+  }
 }
 
 @media screen and (max-width: 959px) {
