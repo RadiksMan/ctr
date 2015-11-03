@@ -305,6 +305,10 @@
   position: relative;
 }
 
+.recomendation-link a:focus {
+  outline: none;
+}
+
 .recomendation-link a .recomendation-link-icon {
   display: block;
   position: absolute;
@@ -489,7 +493,7 @@
   }
   .header {
     position: relative;
-    z-index: 1;
+    z-index: 5;
   }
   .header .header-wrap .box-main-menu > a {
     float: left;

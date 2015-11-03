@@ -827,6 +827,10 @@ p.video-desc {
   display: none;
 }
 
+.logo-device {
+  display: none;
+}
+
 /* /promo text */
 .red_section .red_section_middle_wrap .red_section_logo .logo-device {
   display: none;
@@ -1002,6 +1006,12 @@ p.video-desc {
   .our-works-wrap {
     min-width: 1px;
   }
+  .our-works-wrap:after {
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 50%;
+  }
 }
 
 @media screen and (max-width: 666px) {
@@ -1031,6 +1041,8 @@ p.video-desc {
   /* blue form */
   .blue-form-wrapper {
     min-width: 1rem;
+    background-color: #00BCBC;
+    margin-top: 0;
   }
   .blue-form-wrapper .form-blue {
     margin-right: 0;
@@ -1042,8 +1054,7 @@ p.video-desc {
     float: none;
   }
   .blue-form-wrapper:after {
-    left: -150%;
-    width: 150%;
+    display: none;
   }
   .form-logo {
     display: none;
