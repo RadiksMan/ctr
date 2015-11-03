@@ -256,7 +256,7 @@ function recomendationSlick(){
 }
 
 function deviceNav(){
-    $(document).on('click','.sendwich-icon', function(){
+    $('.sendwich-icon').click(function(){
         if($(window).width()<1025){
             if($(this).is('.active')){
                 $(this).removeClass('active');

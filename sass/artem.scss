@@ -67,7 +67,7 @@
         }
     }
 }
-.other-logo-class{ margin-top: 51px !important;;}
+// .other-logo-class{ margin-top: 51px !important;}
 .class-for-fix { padding-top: 40px !important; float: right;}
 
 
@@ -186,7 +186,7 @@
 
 @media screen and (max-width: 767px){
     .header .header-wrap .box-main-menu .logo-page-wrap-text {}
-    .header .other-header-wrap .box-main-menu {margin-left: calc(50% - 236px/2); }
+    .header .other-header-wrap .box-main-menu {margin-left: calc(50% - 236px/2); margin-top: 51px;}
     .team{position: absolute;     right: 10px;    top: -15px;}
 }
 

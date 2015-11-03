@@ -268,10 +268,6 @@
   padding-left: 15px;
 }
 
-.other-logo-class {
-  margin-top: 51px !important;
-}
-
 .class-for-fix {
   padding-top: 40px !important;
   float: right;
@@ -633,6 +629,7 @@
 @media screen and (max-width: 767px) {
   .header .other-header-wrap .box-main-menu {
     margin-left: calc(50% - 236px/2);
+    margin-top: 51px;
   }
   .team {
     position: absolute;
