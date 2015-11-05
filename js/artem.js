@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     if ($(window).width()<=667) {
         $('.flow-form').remove();
-        $('.logo-swf-wrap').remove();
+     //   $('.logo-swf-wrap').remove();
     };
     if ($(window).width()>667) {
         $('.box-small-image').remove();
@@ -12,7 +12,7 @@ $(document).ready(function(){
    if ($(window).width()<=667){
         $('.inside-swf').remove();
         $('.inside-preloader').remove();
-        $(".inside-image").removeClass("class-hide");
+        //$(".inside-image").removeClass("class-hide");
    }
    else{
 

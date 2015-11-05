@@ -23,7 +23,7 @@
     </div>
 
     <div class="box-main-menu class-main-headed-fix">
-        <a href="index.html">
+        <a href="index">
             <div class="logo ">
                 <div class="logo-swf logo-swf-wrap">
                     <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>

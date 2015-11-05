@@ -24,7 +24,7 @@
           <? } ?>
   </div>
     <div class="box-main-menu cfix animate-section">
-        <a href="index.html">
+        <a href="index">
             <div class="logo other-logo-class">
                 <div class="inside-image class-hide">
                     <img src="images/header-logo.png" alt="" />
