@@ -108,8 +108,8 @@
 .header .header-wrap .box-main-menu .block-nav nav ul li:before {
   top: 0;
   left: -20px;
-  -webkit-transform: rotate(105deg);
-  transform: rotate(105deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
   position: absolute;
@@ -132,9 +132,9 @@
   transition: all 0.3s;
   pointer-events: none;
   right: -20px;
-  bottom: -2px;
-  -webkit-transform: rotate(105deg);
-  transform: rotate(105deg);
+  bottom: -3px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
 }
@@ -177,6 +177,10 @@
   padding-top: 56px;
 }
 
+.header .header-wrap .box-main-menu .block-nav-other-header.teamBlock {
+  padding-top: 25px;
+}
+
 .header .header-wrap .box-main-menu .block-nav-other-header nav {
   display: inline-block;
 }
@@ -202,6 +206,10 @@
   float: right;
   margin-right: 1.25%;
   padding-top: 10px;
+}
+
+.header .header-wrap .box-main-menu .socials.teamBlock {
+  padding-top: 10px !important;
 }
 
 .header .header-wrap .box-main-menu .socials a {
@@ -566,6 +574,12 @@
   }
   .header .header-wrap .box-main-menu .socials {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .promoblock-section:before {
+    display: none;
   }
 }
 

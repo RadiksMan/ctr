@@ -4,7 +4,7 @@
              <p>Студия дизайна «CTR.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
         </div>
         <div class="promoblock-item animate-it">
-            
+
             <div class="promoblock-item-content  ">
 
                 <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" >
@@ -170,7 +170,7 @@
                         from="0  212.7 128"
                         to="-360 212.7 128"
                         dur="6"
-                        begin="500px"  fill="freeze" repeatCount="indefinite"
+                        begin="500ms"  fill="freeze" repeatCount="indefinite"
                     />
 
 

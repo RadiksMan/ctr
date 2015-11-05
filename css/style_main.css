@@ -487,6 +487,9 @@
     left: 300rem;
     top: 58rem;
   }
+  .other-header-wrap .logo-page-wrap-text.teamBlock {
+    top: 22rem;
+  }
   .logo-swf-wrap {
     display: inline-block;
     vertical-align: middle;
@@ -507,6 +510,9 @@
     margin-left: 0;
     margin-right: 15rem;
     position: static;
+  }
+  .header .header-wrap .box-main-menu .block-nav.block-nav-other-header.teamBlock .sendwich-icon {
+    top: 22rem;
   }
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header .sendwich-icon {
     top: 60rem;
@@ -637,12 +643,12 @@
   }
   .other-header-wrap .logo-page-wrap-text {
     font-size: 21rem;
-    margin-top: 10rem;
+    margin-top: 17rem;
     margin-left: 20px;
     position: static;
   }
   .header .header-wrap .box-main-menu .logo {
-    margin-left: 15rem;
+    margin-left: 0rem;
   }
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header .sendwich-icon, .header .header-wrap .box-main-menu .block-nav .sendwich-icon {
     top: 15rem;

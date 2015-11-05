@@ -301,6 +301,12 @@
 }
 
 /*/scroll*/
+@media screen and (max-width: 1366px) {
+  .red_section .red_section_logo {
+    padding-left: 2%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   /*blog page*/
   .blog_page {

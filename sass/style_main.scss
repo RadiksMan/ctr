@@ -152,7 +152,9 @@
 
     /* outher header */
     .other-header-wrap{ position: relative;
-        .logo-page-wrap-text{ position: absolute; display: inline-block;vertical-align: middle;color: #303030;font-size: 25rem;font-weight: 900;font-family: 'Gotham';text-transform:uppercase;left: 300rem; top: 58rem; }
+        .logo-page-wrap-text{ position: absolute; display: inline-block;vertical-align: middle;color: #303030;font-size: 25rem;font-weight: 900;font-family: 'Gotham';text-transform:uppercase;left: 300rem; top: 58rem;
+            &.teamBlock{top:22rem;}
+        }
     }
     .logo-swf-wrap{display: inline-block;vertical-align: middle;}
 
@@ -162,7 +164,12 @@
                 >a{float: left;}
                 .socials{display: none;}
                 .block-nav{display: block;float: right;margin-left: 0;margin-right: 15rem;position: static;
-                    &.block-nav-other-header .sendwich-icon{top:60rem;}
+                    &.block-nav-other-header{
+                        &.teamBlock{
+                            .sendwich-icon{top:22rem;}
+                        }
+                        .sendwich-icon{top:60rem;}
+                    }
                     .sendwich-icon{display: block;position: absolute;right: 15rem;top: 20rem;}
                     nav{position: absolute;top: 0;right: 0;left: 0;z-index: 1;background-color:rgba(0,0,0,.81);padding-top:50rem;padding-bottom:50rem;display: none;
                         ul{
@@ -245,13 +252,13 @@
 
     /* outher header */
     .other-header-wrap {position:static;
-        .logo-page-wrap-text{font-size: 21rem; margin-top: 10rem; margin-left: 20px;  position:static;}
+        .logo-page-wrap-text{font-size: 21rem; margin-top: 17rem; margin-left: 20px;  position:static;}
     }
     .header{
 
         .header-wrap{
             .box-main-menu{
-                .logo{margin-left: 15rem;}
+                .logo{margin-left: 0rem;}
 
                 //.logo-swf-wrap{position: absolute;left: 50%;top: 80rem;transform:translate(-50%,0);}
                 .block-nav.block-nav-other-header, .block-nav{

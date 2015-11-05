@@ -16,18 +16,18 @@
                             }
                             .foot-icon-box{
                                 &:after{ content: '';display: block;clear: both;}//float cfix
-                                .icon-box{border-radius: 50%;border-color: #fff; border-width: 3px;display: block;width: 64px;height: 64px;border-style: solid;position: relative;float:left;
-                                    img {width:50px;position:absolute;}
-                                    .ic-sk{width: 41px;top: 9px;left: 8px;}
-                                    .ic-ml{width: 40px;top: 15px;left: 9px;}
-                                    .ic-ph{width: 38px;top: 11px;left:10px;}
-                                    .ic-vk{width: 39px;top: 21px;left: 9px;}
-                                    .ic-fb{width: 19px;top: 11px;left: 20px;}
-                                    .ic-gg{width: 36px;top: 14px;left: 11px;}
+                                .icon-box{border-radius: 50%;border-color: #fff; display: block;width: 64px;height: 64px;position: relative;float:left;box-shadow:0 0 0 3px rgba(255,255,255,1);
+                                    img {width:50px;position:absolute;top: 50%;left: 50%;transform:translate(-50%, -50%);}
+                                    .ic-sk{width: 41px;}
+                                    .ic-ml{width: 40px;}
+                                    .ic-ph{width: 38px;}
+                                    .ic-vk{width: 39px;}
+                                    .ic-fb{width: 19px;}
+                                    .ic-gg{width: 36px;}
                                     &:hover{box-shadow: 0 0 0 5px rgba(255,255,255,1);color: #fff;
                                         &:before{transform: scale(0.85);opacity: 0.5;}
                                     }
-                                    &:before{pointer-events: none;position: absolute;width: 100%;height: 100%;border-radius: 50%;content: '';box-sizing: content-box;top: 0;left: 0;padding: 0;box-shadow: 0 0 0 2px #fff;    transition: transform 0.2s, opacity 0.2s;}
+                                    &:before{pointer-events: none;position: absolute;width: 100%;height: 100%;border-radius: 50%;content: '';box-sizing: content-box;top: 0;left: 0;padding: 0;box-shadow: 0 0 0 2px #fff;   transition: transform 0.2s, opacity 0.2s;}
                                 }
                                 .icon-text{float:left;    overflow: hidden;    padding: 0 4px;    height: 1em;margin: 23px 0 0 22px;}
                             }
@@ -52,7 +52,7 @@
     .container-team{
         .team-align{
             .title-top{      padding-left: 110px;  color: #303030;    font-size: 25px;    font-weight: 900; text-transform: uppercase;    font-family: 'Gotham';top: 19px; margin-bottom: -25px;position: relative; z-index: 2; }
-            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top:  210px; z-index: 2;
+            .items-wrapper{ width: 1294px;  position: absolute;  left: calc(50% - 647px);    top:  150px; z-index: 2;
                 .man-mbox{width:20%; float:left; text-align: center; z-index: 1; position: relative;
                     .box-wrapper-team{position:relative;display: inline-block;
                         span{font-family: 'Roboto'; color:#333;}
@@ -170,16 +170,18 @@
     /*/team*/
     /* footer */
 
-    .footer-container .foot-content{padding-top: 150px;
-        .foot-mbox{display: block;width: 100%!important;
-            .icon-text{display: none;}
-            .foot-menu-element{display: inline-block;width: calc(33.33% - 3rem);text-align: center;
-                a{display: inline-block;}
+    .footer-container{padding-bottom: 24px;
+        .foot-content{padding-top: 150px;
+            .foot-mbox{display: block;width: 100%!important;
+                .icon-text{display: none;}
+                .foot-menu-element{display: inline-block;width: calc(33.33% - 3rem);text-align: center;
+                    a{display: inline-block;}
+                }
             }
+            .foot-mbox:nth-child(1){display: none;}
+            .foot-mbox:nth-child(3){position: absolute;top: 65px;}
+            .foot-copyright{display: none;}
         }
-        .foot-mbox:nth-child(1){display: none;}
-        .foot-mbox:nth-child(3){position: absolute;top: 65px;}
-        .foot-copyright{display: none;}
     }
 
     /* /footer */

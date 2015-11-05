@@ -27,9 +27,10 @@
                       poster="images/poster.jpg"
                       data-setup='{"example_option":true}'>
 
-                     <source src="video/BestofWeb5-HD-Zapatou.mp4" type='video/mp4' />
-                     <source src="video/BestofWeb5-HD-Zapatou.webm" type='video/webm'>
-                     <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                       <source src="video/BestofWeb5-HD-Zapatou.mp4" type='video/mp4' />
+                       <source src="video/BestofWeb5-HD-Zapatou.webm" type='video/webm'>
+                       <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+
                     </video>
                 </div>
             </div>

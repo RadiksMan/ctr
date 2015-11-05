@@ -8,7 +8,7 @@
         </div>
         <div class="inside-preloader ">
             <div class='box-preloader '>
-                <img src="images/PL-01.gif" alt="" />
+                <img src="images/PL-01.GIF" alt="" />
             </div>
         </div>
 
