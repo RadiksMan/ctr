@@ -2,11 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <title></title>
         <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>
         <!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
             <link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
         <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
@@ -43,10 +44,13 @@
         <script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
         <script type="text/javascript" src="js/typed.js"></script>
         <script type="text/javascript" src="js/logo_index.js"></script>
-        <script src="js/team.js"></script>
+        <script  src="js/team.js"></script>
+        <script  src="js/anim1/index.js"></script>
+        <script  src="js/anim2/index.js"></script>
+        <script  src="js/anim3/zombie.js"></script>
         <script type="text/javascript">
             // тексты typed js
-                var strings = ["ctr.design"];
+                var strings = ["localhost:3000.design"];
         </script>
         <!-- /typed js -->
         <!-- video js -->
@@ -82,6 +86,10 @@
         <!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
     </head>
     <body>
+        <script type='text/javascript' id="__bs_script__">//<![CDATA[
+            document.write("<script async src='/browser-sync/browser-sync-client.2.9.11.js'><\/script>".replace("HOST", location.hostname));
+            //]]>
+        </script>
         <div class="zHiddenBlock">
             <div id="call_success">
                 <div class="call-success">
@@ -91,34 +99,48 @@
                     </div>
                 </div>
             </div>
+            <div id="rec_more">
+                <div class="rec-more">
+                    <div class="rec_more">
+                        <div class="rec-more-top cfix">
+                            <div class="rec-more-img-wrap">
+                                <div class="rec-more-img">
+                                    <img src="images/user-foto1.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="rec-more-title">
+                                <div class="rec-more-name">Милов Игорь Сергеевич</div>
+                                <div class="rec-more-post">-Глава ревизионного комитета "Ассоциации спорта Украины"</div>
+                            </div>
+                        </div>
+                        <div class="rec-more-desc">
+                            <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям крупнейших клиентов рекламного рынка, готов представить нестандартные решения в своей сфере, но при этом эффективность этих решений не только не снижается, но и предвосхищает все ожидания. Мы как, компания ориентированая на финансовый результат наших клиентов, всегда находим понимание в этом вопросе при сотрудничестве с Александром. Всегда рады рекомендовать его услуги нашим друзьям, и надеемся, что он будет продолжать относиться к нам с тем же уважением и теплом как и раньше. Этот мир построен на плечах профессионалов и мы смело можем говорить, что Александр один из них, к чему и мы стремимся.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div  class="mega-main-wrapper">
             <header class="header ">
                 <div class="header-wrap other-header-wrap">
-                    <div class="box-main-menu animate-section">
-                        <a href="index.html">
+                    <div class="logo-page-wrap-text teamBlock">
+                        /  НАШа команда
+                    </div>
+                    <div class="box-main-menu cfix animate-section">
+                        <a href="index">
                             <div class="logo other-logo-class">
-                                <div class="logo-img class-hide">
+                                <div class="inside-image class-hide">
                                     <img src="images/header-logo.png" alt="" />
                                 </div>
                                 <div class="logo-swf">
                                     <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
-                                    <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                                    <div class="logo-swf-wrap">
+                                        <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                                    </div>
                                 </div>
                             </div>
                         </a>
-                        <div class="block-nav block-nav-other-header">
-                            <nav>
-                                <ul>
-                                    <li><a href="" data-hover="о нас ">о нас </a></li>
-                                    <li><a href="" data-hover="работы">работы</a></li>
-                                    <li><a href="" data-hover="Рекомендации">Рекомендации</a></li>
-                                    <li><a href="" data-hover="команда">команда</a></li>
-                                    <li><a href="" data-hover="блог">блог</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="socials class-for-fix animate-it">
+                        <div class="socials class-for-fix animate-it teamBlock">
                             <a href="#">
                                 <div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div>
                             </a>
@@ -129,14 +151,57 @@
                                 <div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div>
                             </a>
                         </div>
+                        <div class="block-nav block-nav-other-header team teamBlock">
+                            <span class="sendwich-icon">
+                            <span></span>
+                            </span>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                        <span class="nav-table">о нас </span>
+                                        <span class="nav-device">о нАС</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <span class="nav-table">работы</span>
+                                        <span class="nav-device">НАШИ РАБОТЫ</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <span class="nav-table">Рекомендации</span>
+                                        <span class="nav-device">НАШИ РЕКОМЕНДАЦИИ</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <span class="nav-table">команда</span>
+                                        <span class="nav-device">НАША КОМАНДА</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <span class="nav-table">блог</span>
+                                        <span class="nav-device">НАШ БЛОГ</span>
+                                        </a>
+                                    </li>
+                                    <li class="device-nav-item">
+                                        <a href="#">
+                                        <span class="nav-device">СВЯЗАТЬСЯ С НАМИ</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </header>
             <div class="wrapper container-team">
                 <div class="wrapper-main team-align">
                     <div class="title-top animate-section"><span class="animate-it">/ наша команда</span></div>
-                    <canvas id="canvas" width="1920" height="817" style="background-color:#FFFFFF"></canvas>
-                    <div class="items-wrapper">
+                    <div class="items-wrapper on-canv">
                         <div class="man-mbox">
                             <div class="box-wrapper-team">
                                 <div class="man-arrow"></div>
@@ -178,6 +243,55 @@
                             </div>
                         </div>
                     </div>
+                    <div class="canv-wrapp-main">
+                        <div class="canv-wrapp">
+                            <div class="canv-align">
+                                <canvas id="canvas" width="1920" height="817" style="background-color:#FFFFFF"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pseudo-canv">
+                        <div class="pseudo-wrapp">
+                            <div class="pseudo-alifn"><img src="images/team.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="blue-items cfix">
+                        <div class="man-mbox">
+                            <div class="box-wrapper-team">
+                                <div class="man-foto"><img src="images/portrait_midd-b.png"></div>
+                                <div class="man-mame"><span>Alexander</span></div>
+                                <div class="man-prof"><span>[art-director]</span></div>
+                            </div>
+                        </div>
+                        <div class="man-mbox">
+                            <div class="box-wrapper-team">
+                                <div class="man-foto"><img src="images/portrait_vlad-b.png"></div>
+                                <div class="man-mame"><span>Vlad</span></div>
+                                <div class="man-prof"><span>[designer]</span></div>
+                            </div>
+                        </div>
+                        <div class="man-mbox">
+                            <div class="box-wrapper-team">
+                                <div class="man-foto"><img src="images/portrait_nick-b.png"></div>
+                                <div class="man-mame"><span>Nikolay</span></div>
+                                <div class="man-prof"><span>[designer]</span></div>
+                            </div>
+                        </div>
+                        <div class="man-mbox">
+                            <div class="box-wrapper-team">
+                                <div class="man-foto"><img src="images/portrait_serg-b.png"></div>
+                                <div class="man-mame"><span>Sergey</span></div>
+                                <div class="man-prof"><span>[designer]</span></div>
+                            </div>
+                        </div>
+                        <div class="man-mbox">
+                            <div class="box-wrapper-team">
+                                <div class="man-foto"><img src="images/portrait_alex-b.png"></div>
+                                <div class="man-mame"><span>Alexey</span></div>
+                                <div class="man-prof"><span>[designer]</span></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer_placeholder"></div>
@@ -188,7 +302,7 @@
                             <div class="foot-mbox-align">
                                 <div class="foot-menu-element">
                                     <a class="magic-wrapp" href="#">
-                                    <span data-hover="о нас">о нас</span>
+                                    <span data-hover="о нас">о нас&#160;&#160;</span>
                                     </a>
                                 </div>
                                 <div class="foot-menu-element">
@@ -280,7 +394,7 @@
                                             <img class="ic-gg" src="images/icon-gg.svg">
                                         </div>
                                         <div class="icon-text">
-                                            <span data-hover="google plus">google plus</span>
+                                            <span data-hover="google plus">google plus&nbsp;</span>
                                         </div>
                                     </a>
                                 </div>
