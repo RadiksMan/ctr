@@ -151,6 +151,8 @@
             }
         }
     /*/team*/
+    .header{.header-wrap{.box-main-menu{.block-nav{&.block-nav-other-header{&.team{ .sendwich-icon{top: 23rem;}}}}}}}
+
     /* footer */
         .footer-container .foot-content{width: 100%;
             .foot-mbox{width: 31%;}
@@ -195,7 +197,7 @@
                 &:nth-child(1){width:100%;}
             }
         }
-        .header{.header-wrap{.box-main-menu{.block-nav{&.block-nav-other-header{&.team{padding-top: 30rem;}}}}}}
+    .header{.header-wrap{.box-main-menu{.block-nav{&.block-nav-other-header{&.team{ .sendwich-icon{top: 18rem;}}}}}}}
     /*/team*/
 }
 @media screen and (max-width: 666px){

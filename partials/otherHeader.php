@@ -45,7 +45,7 @@
             <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
         </div>
         <div class="block-nav block-nav-other-header <? if($act != "index" || $act != "none" ){echo team;
-            if($act == "team"){echo ' '.teamBlock;}
+           /* if($act == "team" || $act == "blog" || $act == "our_work" || $act == "recomendations"){echo ' '.teamBlock;}*/
           };?>">
             <span class="sendwich-icon">
               <span></span>
