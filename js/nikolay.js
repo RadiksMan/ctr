@@ -1,4 +1,4 @@
-function drawCanvas(){
+
 
     var canvas, stage, exportRoot;
 
@@ -126,15 +126,15 @@ function drawCanvas(){
         createjs.Ticker.addEventListener("tick", stage);
     }
 
-    init4();
-    init3();
-    init2();
-    init1();
-    init();
-}
+
+
 
 
 $(window).load(function(){
-    drawCanvas();
+     init1();
+     if(($('#canvas').length)>0 && $(window).width()>1280){init();};
+     if(($('#canvas2').length)>0){init2();};
+     if(($('#canvas3').length)>0){init3();};
+     if(($('#canvas4').length)>0){init4();};
 });
 

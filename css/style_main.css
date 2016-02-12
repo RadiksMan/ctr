@@ -485,10 +485,7 @@
     font-family: 'Gotham';
     text-transform: uppercase;
     left: 300rem;
-    top: 58rem;
-  }
-  .other-header-wrap .logo-page-wrap-text.teamBlock {
-    top: 22rem;
+    top: 23rem;
   }
   .logo-swf-wrap {
     display: inline-block;
@@ -512,7 +509,7 @@
     position: static;
   }
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header.teamBlock .sendwich-icon {
-    top: 22rem;
+    top: 18rem;
   }
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header .sendwich-icon {
     top: 60rem;
@@ -643,7 +640,7 @@
   }
   .other-header-wrap .logo-page-wrap-text {
     font-size: 21rem;
-    margin-top: 17rem;
+    margin-top: 18rem;
     margin-left: 20px;
     position: static;
   }
@@ -651,7 +648,7 @@
     margin-left: 0rem;
   }
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header .sendwich-icon, .header .header-wrap .box-main-menu .block-nav .sendwich-icon {
-    top: 15rem;
+    top: 18rem;
   }
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header nav ul li a, .header .header-wrap .box-main-menu .block-nav nav ul li a {
     font-size: 24rem;
