@@ -1,3 +1,7 @@
+.team-align {
+  position: relative;
+}
+
 /*footer*/
 .footer_placeholder {
   background-color: #01abaa;
@@ -217,7 +221,7 @@
   width: 1294px;
   position: absolute;
   left: calc(50% - 647px);
-  top: 150px;
+  top: 60px;
   z-index: 2;
 }
 
