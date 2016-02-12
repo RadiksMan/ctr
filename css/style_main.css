@@ -546,6 +546,7 @@
   .header .header-wrap .box-main-menu .block-nav nav ul li a {
     color: #ffffff;
     font-size: 52rem;
+    font-weight: 700;
   }
   .header .header-wrap .box-main-menu .block-nav nav ul li a .nav-table {
     display: none;
