@@ -32,7 +32,7 @@
                 <div class="logo-swf">
                    <!--  <embed src="images/logo.swf" quality="high" type="application/x-shockwave-flash"  wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
                     <div class="logo-swf-wrap">
-                      <canvas id="canvas1" width="239" height="83" style="background-color:none"></canvas>
+                      <canvas id="canvas1" width="239" height="112" style="background-color:none"></canvas>
                     </div>
 
                 </div>

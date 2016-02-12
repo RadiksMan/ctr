@@ -277,14 +277,6 @@
   transition: all 300ms ease;
 }
 
-.container-team .team-align .items-wrapper .man-mbox .box-wrapper-team:hover .man-foto {
-  width: 150px;
-}
-
-.container-team .team-align .items-wrapper .man-mbox .box-wrapper-team:hover .man-foto img {
-  width: 150px;
-}
-
 .container-team .team-align .items-wrapper .man-mbox:nth-child(2) .man-arrow {
   border-width: 144px 2px 2px 2px;
   left: 87%;
