@@ -655,7 +655,7 @@
   }
   .header .header-wrap .box-main-menu a {
     margin-left: calc(50% - 236px/2);
-    margin-top: 51px;
+    /*margin-top: 51px;*/
   }
 }
 

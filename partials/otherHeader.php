@@ -61,25 +61,25 @@
                   <li>
                     <a href="#">
                       <span class="nav-table">работы</span>
-                      <span class="nav-device">НАШИ РАБОТЫ</span>
+                      <span class="nav-device"><!--НАШИ-->РАБОТЫ</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <span class="nav-table">Рекомендации</span>
-                      <span class="nav-device">НАШИ РЕКОМЕНДАЦИИ</span>
+                      <span class="nav-device"><!--НАШИ-->РЕКОМЕНДАЦИИ</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <span class="nav-table">команда</span>
-                      <span class="nav-device">НАША КОМАНДА</span>
+                      <span class="nav-device"><!--НАША-->КОМАНДА</span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       <span class="nav-table">блог</span>
-                      <span class="nav-device">НАШ БЛОГ</span>
+                      <span class="nav-device"><!--НАШ-->БЛОГ</span>
                     </a>
                   </li>
                   <li class="device-nav-item">
