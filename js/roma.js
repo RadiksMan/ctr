@@ -113,5 +113,5 @@ $(document).ready(function(){
     ourworkhover();
 });
 $(window).load(function(){
-    $('#my-video').append('<div class="video-desc"><p>Видео</p><p>о студии<p> <p>ctr.design</p></div>');
+    $('#my-video').append('<div class="video-desc"><p>Видео</p><p>о студии<p> <p>CLICKABLE.DESIGN</p></div>');
 });

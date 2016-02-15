@@ -13,7 +13,7 @@
 			</div>
 			<div class="form-blue cfix animate-section">
 				<div class="form-logo cfix animate-it">
-					<embed src="images/blue_form_logo.svg" alt=""/>
+					<embed src="images/blue_form_logo.svg" alt="" style="width: 520px" />
 				</div>
 				<div class="form-logo-device animate-it">
 					<p>СВЯЖИТЕСЬ С НАМИ ПРЯМО СЕЙЧАС</p>

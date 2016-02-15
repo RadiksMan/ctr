@@ -1,14 +1,14 @@
 <div class="red_section wrapper">
     <div class="red_section_middle_wrap cfix wrapper-main">
         <div class="red_section_logo">
-            <embed src="images/red_section_logo.svg">
+            <embed src="images/red_section_logo.svg" style="width: 520px">
             <div class="logo-device">
-              <p>CTR.DESIGN<span>Дизайн на который кликают</span></p>
+              <p>CLICKABLE.DESIGN<span>Дизайн на который кликают</span></p>
             </div>
         </div>
         <div class="red_section_middle_as">
             <div class="red_section_middle_aside aside_left">
-                <p>Студия дизайна «CTR.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
+                <p>Студия дизайна «CLICKABLE.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
                 <div class="red_section_button">
                     <a href="#">
                         <span>СВЯЗАТЬСЯ С НАМИ</span>

@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="foot-copyright">
-                    <span>© ctr.design studio 2015</span>
+                    <span>© CLICKABLE.DESIGN studio 2016</span>
                     </div>
                 </div>
             </div>
