@@ -74,7 +74,7 @@
 
 	<script type="text/javascript">
 	// тексты typed js
-		var strings = ["ctr.design"];
+		var strings = ["clickable.design"];
 	</script>
 
 <!-- /typed js -->

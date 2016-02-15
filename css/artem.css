@@ -213,7 +213,7 @@
 }
 
 .header .header-wrap .box-main-menu .socials.teamBlock {
-  padding-top: 35px !important;
+  padding-top: 40px !important;
 }
 
 .header .header-wrap .box-main-menu .socials a {
@@ -280,7 +280,7 @@
   padding-left: 15px;
 }
 
-.class-for-fix {
+.header .other-header-wrap .box-main-menu .socials.class-for-fix {
   padding-top: 40px !important;
   float: right;
 }

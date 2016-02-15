@@ -30,7 +30,7 @@
 .footer-container .foot-content .foot-mbox:nth-child(3) {
   margin-right: 0;
   float: right;
-  width: 17%;
+  width: 22%;
 }
 
 .footer-container .foot-content .foot-mbox:nth-child(1) {
@@ -56,6 +56,7 @@
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element span {
   font-family: 'Roboto';
+  min-width: 160px;
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
@@ -324,7 +325,7 @@
     margin-right: 70px;
   }
   .footer-container .foot-content .foot-mbox:nth-child(3) {
-    width: 20%;
+    width: 26%;
   }
   /* /fotter */
 }
@@ -354,10 +355,10 @@
     width: 34%;
   }
   .footer-container .foot-content .foot-mbox:nth-child(1) {
-    margin-right: 50px;
+    margin-right: 00px;
   }
   .footer-container .foot-content .foot-mbox:nth-child(3) {
-    width: 22%;
+    width: 30%;
   }
   /* /fotter */
 }
@@ -417,14 +418,14 @@
     width: 100%;
   }
   .footer-container .foot-content .foot-mbox {
-    width: 31%;
+    width: 32%;
   }
   .footer-container .foot-content .foot-mbox:nth-child(1) {
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .footer-container .foot-content .foot-mbox:nth-child(3) {
-    width: 20%;
-    margin-right: 20px;
+    width: 32%;
+    margin-right: 0px;
   }
   /* /footer */
 }
