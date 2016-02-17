@@ -768,43 +768,43 @@
 
 /* /our works */
 /* rec-more */
-#rec_more {
+.rec-more {
   max-width: 640rem;
   padding: 20rem;
 }
 
-#rec_more .rec-more-top {
+.rec-more .rec-more-top {
   width: 100%;
   padding-bottom: 50rem;
   border-bottom: 1rem solid #ccc;
   margin-bottom: 50rem;
 }
 
-#rec_more .rec-more-top .rec-more-img-wrap {
+.rec-more .rec-more-top .rec-more-img-wrap {
   display: table-cell;
   width: 27%;
 }
 
-#rec_more .rec-more-top .rec-more-title {
+.rec-more .rec-more-top .rec-more-title {
   display: table-cell;
   vertical-align: middle;
   padding-left: 35rem;
   padding-right: 50rem;
 }
 
-#rec_more .rec-more-top .rec-more-title .rec-more-name {
+.rec-more .rec-more-top .rec-more-title .rec-more-name {
   font-weight: 700;
   font-size: 18rem;
   font-family: 'Roboto', sans-serif;
 }
 
-#rec_more .rec-more-top .rec-more-title .rec-more-post {
+.rec-more .rec-more-top .rec-more-title .rec-more-post {
   font-weight: 400;
   font-size: 18rem;
   font-family: 'Roboto', sans-serif;
 }
 
-#rec_more .rec-more-desc {
+.rec-more .rec-more-desc {
   font-weight: 400;
   font-size: 18rem;
   font-family: 'Roboto', sans-serif;
