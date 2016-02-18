@@ -7,8 +7,8 @@
                 .foot-mbox{display: inline-block;  float:left;  ; vertical-align: top;width:28%;
                     &:nth-child(3){margin-right: 0; float:right;width: 22%;}
                     &:nth-child(1){   padding-left: 38px;  margin-right: 152px;}
-                    .foot-mbox-align{
-                        .foot-menu-element{margin-bottom: 20px;
+                    .foot-mbox-align, ul{
+                        .foot-menu-element, li{margin-bottom: 20px;
                             a{text-decoration: none;}
                             .magic-wrapp{overflow: hidden;padding: 0 4px;    height: 1em; display:block;     margin-bottom: 26px;}
                             span{font-family: 'Roboto'; min-width: 160px; font-weight: 400;  color: #fff;text-transform: uppercase;font-size: 16rem;position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;

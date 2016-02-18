@@ -1,7 +1,7 @@
 <div class="blue-form-wrapper shaped wrapper">
 	<div class="wrapper-blue wrapper-main">
-		<div class="blue-form cfix">
-			<div class="blue-from-imageblock">
+		<div  class="blue-form cfix">
+			<div id="contactable" class="blue-from-imageblock">
 				<div class="shapes-wrap">
 					<div class="shapes"></div>
 				</div>
