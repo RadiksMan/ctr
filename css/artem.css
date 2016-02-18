@@ -164,7 +164,6 @@
   color: white;
   position: relative;
   display: inline-block;
-  transition: 0.3s ease -webkit-transform;
   transition: 0.3s ease transform;
 }
 
@@ -311,8 +310,10 @@
   -webkit-transform: translate3d(0, 30%, 0);
   -moz-transform: translate3d(0, -30%, 0);
   -ms-transform: translate3d(0, -30%, 0);
+  transition: opacity 500ms ease, -webkit-transform 500ms ease;
   transition: transform 500ms ease, opacity 500ms ease;
-  -webkit-transition: -webkit-transform 500ms ease, opacity 500ms ease;
+  transition: transform 500ms ease, opacity 500ms ease, -webkit-transform 500ms ease;
+  -webkit-transition: transform 500ms ease, opacity 500ms ease;
   -moz-transition: transform 500ms ease, opacity 500ms ease;
   -ms-transition: transform 500ms ease, opacity 500ms ease;
 }
@@ -447,8 +448,10 @@
   -webkit-transform: translate3d(0, 30%, 0);
   -moz-transform: translate3d(0, -30%, 0);
   -ms-transform: translate3d(0, -30%, 0);
+  transition: opacity 500ms ease, -webkit-transform 500ms ease;
   transition: transform 500ms ease, opacity 500ms ease;
-  -webkit-transition: -webkit-transform 500ms ease, opacity 500ms ease;
+  transition: transform 500ms ease, opacity 500ms ease, -webkit-transform 500ms ease;
+  -webkit-transition: transform 500ms ease, opacity 500ms ease;
   -moz-transition: transform 500ms ease, opacity 500ms ease;
   -ms-transition: transform 500ms ease, opacity 500ms ease;
 }

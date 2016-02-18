@@ -7,38 +7,38 @@
     		<div class="footer-container">
                 <div class="foot-content cfix">
                     <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
+                        <ul>
+                            <li>
                                 <a class="magic-wrapp" href="#">
                                     <span data-hover="о нас">о нас&#160;&#160;</span>
                                 </a>
-                            </div>
-                            <div class="foot-menu-element">
+                            </li>
+                            <li>
                                 <a class="magic-wrapp" href="#">
                                     <span data-hover="работы">работы</span>
                                 </a>
-                            </div>
-                            <div class="foot-menu-element">
+                            </li>
+                            <li>
                                 <a class="magic-wrapp" href="#">
                                     <span data-hover="рекомендации">рекомендации</span>
                                 </a>
-                            </div>
-                            <div class="foot-menu-element">
+                            </li>
+                            <li>
                                 <a class="magic-wrapp" href="#">
                                     <span data-hover="команда">команда</span>
                                 </a>
-                            </div>
-                            <div class="foot-menu-element">
+                            </li>
+                            <li>
                                 <a class="magic-wrapp" href="#">
                                     <span data-hover="блог">блог</span>
                                 </a>
-                            </div>
-                            <div class="foot-menu-element">
+                            </li>
+                            <li>
                                 <a class="magic-wrapp" href="#">
                                     <span data-hover="связаться с нами">связаться с нами</span>
                                 </a>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                     <div class="foot-mbox">
                         <div class="foot-mbox-align">

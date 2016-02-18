@@ -129,10 +129,10 @@
   color: #fff;
   border-radius: 4rem;
   cursor: pointer;
-  transition: background-color 500ms ease, color 500ms ease;
-  -moz-transition: background-color 500ms ease, color 500ms ease;
-  -webkit-transition: background-color 500ms ease, color 500ms ease;
-  -ms-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease , color 500ms ease;
+  -moz-transition: background-color 500ms ease , color 500ms ease;
+  -webkit-transition: background-color 500ms ease , color 500ms ease;
+  -ms-transition: background-color 500ms ease , color 500ms ease;
 }
 
 .blue-form-wrapper form .input-wrap button span {
@@ -202,8 +202,10 @@
   -webkit-transform: translate(-300%, 50%);
   -moz-transform: translate(-300%, 50%);
   -ms-transform: translate(-300%, 50%);
+  transition: opacity 3s ease, -webkit-transform 1s ease;
   transition: opacity 3s ease, transform 1s ease;
-  -webkit-transition: opacity 3s ease, -webkit-transform 1s ease;
+  transition: opacity 3s ease, transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: opacity 3s ease, transform 1s ease;
   -moz-transition: opacity 3s ease, transform 1s ease;
   -ms-transition: opacity 3s ease, transform 1s ease;
   transition-delay: 1s;
@@ -226,8 +228,10 @@
   -webkit-transform: translate(50%, 50%);
   -moz-transform: translate(50%, 50%);
   -ms-transform: translate(50%, 50%);
+  transition: opacity 1s ease, -webkit-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
-  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: opacity 1s ease, transform 1s ease;
   -moz-transition: opacity 1s ease, transform 1s ease;
   -ms-transition: opacity 1s ease, transform 1s ease;
 }
@@ -246,8 +250,10 @@
   -webkit-transform: translate(30%, 50%);
   -moz-transform: translate(30%, 50%);
   -ms-transform: translate(30%, 50%);
+  transition: opacity 1s ease, -webkit-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
-  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+  transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
+  -webkit-transition: opacity 1s ease, transform 1s ease;
   -moz-transition: opacity 1s ease, transform 1s ease;
   -ms-transition: opacity 1s ease, transform 1s ease;
   transition-delay: 100ms;
@@ -265,9 +271,11 @@
 }
 
 .vjs-control-text {
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
   -moz-transition: transform 1s ease;
-  -webkit-transition: -webkit-transform 1s ease;
+  -webkit-transition: transform 1s ease;
   -ms-transition: transform 1s ease;
 }
 
@@ -578,10 +586,10 @@
 
 .red_section_button a {
   border: 2rem solid #fff;
-  transition: background-color 500ms ease, color 500ms ease;
-  -moz-transition: background-color 500ms ease, color 500ms ease;
-  -webkit-transition: background-color 500ms ease, color 500ms ease;
-  -ms-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease , color 500ms ease;
+  -moz-transition: background-color 500ms ease , color 500ms ease;
+  -webkit-transition: background-color 500ms ease , color 500ms ease;
+  -ms-transition: background-color 500ms ease , color 500ms ease;
 }
 
 .red_section_button a:hover {
@@ -639,9 +647,11 @@
   padding-left: 10rem;
   padding-top: 10rem;
   box-sizing: border-box;
+  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
   -moz-transition: transform 500ms ease;
-  -webkit-transition: -webkit-transform 500ms ease;
+  -webkit-transition: transform 500ms ease;
   -ms-transition: transform 500ms ease;
   max-height: 212rem;
   transform-origin: 0 0;
@@ -768,43 +778,43 @@
 
 /* /our works */
 /* rec-more */
-#rec_more {
+.rec-more {
   max-width: 640rem;
   padding: 20rem;
 }
 
-#rec_more .rec-more-top {
+.rec-more .rec-more-top {
   width: 100%;
   padding-bottom: 50rem;
   border-bottom: 1rem solid #ccc;
   margin-bottom: 50rem;
 }
 
-#rec_more .rec-more-top .rec-more-img-wrap {
+.rec-more .rec-more-top .rec-more-img-wrap {
   display: table-cell;
   width: 27%;
 }
 
-#rec_more .rec-more-top .rec-more-title {
+.rec-more .rec-more-top .rec-more-title {
   display: table-cell;
   vertical-align: middle;
   padding-left: 35rem;
   padding-right: 50rem;
 }
 
-#rec_more .rec-more-top .rec-more-title .rec-more-name {
+.rec-more .rec-more-top .rec-more-title .rec-more-name {
   font-weight: 700;
   font-size: 18rem;
   font-family: 'Roboto', sans-serif;
 }
 
-#rec_more .rec-more-top .rec-more-title .rec-more-post {
+.rec-more .rec-more-top .rec-more-title .rec-more-post {
   font-weight: 400;
   font-size: 18rem;
   font-family: 'Roboto', sans-serif;
 }
 
-#rec_more .rec-more-desc {
+.rec-more .rec-more-desc {
   font-weight: 400;
   font-size: 18rem;
   font-family: 'Roboto', sans-serif;

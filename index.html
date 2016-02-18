@@ -1,695 +1,612 @@
-
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <title></title>
-
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
-
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>
-
-    <!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
-    <link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
-
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-
-    <!-- <link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' /> -->
-
-    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-
-    <!-- bootstrap -->
-
-    <!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
-
-    <!-- /bootstrap -->
-
-    <script src="js/selectivizr-min.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
-    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
-    <!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
-    <script src="js/jquery.znice.js" type="text/javascript"></script>-->
-
-    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
-    <script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
-
-    <script src="js/modernizr.js" type="text/javascript"></script>
-    <script src="js/jquery.watermark.min.js" type="text/javascript"></script>
-
-<!-- mask for inputs -->
-
-    <script src="js/maskInput.js" type="text/javascript"></script>
-
-<!-- /mask for inputs -->
-
-<!-- sliders -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
-    <script src="js/slick.js" type="text/javascript"></script>
-<!-- sliders -->
-
-<!-- jScrollPane -->
-    <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-<!-- jScrollPane -->
-
-<!-- typed js -->
-
-    <script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
-    <script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
-    <script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
-    <script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
-
-    <script type="text/javascript" src="js/typed.js"></script>
-
-    <script type="text/javascript" src="js/logo_index.js"></script>
-
-    <script  src="js/team.js"></script>
-    <script  src="js/anim1/index.js"></script>
-    <script  src="js/anim2/index.js"></script>
-    <script  src="js/anim3/zombie.js"></script>
-
-    <script type="text/javascript">
-    // тексты typed js
-        var strings = ["clickable.design"];
-    </script>
-
-<!-- /typed js -->
-
-<!-- video js -->
-
-<link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
-
-<!-- video js -->
-
-<!-- remove Files -->
-
-    <link rel="stylesheet" href="css/radion.css" media="all" />
-    <script src="js/radion.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="css/artem.css" media="all" />
-    <script src="js/artem.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="css/roma.css" media="all" />
-    <script src="js/roma.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="css/nikolay.css" media="all" />
-    <script src="js/nikolay.js" type="text/javascript"></script>
-
-    <!--<script src="js/myalert.js" type="text/javascript"></script>
-    <script src="develop/autocssrenew.js" type="text/javascript"></script>-->
-
-<!-- remove Files -->
-
-    <link rel="stylesheet" href="css/style_main.css" media="all" />
-    <script src="js/scr.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-
-
-    <!--[if lt IE 9]>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic' rel='stylesheet' type='text/css'>
+        <!--<link rel="stylesheet" href="css/bootstrap.css" media="all" />
+            <link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+        <!-- <link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' /> -->
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <!-- bootstrap -->
+        <!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
+        <!-- /bootstrap -->
+        <script src="js/selectivizr-min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
+            <script src="js/jquery.znice.js" type="text/javascript"></script>-->
+        <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
+        <script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
+        <script src="js/modernizr.js" type="text/javascript"></script>
+        <script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+        <!-- mask for inputs -->
+        <script src="js/maskInput.js" type="text/javascript"></script>
+        <!-- /mask for inputs -->
+        <!-- sliders -->
+        <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
+        <script src="js/slick.js" type="text/javascript"></script>
+        <!-- sliders -->
+        <!-- jScrollPane -->
+        <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+        <!-- jScrollPane -->
+        <!-- typed js -->
+        <script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
+        <script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
+        <script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
+        <script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
+        <script type="text/javascript" src="js/typed.js"></script>
+        <script type="text/javascript" src="js/logo_index.js"></script>
+        <script  src="js/team.js"></script>
+        <script  src="js/anim1/index.js"></script>
+        <script  src="js/anim2/index.js"></script>
+        <script  src="js/anim3/zombie.js"></script>
+        <script type="text/javascript">
+            // тексты typed js
+                var strings = ["clickable.design"];
+        </script>
+        <!-- /typed js -->
+        <!-- video js -->
+        <link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
+        <!-- video js -->
+        <!-- remove Files -->
+        <link rel="stylesheet" href="css/radion.css" media="all" />
+        <script src="js/radion.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/artem.css" media="all" />
+        <script src="js/artem.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/roma.css" media="all" />
+        <script src="js/roma.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/nikolay.css" media="all" />
+        <script src="js/nikolay.js" type="text/javascript"></script>
+        <!--<script src="js/myalert.js" type="text/javascript"></script>
+            <script src="develop/autocssrenew.js" type="text/javascript"></script>-->
+        <!-- remove Files -->
+        <link rel="stylesheet" href="css/style_main.css" media="all" />
+        <script src="js/scr.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <!--[if lt IE 9]>
         <script>
-        document.createElement('header');
-        document.createElement('nav');
-        document.createElement('section');
-        document.createElement('article');
-        document.createElement('aside');
-        document.createElement('footer');
-        document.createElement('time');
+            document.createElement('header');
+            document.createElement('nav');
+            document.createElement('section');
+            document.createElement('article');
+            document.createElement('aside');
+            document.createElement('footer');
+            document.createElement('time');
         </script>
         <script src="js/pie.js" type="text/javascript"></script>
-    <![endif]-->
-
-    <!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
-
- </head>
-<body><script type='text/javascript' id="__bs_script__">//<![CDATA[
-    document.write("<script async src='/browser-sync/browser-sync-client.2.9.11.js'><\/script>".replace("HOST", location.hostname));
-//]]></script>
-<script type='text/javascript' id="__bs_script__">//<![CDATA[
-    document.write("<script async src='/browser-sync/browser-sync-client.2.9.11.js'><\/script>".replace("HOST", location.hostname));
-//]]></script>
-
-
-
-<div class="zHiddenBlock">
-    <div id="call_success">
-        <div class="call-success">
-             <div class="call_success">
-                 <div class="call-title">Спасибо за заявку!</div>
-                 <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
-             </div>
-        </div>
-    </div>
-
-    <div id="rec_more">
-        <div class="rec-more">
-             <div class="rec_more">
-                <div class="rec-more-top cfix">
-                    <div class="rec-more-img-wrap">
-                        <div class="rec-more-img">
-                            <img src="images/user-foto1.png" alt=""/>
+        <![endif]-->
+        <!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
+    </head>
+    <body>
+        <script type='text/javascript' id="__bs_script__">//<![CDATA[
+            document.write("<script async src='/browser-sync/browser-sync-client.2.11.1.js'><\/script>".replace("HOST", location.hostname));
+            //]]>
+        </script>
+        <div class="zHiddenBlock">
+            <div id="call_success">
+                <div class="call-success">
+                    <div class="call_success">
+                        <div class="call-title">Спасибо за заявку!</div>
+                        <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                    </div>
+                </div>
+            </div>
+            <div id="rec_more">
+                <div class="rec-more">
+                    <div class="rec_more">
+                        <div class="rec-more-top cfix">
+                            <div class="rec-more-img-wrap">
+                                <div class="rec-more-img">
+                                    <img src="images/user-foto1.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="rec-more-title">
+                                <div class="rec-more-name">Милов Игорь Сергеевич</div>
+                                <div class="rec-more-post">-Глава ревизионного комитета "Ассоциации спорта Украины"</div>
+                            </div>
+                        </div>
+                        <div class="rec-more-desc">
+                            <p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям крупнейших клиентов рекламного рынка, готов представить нестандартные решения в своей сфере, но при этом эффективность этих решений не только не снижается, но и предвосхищает все ожидания. Мы как, компания ориентированая на финансовый результат наших клиентов, всегда находим понимание в этом вопросе при сотрудничестве с Александром. Всегда рады рекомендовать его услуги нашим друзьям, и надеемся, что он будет продолжать относиться к нам с тем же уважением и теплом как и раньше. Этот мир построен на плечах профессионалов и мы смело можем говорить, что Александр один из них, к чему и мы стремимся.</p>
                         </div>
                     </div>
-                    <div class="rec-more-title">
-                        <div class="rec-more-name">Милов Игорь Сергеевич</div>
-                        <div class="rec-more-post">-Глава ревизионного комитета "Ассоциации спорта Украины"</div>
+                </div>
+            </div>
+        </div>
+        <div  class="mega-main-wrapper">
+            <header class="header none">
+                <div class="header-wrap ">
+                    <div class='box-small-image'>
+                        <img src="images/small-header.jpg" alt="" />
                     </div>
-                </div>
-                <div class="rec-more-desc"><p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям крупнейших клиентов рекламного рынка, готов представить нестандартные решения в своей сфере, но при этом эффективность этих решений не только не снижается, но и предвосхищает все ожидания. Мы как, компания ориентированая на финансовый результат наших клиентов, всегда находим понимание в этом вопросе при сотрудничестве с Александром. Всегда рады рекомендовать его услуги нашим друзьям, и надеемся, что он будет продолжать относиться к нам с тем же уважением и теплом как и раньше. Этот мир построен на плечах профессионалов и мы смело можем говорить, что Александр один из них, к чему и мы стремимся.</p></div>
-             </div>
-        </div>
-    </div>
-</div>
-    <div  class="mega-main-wrapper">
-        <header class="header none">
-
-
-
-<div class="header-wrap ">
-    <div class='box-small-image'>
-        <img src="images/small-header.jpg" alt="" />
-    </div>
-    <div class="flow-form">
-        <div class="inside-image class-hide">
-
-        </div>
-        <div class="inside-preloader ">
-            <div class='box-preloader '>
-                <img src="images/PL-01.GIF" alt="" />
-            </div>
-        </div>
-
-        <div class="inside-swf class-hide">
-            <div class='box-swf '>
-                <video id="video-box" autoplay="true" loop>
-                    <source src="video/ctr.design_1.mp4" type="video/mp4">
-                    <source src="video/ctr.design.webm" type="video/webm">
-                </video>
-            </div>
-        </div>
-    </div>
-
-    <div class="box-main-menu class-main-headed-fix">
-        <a href="index">
-            <div class="logo ">
-                <div class="logo-swf logo-swf-wrap">
-                    <canvas id="canvas1" width="239" height="112" style="background-color:none"></canvas>
-                </div>
-            </div>
-        </a>
-        <div class="socials animate-it">
-            <a href="#"><div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div> </a>
-            <a href="#"><div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div></a>
-            <a href="#"><div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div></a>
-        </div>
-        <div class="block-nav">
-            <span class="sendwich-icon">
-              <span></span>
-            </span>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <span class="nav-table">о нас </span>
-                            <span class="nav-device">о нАС</span>
+                    <div class="flow-form">
+                        <div class="inside-image class-hide">
+                        </div>
+                        <div class="inside-preloader ">
+                            <div class='box-preloader '>
+                                <img src="images/PL-01.GIF" alt="" />
+                            </div>
+                        </div>
+                        <div class="inside-swf class-hide">
+                            <div class='box-swf '>
+                                <video id="video-box" autoplay="true" loop>
+                                    <source src="video/ctr.design_1.mp4" type="video/mp4">
+                                    <source src="video/ctr.design.webm" type="video/webm">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-main-menu class-main-headed-fix">
+                        <a href="index">
+                            <div class="logo ">
+                                <div class="logo-swf logo-swf-wrap">
+                                    <canvas id="canvas1" width="239" height="112" style="background-color:none"></canvas>
+                                </div>
+                            </div>
                         </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="nav-table">работы</span>
-                            <span class="nav-device"><!--НАШИ-->РАБОТЫ</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="nav-table">Рекомендации</span>
-                            <span class="nav-device"><!--НАШИ-->РЕКОМЕНДАЦИИ</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="nav-table">команда</span>
-                            <span class="nav-device"><!--НАША-->КОМАНДА</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="nav-table">блог</span>
-                            <span class="nav-device"><!--НАШ-->БЛОГ</span>
-                        </a>
-                    </li>
-                    <li class="device-nav-item">
-                        <a href="#">
-                            <span class="nav-device">СВЯЗАТЬСЯ С НАМИ</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-
-
-    </div>
-</div>
-        </header><main class="main">
-    <section>
-
-
-<div class="red_section wrapper">
-    <div class="red_section_middle_wrap cfix wrapper-main">
-        <div class="red_section_logo">
-            <embed src="images/red_section_logo.svg" style="width: 520px">
-            <div class="logo-device">
-              <p>CLICKABLE.DESIGN<span>Дизайн на который кликают</span></p>
-            </div>
-        </div>
-        <div class="red_section_middle_as">
-            <div class="red_section_middle_aside aside_left">
-                <p>Студия дизайна «CLICKABLE.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
-                <div class="red_section_button">
-                    <a href="#">
-                        <span>СВЯЗАТЬСЯ С НАМИ</span>
-                    </a>
-                </div>
-            </div>
-            <div class="red_section_middle_aside aside_right">
-                <div class="typed-wrap">
-                    <span class="typed"></span>
-                </div>
-                <div class="red-video-block">
-                      <video id="my-video" class="video-js"
-                      height="389"
-                      width="100%"
-                      controls preload="auto"
-                      poster="images/poster.jpg"
-                      data-setup='{"example_option":true}'>
-
-                       <source src="video/BestofWeb5-HD-Zapatou.mp4" type='video/mp4' />
-                       <source src="video/BestofWeb5-HD-Zapatou.webm" type='video/webm'>
-                       <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
-
-                    </video>
-                </div>
-            </div>
-        </div>
-
-        <div class="red_section_chrome">
-            <embed src="images/red_section_chrome.svg">
-        </div>
-    </div>
-</div>
-    </section>
-    <section>
-
-
-<div class="wrapper promoblock-section">
-    <div class=" wrapper-main promoblock-wrapper animate-section">
-        <div class="device-text-promo">
-             <p>Студия дизайна «CTR.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
-        </div>
-        <div class="promoblock-item animate-it">
-
-            <div class="promoblock-item-content  ">
-
-                <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" >
-                    <g class="outside-cirles">
-                        <circle id="outside-cirle1" cx="160" cy="160" r="130" style="fill:none;stroke:#be3e3e;stroke-width:1"  fill="transparent" />
-                        <circle id="outside-cirle2" cx="160" cy="160" r="120" style="fill:none;stroke:#be3e3e;stroke-width:1" fill="transparent" />
-                        <circle id="outside-cirle3" cx="160" cy="160" r="110" style="fill:none;stroke:#dc5858; stroke-width:1" fill="transparent" />
-                        <circle id="outside-cirle4" cx="160" cy="160" r="100" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
-                    </g>
-                    <g class="small-circles">
-                        <circle id = 'small-circle1' cx="0" cy="0" r="45" stroke="#f0f0f0" stroke-width="5" fill="transparent" ></circle>
-                        <circle id = 'small-circle2' cx="0" cy="0" r="10" stroke="#f0f0f0" stroke-width="7" fill="transparent"></circle>
-                    </g>
-                    <g class="atom-circle">
-                        <circle id="atom-circle" cx="160" cy="160" r="5" stroke="transparent" fill="#fff" />
-                    </g>
-                    <g class="inside-cirles first-cirle">
-                        <ellipse id="first-cirle" cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
-                        <circle cx="96" cy="160" r="6" fill="#fff">
-                            <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
-                            <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="4s" repeatCount="indefinite" />
-                        </circle>
-                    </g>
-                    <g class="inside-cirles second-cirle" transform="rotate(60, 160, 160)">
-                        <ellipse cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
-                        <circle cx="96" cy="160" r="6" fill="#fff">
-                            <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite" />
-                            <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="3s" repeatCount="indefinite" />
-                        </circle>
-                    </g>
-                    <g class="inside-cirles third-cirle" transform="rotate(-60, 160, 160)">
-                        <ellipse cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
-                        <circle cx="96" cy="160" r="6" fill="#fff">
-                            <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite" />
-                            <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="2s" repeatCount="indefinite" />
-                        </circle>
-                    </g>
-
-                    <animate xlink:href="#outside-cirle1" attributeName="r" attributeType="XML" values="130;140;130" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <animate xlink:href="#outside-cirle2" attributeName="r" attributeType="XML" values="120;130;120" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <animate xlink:href="#outside-cirle3" attributeName="r" attributeType="XML" values="110;120;110" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <animate xlink:href="#atom-circle" attributeName="r" attributeType="XML" values="10;13;10" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <animate xlink:href="#small-circle1" attributeName="r" attributeType="XML" values="40;45;40" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <animate xlink:href="#small-circle2" attributeName="r" attributeType="XML" values="12;16;12" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <animate xlink:href="#outside-cirle4" attributeName="r" attributeType="XML" values="100;110;100" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
-
-                    <path id="motionPath" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="0" d=" M 160.00001,60 A 110,100 0 1 1 160,60"/>
-                    <path id="motionPath2" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="0"  d="M 50,200 A 110,110 0 0 1 64.514197,87.451463 110,110 0 0 1 155.96488,40.004232"/>
-                    <animateMotion    xlink:href="#small-circle2" dur="4s" repeatCount="indefinite"  fill="freeze"  >
-                        <mpath xlink:href="#motionPath" />
-                    </animateMotion>
-
-                    <animateMotion xlink:href="#small-circle1" dur="4s" repeatCount="indefinite" fill="freeze"  >
-                         <mpath xlink:href="#motionPath" />
-                    </animateMotion>
-
-
-                    <g fill = "navy">
-                        <text style=" font-size: 20px; font-family: Roboto, sans-serif; font-weight: 900; fill:white;" >
-                            <textPath xlink:href ="#motionPath2">
-                                ОПЫТНАЯ КОМАНДА
-                            </textPath>
-                        </text>
-                    <use x = "0" y = "0" xlink:href = "#motionPath2" stroke = "white" fill = "none"/>
-                    </g>
-                </svg>
-
-            </div>
-            <div class="promoblock-text"> Мы опытная команда <br/> быстрого реагирования</div>
-        </div>
-        <div class="promoblock-item animate-it">
-        <div class="promoblock-item-content ">
-            <svg version="1.1" width="328px" height="328px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
-
-                <polygon id='BGQ3' points="56,39 288,60 268,291 35,271" style="fill:none;stroke:#be3e3e;stroke-width:1"   />
-
-                <polygon id='BGQ2' points="86,19 308,91 237,312 16,240" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
-
-                <polygon id='BGQ1' points="4,214 114,8 320,118 210,324" style="fill:none;stroke:#dc5858; stroke-width:1"  />
-
-                <polygon id='QMain3' points="228,70 257,70 257,100 228,100" style="fill:none;stroke:white;stroke-width:3"  />
-
-                <polygon id='QMain1' points="78,81 245,81 245,245 78,245" style="fill:none;stroke:white;stroke-width:5"  />
-
-                <polygon class='Clock' points="78,81 245,81 245,245 78,245" style="fill:none;stroke:white;stroke-width:5"  />
-
-                <polygon points="162,92  162,108 " style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="162,220 162,236 " style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="89,166  105,166" style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="219,166  235,166" style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="110,218  122,206" style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="110,114  122,126" style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="202,206  214,218" style="fill:none;stroke:white;stroke-width:2"  />
-                <polygon points="202,126 214,114" style="fill:none;stroke:white;stroke-width:2"  />
-
-                <polygon id='Mstrelka' points="160,167 166,167 163,95" style="fill:white;stroke:white;stroke-width:1"  transform="rotate(0) translate(0 0)"/>
-
-                <animateTransform xlink:href="#Mstrelka" attributeName="transform" attributeType="XML" type="rotate"            from="0  163  167" to="360  163 167" dur="10s" begin="0s" repeatCount="indefinite" fill="freeze" />
-
-                <polygon id='Hstrelka' points="160,167 166,167 163,130" style="fill:white;stroke:white;stroke-width:1"  />
-
-                <animateTransform xlink:href="#Hstrelka" attributeName="transform" attributeType="XML" type="rotate"            from="0  163  167" to="360  163 167" dur="60s" begin="0s" repeatCount="indefinite" fill="freeze"/>
-
-                <animateTransform xlink:href="#QMain3" attributeName="transform" attributeType="XML" type="rotate" from="0  242.5 85  " to="360  242.5 85" dur="4s" begin="0s" repeatCount="indefinite" fill="freeze"/>
-
-                <animateTransform xlink:href="#QMain2" attributeName="transform" attributeType="XML" type="rotate" from="0  242.5 85  " to="-360  242.5 85" dur="10s" begin="0s" repeatCount="indefinite" fill="freeze"/>
-
-                <circle id='Ostrelka' cx="163" cy="167" r="5" stroke="white" stroke-width="1" fill="white" />
-
-                <polygon id='QMain2' points="207,51 277,51 277,120 207,120" style="fill:none;stroke:white;stroke-width:6"  />
-
-                <text id='text-cach' x="85" y="270" fill="white"  style=" font-size: 20px;font-family: Roboto, sans-serif; font-weight: 900; ">СЖАТЫЕ СРОКИ</text>
-            </svg>
-        </div>
-            <div class="promoblock-text"> Мы работаем в <br/> очень сжатые сроки </div>
-        </div>
-        <div class="promoblock-item animate-it">
-            <div class="promoblock-item-content ">
-
-                <svg version="1.1" width="290px" height="315px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
-
-
-                    <polygon class='BGtriangle3' points="13,184 195,1 262,250" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
-
-                    <polygon class='BGtriangle2' points="229,280 2,148 228,23" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
-
-                    <polygon class='BGtriangle1' points="8,115 260,60 180,307" style="fill:none;stroke:#dc5858; stroke-width:1"  />
-
-
-                    <polygon id='triangleMain3' points="219,104 229,145 190,135" style="fill:none;stroke:white;stroke-width:3"  />
-
-                    <polygon id='triangleMain1' points="188,31 241,228 42,176" style="fill:none;stroke:white;stroke-width:5"  />
-
-                    <polygon id='nike1' points="125,125 140,140 149,190" style="fill:#ebebeb;stroke:#ebebeb ;stroke-width:1" />
-
-                    <polygon id='nike2' points="140,140 187,90 149,190" style="fill:white;stroke:white;stroke-width:1" />
-
-                    <polygon id='triangleMain2' points="160,144 225,80 249,167" style="fill:none;stroke:white;stroke-width:6"  />
-
-                    <text id='text-cach' x="0" y="78" fill="white" transform="rotate(-44 110,38)"  style=" font-size: 20px;font-family: Roboto, sans-serif; font-weight: 900; line-height: 20px">КАЧЕСТВЕННО</text>
-
-                    <animateTransform
-                        xlink:href="#triangleMain3"
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="rotate"
-                        from="0  212.7 128"
-                        to="360 212.7 128"
-                        dur="6"
-                        begin="0s"  fill="freeze" repeatCount="indefinite"
-                    />
-                    <animateTransform
-                        xlink:href="#triangleMain2"
-                        attributeName="transform"
-                        attributeType="XML"
-                        type="rotate"
-                        from="0  212.7 128"
-                        to="-360 212.7 128"
-                        dur="6"
-                        begin="500ms"  fill="freeze" repeatCount="indefinite"
-                    />
-
-
-                </svg>
-            </div>
-            <div class="promoblock-text">Мы работаем на <br/> качественный результат</div>
-        </div>
-
-    </div>
-</div>  </section>
-    <section>
-
-
-<div class="wrapper works-container">
-    <div class="wrapper-main works-align cfix">
-        <div class="works-mbox left ">
-            <div class="works-item-title  animate-section">
-                  <div class="item-title animate-it">
-                        <div class="title-text"> <span>&#60;МЫ СОЗДАЕМ>   </span></div>
-                  </div>
-            </div>
-            <div class="works-item-box  animate-section">
-                <div class="works-item animate-it">
-                    <div class="item-headed">Баннеры</div>
-                    <div class="item-anim">
-                        <canvas id="canvas4"  width="260" height="280" style="background-color:none"></canvas>
+                        <div class="socials animate-it">
+                            <a href="#">
+                                <div class="vk soc-set"> <img src="images/logo-vk.png" alt="" /> </div>
+                            </a>
+                            <a href="#">
+                                <div class="facebook soc-set"> <img src="images/logo-fb.png"  alt="" /> </div>
+                            </a>
+                            <a href="#">
+                                <div class="google-plus soc-set"> <img src="images/logo-gp.png"  alt="" /> </div>
+                            </a>
+                        </div>
+                        <div class="block-nav">
+                            <span class="sendwich-icon">
+                            <span></span>
+                            </span>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                        <span class="nav-table">о нас </span>
+                                        <span class="nav-device">о нАС</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="nav-table">работы</span>
+                                            <span class="nav-device">
+                                                <!--НАШИ-->РАБОТЫ
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="nav-table">Рекомендации</span>
+                                            <span class="nav-device">
+                                                <!--НАШИ-->РЕКОМЕНДАЦИИ
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="nav-table">команда</span>
+                                            <span class="nav-device">
+                                                <!--НАША-->КОМАНДА
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span class="nav-table">блог</span>
+                                            <span class="nav-device">
+                                                <!--НАШ-->БЛОГ
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="device-nav-item">
+                                        <a href="#">
+                                        <span class="nav-device">СВЯЗАТЬСЯ С НАМИ</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
-                    <div class="item-setting">Разработка <b>HTML</b> и <b>FLASH</b> баннеров c высоким <b>CTR</b>. Адаптация под любые рекламные сети. </div>
-                    <a href="#"><div class="item-button">оформить заявку </div></a>
                 </div>
-                <div class="works-item animate-it">
-                    <div class="item-headed"> Landing page <br />и веб-сайты</div>
-                    <div class="item-anim">
-                        <canvas id="canvas3" width="300" height="280" style="background-color:none"></canvas>
+            </header>
+            <main class="main">
+                <section>
+                    <div class="red_section wrapper">
+                        <div class="red_section_middle_wrap cfix wrapper-main">
+                            <div class="red_section_logo">
+                                <embed src="images/red_section_logo.svg" style="width: 520px">
+                                <div class="logo-device">
+                                    <p>CLICKABLE.DESIGN<span>Дизайн на который кликают</span></p>
+                                </div>
+                            </div>
+                            <div class="red_section_middle_as">
+                                <div class="red_section_middle_aside aside_left">
+                                    <p>Студия дизайна «CLICKABLE.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
+                                    <div class="red_section_button">
+                                        <a href="#contactable">
+                                        <span>СВЯЗАТЬСЯ С НАМИ</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="red_section_middle_aside aside_right">
+                                    <div class="typed-wrap">
+                                        <span class="typed"></span>
+                                    </div>
+                                    <div class="red-video-block">
+                                        <video id="my-video" class="video-js"
+                                            height="389"
+                                            width="100%"
+                                            controls preload="auto"
+                                            poster="images/poster.jpg"
+                                            data-setup='{"example_option":true}'>
+                                            <source src="video/BestofWeb5-HD-Zapatou.mp4" type='video/mp4' />
+                                            <source src="video/BestofWeb5-HD-Zapatou.webm" type='video/webm'>
+                                            <p class="vjs-no-js">Для просмотра этого видео, пожалуйста, включите JavaScript.<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="red_section_chrome">
+                                <embed src="images/red_section_chrome.svg">
+                            </div>
+                        </div>
                     </div>
-                    <div class="item-setting">Разработка посадочных страниц и веб-сайтов с высокой конверсией.</div>
-                    <a href="#"><div class="item-button"> оформить заявку</div></a>
-                </div>
-                <div class="works-item animate-it">
-                    <div class="item-headed">АЙДЕНТИКА</div>
-                    <div class="item-anim">
-                        <canvas id="canvas2" width="254" height="280"   style="background-color:none"></canvas>
+                </section>
+                <section>
+                    <div class="wrapper promoblock-section">
+                        <div class=" wrapper-main promoblock-wrapper animate-section">
+                            <div class="device-text-promo">
+                                <p>Студия дизайна «CTR.DESIGN» предоставляет высококачественные квалифицированные услуги в области создания веб-сайтов, посадочных страниц (landing page) и флеш баннеров. Многолетний опыт и компетентность наших сотрудников позволит вам оформить ваш виртуальный ресурс максимально качественно и быстро.   </p>
+                            </div>
+                            <div class="promoblock-item animate-it">
+                                <div class="promoblock-item-content  ">
+                                    <svg version="1.1" width="320" height="320" class="atom-circle animate-delay active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" >
+                                        <g class="outside-cirles">
+                                            <circle id="outside-cirle1" cx="160" cy="160" r="130" style="fill:none;stroke:#be3e3e;stroke-width:1"  fill="transparent" />
+                                            <circle id="outside-cirle2" cx="160" cy="160" r="120" style="fill:none;stroke:#be3e3e;stroke-width:1" fill="transparent" />
+                                            <circle id="outside-cirle3" cx="160" cy="160" r="110" style="fill:none;stroke:#dc5858; stroke-width:1" fill="transparent" />
+                                            <circle id="outside-cirle4" cx="160" cy="160" r="100" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                                        </g>
+                                        <g class="small-circles">
+                                            <circle id = 'small-circle1' cx="0" cy="0" r="45" stroke="#f0f0f0" stroke-width="5" fill="transparent" ></circle>
+                                            <circle id = 'small-circle2' cx="0" cy="0" r="10" stroke="#f0f0f0" stroke-width="7" fill="transparent"></circle>
+                                        </g>
+                                        <g class="atom-circle">
+                                            <circle id="atom-circle" cx="160" cy="160" r="5" stroke="transparent" fill="#fff" />
+                                        </g>
+                                        <g class="inside-cirles first-cirle">
+                                            <ellipse id="first-cirle" cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                                            <circle cx="96" cy="160" r="6" fill="#fff">
+                                                <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite" />
+                                                <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="4s" repeatCount="indefinite" />
+                                            </circle>
+                                        </g>
+                                        <g class="inside-cirles second-cirle" transform="rotate(60, 160, 160)">
+                                            <ellipse cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                                            <circle cx="96" cy="160" r="6" fill="#fff">
+                                                <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite" />
+                                                <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="3s" repeatCount="indefinite" />
+                                            </circle>
+                                        </g>
+                                        <g class="inside-cirles third-cirle" transform="rotate(-60, 160, 160)">
+                                            <ellipse cx="160" cy="160" rx="55" ry="20" stroke="#f0f0f0" stroke-width="5" fill="transparent" />
+                                            <circle cx="96" cy="160" r="6" fill="#fff">
+                                                <animate attributeName="cx" values="101; 214;  101" keyTimes="0;0.5;1" dur="2s" repeatCount="indefinite" />
+                                                <animate attributeName="cy" values="160; 176; 180; 182; 180; 176; 160; 144; 140; 138; 140; 144; 160" keyTimes="0;0.083;0.166;0.249;0.332;0.415;0.498;0.581;0.664;0.747;0.830;0.913;1" dur="2s" repeatCount="indefinite" />
+                                            </circle>
+                                        </g>
+                                        <animate xlink:href="#outside-cirle1" attributeName="r" attributeType="XML" values="130;140;130" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <animate xlink:href="#outside-cirle2" attributeName="r" attributeType="XML" values="120;130;120" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <animate xlink:href="#outside-cirle3" attributeName="r" attributeType="XML" values="110;120;110" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <animate xlink:href="#atom-circle" attributeName="r" attributeType="XML" values="10;13;10" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <animate xlink:href="#small-circle1" attributeName="r" attributeType="XML" values="40;45;40" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <animate xlink:href="#small-circle2" attributeName="r" attributeType="XML" values="12;16;12" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <animate xlink:href="#outside-cirle4" attributeName="r" attributeType="XML" values="100;110;100" keyTimes="0; 0.5; 1" dur="2s" begin="0s" fill="freeze" repeatCount="indefinite" />
+                                        <path id="motionPath" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="0" d=" M 160.00001,60 A 110,100 0 1 1 160,60"/>
+                                        <path id="motionPath2" fill="none" stroke="none" stroke-width="1" stroke-miterlimit="0"  d="M 50,200 A 110,110 0 0 1 64.514197,87.451463 110,110 0 0 1 155.96488,40.004232"/>
+                                        <animateMotion    xlink:href="#small-circle2" dur="4s" repeatCount="indefinite"  fill="freeze"  >
+                                            <mpath xlink:href="#motionPath" />
+                                        </animateMotion>
+                                        <animateMotion xlink:href="#small-circle1" dur="4s" repeatCount="indefinite" fill="freeze"  >
+                                            <mpath xlink:href="#motionPath" />
+                                        </animateMotion>
+                                        <g fill = "navy">
+                                            <text style=" font-size: 20px; font-family: Roboto, sans-serif; font-weight: 900; fill:white;" >
+                                                <textPath xlink:href ="#motionPath2">
+                                                    ОПЫТНАЯ КОМАНДА
+                                                </textPath>
+                                            </text>
+                                            <use x = "0" y = "0" xlink:href = "#motionPath2" stroke = "white" fill = "none"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="promoblock-text"> Мы опытная команда <br/> быстрого реагирования</div>
+                            </div>
+                            <div class="promoblock-item animate-it">
+                                <div class="promoblock-item-content ">
+                                    <svg version="1.1" width="328px" height="328px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+                                        <polygon id='BGQ3' points="56,39 288,60 268,291 35,271" style="fill:none;stroke:#be3e3e;stroke-width:1"   />
+                                        <polygon id='BGQ2' points="86,19 308,91 237,312 16,240" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
+                                        <polygon id='BGQ1' points="4,214 114,8 320,118 210,324" style="fill:none;stroke:#dc5858; stroke-width:1"  />
+                                        <polygon id='QMain3' points="228,70 257,70 257,100 228,100" style="fill:none;stroke:white;stroke-width:3"  />
+                                        <polygon id='QMain1' points="78,81 245,81 245,245 78,245" style="fill:none;stroke:white;stroke-width:5"  />
+                                        <polygon class='Clock' points="78,81 245,81 245,245 78,245" style="fill:none;stroke:white;stroke-width:5"  />
+                                        <polygon points="162,92  162,108 " style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="162,220 162,236 " style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="89,166  105,166" style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="219,166  235,166" style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="110,218  122,206" style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="110,114  122,126" style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="202,206  214,218" style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon points="202,126 214,114" style="fill:none;stroke:white;stroke-width:2"  />
+                                        <polygon id='Mstrelka' points="160,167 166,167 163,95" style="fill:white;stroke:white;stroke-width:1"  transform="rotate(0) translate(0 0)"/>
+                                        <animateTransform xlink:href="#Mstrelka" attributeName="transform" attributeType="XML" type="rotate"            from="0  163  167" to="360  163 167" dur="10s" begin="0s" repeatCount="indefinite" fill="freeze" />
+                                        <polygon id='Hstrelka' points="160,167 166,167 163,130" style="fill:white;stroke:white;stroke-width:1"  />
+                                        <animateTransform xlink:href="#Hstrelka" attributeName="transform" attributeType="XML" type="rotate"            from="0  163  167" to="360  163 167" dur="60s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+                                        <animateTransform xlink:href="#QMain3" attributeName="transform" attributeType="XML" type="rotate" from="0  242.5 85  " to="360  242.5 85" dur="4s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+                                        <animateTransform xlink:href="#QMain2" attributeName="transform" attributeType="XML" type="rotate" from="0  242.5 85  " to="-360  242.5 85" dur="10s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+                                        <circle id='Ostrelka' cx="163" cy="167" r="5" stroke="white" stroke-width="1" fill="white" />
+                                        <polygon id='QMain2' points="207,51 277,51 277,120 207,120" style="fill:none;stroke:white;stroke-width:6"  />
+                                        <text id='text-cach' x="85" y="270" fill="white"  style=" font-size: 20px;font-family: Roboto, sans-serif; font-weight: 900; ">СЖАТЫЕ СРОКИ</text>
+                                    </svg>
+                                </div>
+                                <div class="promoblock-text"> Мы работаем в <br/> очень сжатые сроки </div>
+                            </div>
+                            <div class="promoblock-item animate-it">
+                                <div class="promoblock-item-content ">
+                                    <svg version="1.1" width="290px" height="315px" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+                                        <polygon class='BGtriangle3' points="13,184 195,1 262,250" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
+                                        <polygon class='BGtriangle2' points="229,280 2,148 228,23" style="fill:none;stroke:#be3e3e;stroke-width:1"  />
+                                        <polygon class='BGtriangle1' points="8,115 260,60 180,307" style="fill:none;stroke:#dc5858; stroke-width:1"  />
+                                        <polygon id='triangleMain3' points="219,104 229,145 190,135" style="fill:none;stroke:white;stroke-width:3"  />
+                                        <polygon id='triangleMain1' points="188,31 241,228 42,176" style="fill:none;stroke:white;stroke-width:5"  />
+                                        <polygon id='nike1' points="125,125 140,140 149,190" style="fill:#ebebeb;stroke:#ebebeb ;stroke-width:1" />
+                                        <polygon id='nike2' points="140,140 187,90 149,190" style="fill:white;stroke:white;stroke-width:1" />
+                                        <polygon id='triangleMain2' points="160,144 225,80 249,167" style="fill:none;stroke:white;stroke-width:6"  />
+                                        <text id='text-cach' x="0" y="78" fill="white" transform="rotate(-44 110,38)"  style=" font-size: 20px;font-family: Roboto, sans-serif; font-weight: 900; line-height: 20px">КАЧЕСТВЕННО</text>
+                                        <animateTransform
+                                            xlink:href="#triangleMain3"
+                                            attributeName="transform"
+                                            attributeType="XML"
+                                            type="rotate"
+                                            from="0  212.7 128"
+                                            to="360 212.7 128"
+                                            dur="6"
+                                            begin="0s"  fill="freeze" repeatCount="indefinite"
+                                            />
+                                        <animateTransform
+                                            xlink:href="#triangleMain2"
+                                            attributeName="transform"
+                                            attributeType="XML"
+                                            type="rotate"
+                                            from="0  212.7 128"
+                                            to="-360 212.7 128"
+                                            dur="6"
+                                            begin="500ms"  fill="freeze" repeatCount="indefinite"
+                                            />
+                                    </svg>
+                                </div>
+                                <div class="promoblock-text">Мы работаем на <br/> качественный результат</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="item-setting">Разработка фирменного стиля, создание логотипа и многое другое.</div>
-                    <a href="#"><div class="item-button"> оформить заявку</div></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>  </section>
-    <section>
-
-
-<div class="blue-form-wrapper shaped wrapper">
-    <div class="wrapper-blue wrapper-main">
-        <div class="blue-form cfix">
-            <div class="blue-from-imageblock">
-                <div class="shapes-wrap">
-                    <div class="shapes"></div>
-                </div>
-                <div class="illustration animate-section">
-                    <div class="mac animate-delay"><embed src="images/img-1.svg" alt=""/></div>
-                    <div class="imac animate-delay"><embed src="images/img-2.svg" alt=""/></div>
-                    <div class="imac-smaller animate-delay"><embed src="images/img-3.svg" alt=""/></div>
-                </div>
-            </div>
-            <div class="form-blue cfix animate-section">
-                <div class="form-logo cfix animate-it">
-                    <embed src="images/blue_form_logo.svg" alt="" style="width: 520px" />
-                </div>
-                <div class="form-logo-device animate-it">
-                    <p>СВЯЖИТЕСЬ С НАМИ ПРЯМО СЕЙЧАС</p>
-                </div>
-                <form action="" method="POST" class="blue-form-valid">
-                    <div class="input-wrap animate-delay">
-                        <input type="text" name="name" placeholder="имя" required="required"/>
+                </section>
+                <section>
+                    <div class="wrapper works-container">
+                        <div class="wrapper-main works-align cfix">
+                            <div class="works-mbox left ">
+                                <div class="works-item-title  animate-section">
+                                    <div class="item-title animate-it">
+                                        <div class="title-text"> <span>&#60;МЫ СОЗДАЕМ>   </span></div>
+                                    </div>
+                                </div>
+                                <div class="works-item-box  animate-section">
+                                    <div class="works-item animate-it">
+                                        <div class="item-headed">Баннеры</div>
+                                        <div class="item-anim">
+                                            <canvas id="canvas4"  width="260" height="280" style="background-color:none"></canvas>
+                                        </div>
+                                        <div class="item-setting">Разработка <b>HTML</b> и <b>FLASH</b> баннеров c высоким <b>CTR</b>. Адаптация под любые рекламные сети. </div>
+                                        <a href="#">
+                                            <div class="item-button">оформить заявку </div>
+                                        </a>
+                                    </div>
+                                    <div class="works-item animate-it">
+                                        <div class="item-headed"> Landing page <br />и веб-сайты</div>
+                                        <div class="item-anim">
+                                            <canvas id="canvas3" width="300" height="280" style="background-color:none"></canvas>
+                                        </div>
+                                        <div class="item-setting">Разработка посадочных страниц и веб-сайтов с высокой конверсией.</div>
+                                        <a href="#">
+                                            <div class="item-button"> оформить заявку</div>
+                                        </a>
+                                    </div>
+                                    <div class="works-item animate-it">
+                                        <div class="item-headed">АЙДЕНТИКА</div>
+                                        <div class="item-anim">
+                                            <canvas id="canvas2" width="254" height="280"   style="background-color:none"></canvas>
+                                        </div>
+                                        <div class="item-setting">Разработка фирменного стиля, создание логотипа и многое другое.</div>
+                                        <a href="#">
+                                            <div class="item-button"> оформить заявку</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="input-wrap animate-delay">
-                        <input type="email" name="mail" placeholder="e-mail" required="required"/>
+                </section>
+                <section>
+                    <div class="blue-form-wrapper shaped wrapper">
+                        <div class="wrapper-blue wrapper-main">
+                            <div  class="blue-form cfix">
+                                <div id="contactable" class="blue-from-imageblock">
+                                    <div class="shapes-wrap">
+                                        <div class="shapes"></div>
+                                    </div>
+                                    <div class="illustration animate-section">
+                                        <div class="mac animate-delay">
+                                            <embed src="images/img-1.svg" alt=""/>
+                                        </div>
+                                        <div class="imac animate-delay">
+                                            <embed src="images/img-2.svg" alt=""/>
+                                        </div>
+                                        <div class="imac-smaller animate-delay">
+                                            <embed src="images/img-3.svg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-blue cfix animate-section">
+                                    <div class="form-logo cfix animate-it">
+                                        <embed src="images/blue_form_logo.svg" alt="" style="width: 520px" />
+                                    </div>
+                                    <div class="form-logo-device animate-it">
+                                        <p>СВЯЖИТЕСЬ С НАМИ ПРЯМО СЕЙЧАС</p>
+                                    </div>
+                                    <form action="" method="POST" class="blue-form-valid">
+                                        <div class="input-wrap animate-delay">
+                                            <input type="text" name="name" placeholder="имя" required="required"/>
+                                        </div>
+                                        <div class="input-wrap animate-delay">
+                                            <input type="email" name="mail" placeholder="e-mail" required="required"/>
+                                        </div>
+                                        <div class="input-wrap last-input animate-delay">
+                                            <input type="text" name="message" placeholder="ваше сообщение" required="required"/>
+                                        </div>
+                                        <div class="input-wrap button-submit animate-delay">
+                                            <button type="submit" class="sendform">
+                                            <span>Отправить</span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="input-wrap last-input animate-delay">
-                        <input type="text" name="message" placeholder="ваше сообщение" required="required"/>
-                    </div>
-                    <div class="input-wrap button-submit animate-delay">
-                        <button type="submit" class="sendform">
-                            <span>Отправить</span>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>  </section>
-
-</main>     <div class="footer_placeholder"></div>
-        <footer class="footer">
-                            <!-- only on index page-->
+                </section>
+            </main>
+            <div class="footer_placeholder"></div>
+            <footer class="footer">
+                <!-- only on index page-->
                 <script src="http://vjs.zencdn.net/5.0.0/video.js"></script>
-                        <div class="footer-container">
-                <div class="foot-content cfix">
-                    <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
-                                <a class="magic-wrapp" href="#">
+                <div class="footer-container">
+                    <div class="foot-content cfix">
+                        <div class="foot-mbox">
+                            <ul>
+                                <li>
+                                    <a class="magic-wrapp" href="#">
                                     <span data-hover="о нас">о нас&#160;&#160;</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a class="magic-wrapp" href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="magic-wrapp" href="#">
                                     <span data-hover="работы">работы</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a class="magic-wrapp" href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="magic-wrapp" href="#">
                                     <span data-hover="рекомендации">рекомендации</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a class="magic-wrapp" href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="magic-wrapp" href="#">
                                     <span data-hover="команда">команда</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a class="magic-wrapp" href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="magic-wrapp" href="#">
                                     <span data-hover="блог">блог</span>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a class="magic-wrapp" href="#">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="magic-wrapp" href="#">
                                     <span data-hover="связаться с нами">связаться с нами</span>
-                                </a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="foot-mbox">
+                            <div class="foot-mbox-align">
+                                <div class="foot-menu-element">
+                                    <a href="skype:a.lymarchuk" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-sk" src="images/icon-skype.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="a.lymarchuk">a.lymarchuk</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="mailto:a.lymarchuk@gmail.com" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-ml" src="images/icon-mail.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="a.lymarchuk@gmail.com">a.lymarchuk@gmail.com</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="tel:+38(093)9999999" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-ph" src="images/icon-phone.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="+38 (093) 999 99 99">+38 (093) 999 99 99</span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
-                                <a href="skype:a.lymarchuk" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-sk" src="images/icon-skype.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span data-hover="a.lymarchuk">a.lymarchuk</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="mailto:a.lymarchuk@gmail.com" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-ml" src="images/icon-mail.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span data-hover="a.lymarchuk@gmail.com">a.lymarchuk@gmail.com</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="tel:+38(093)9999999" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-ph" src="images/icon-phone.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span data-hover="+38 (093) 999 99 99">+38 (093) 999 99 99</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="foot-mbox">
-                        <div class="foot-mbox-align">
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-vk" src="images/icon-vk.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span data-hover="vkontakte">vkontakte</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-fb" src="images/icon-fb.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span data-hover="facebook">facebook</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="foot-menu-element">
-                                <a href="#" class="foot-icon-box">
-                                    <div class="icon-box">
-                                        <img class="ic-gg" src="images/icon-gg.svg">
-                                    </div>
-                                    <div class="icon-text">
-                                        <span data-hover="google plus">google plus&nbsp;</span>
-                                    </div>
-                                </a>
+                        <div class="foot-mbox">
+                            <div class="foot-mbox-align">
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-vk" src="images/icon-vk.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="vkontakte">vkontakte</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-fb" src="images/icon-fb.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="facebook">facebook</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-menu-element">
+                                    <a href="#" class="foot-icon-box">
+                                        <div class="icon-box">
+                                            <img class="ic-gg" src="images/icon-gg.svg">
+                                        </div>
+                                        <div class="icon-text">
+                                            <span data-hover="google plus">google plus&nbsp;</span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="foot-copyright">
-                    <span>© CLICKABLE.DESIGN studio 2016</span>
+                        <div class="foot-copyright">
+                            <span>© CLICKABLE.DESIGN studio 2016</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-    </div>
-</body>
+            </footer>
+        </div>
+    </body>
 </html>
