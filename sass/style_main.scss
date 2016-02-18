@@ -249,6 +249,7 @@
 
 }
 @media screen and (max-width: 767px){
+    
 
     /* outher header */
     .other-header-wrap {position:static;
@@ -269,12 +270,12 @@
         }
     }
 
-
+.header .header-wrap .box-main-menu > a { padding-top: 0px;}
     /* /outher header */
 
 }
 @media screen and (max-width: 666px){
-
+.header .header-wrap .box-main-menu > a { padding-top: 140px;}
 
     /* recomendations */
 
@@ -292,6 +293,8 @@
 @media screen and (max-width: 479px){
 
     /* recomendations */
+    .red_section .red_section_middle_wrap .red_section_logo .logo-device p {font-size: 26rem;}
+    .header .header-wrap .box-main-menu > a { padding-top: 100px;}
 
     .recomendation-slider{
         .slick-arrow{

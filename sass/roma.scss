@@ -129,7 +129,7 @@
 		&:before{display: block; content: ' ';position: absolute;width: 148rem;height: 145rem;border-radius: 50%;border: 1rem solid #686868;top: -8%;left: -8%;}
 		&:after{display: block; content: ' ';position: absolute;width: 160rem;height: 157rem;border-radius: 50%;border: 1rem solid #545454;top: -13%;left: -13%;}
 	}
-	.video-desc {position: absolute;font-family: 'Gotham', sans-serif;font-weight: 700;font-size: 45rem;text-transform: uppercase;width: 30%;line-height: 1.2;top: 30%;left: 5%;}
+	.video-desc {position: absolute;font-family: 'Roboto', sans-serif;font-weight: 700;font-size: 45rem;text-transform: uppercase;width: 30%;line-height: 1.2;top: 30%;left: 5%;}
 	.vjs-play-control, .vjs-fullscreen-control,.vjs-volume-menu-button,.vjs-remaining-time{display: none!important;}
 	.vjs-progress-control{width: 75%!important; margin: 0 auto!important;flex:inherit!important;}
 	.vjs-control-bar{background-color: transparent!important;}
@@ -175,7 +175,7 @@
 		.our-work-item{width:25%;float: left;position: relative;z-index:0;-webkit-perspective: 1700rem;-moz-perspective: 1700rem;perspective: 1700rem;-webkit-perspective-origin: 0 50%;-moz-perspective-origin: 0 50%;perspective-origin: 0 50%;
 			img{max-width: 100%;}
 			.our-work-desc{position: absolute;background-color: #353535;top: 0rem;z-index:9999;width: 50%;min-height: 100%;padding-left: 10rem;padding-top: 10rem;box-sizing:border-box;transition: transform 500ms ease; -moz-transition: transform 500ms ease; -webkit-transition: transform 500ms ease; -ms-transition: transform 500ms ease;max-height: 212rem;transform-origin: 0 0;-ms-transform-origin: 0 0;-webkit-transform-origin: 0 0;-moz-transform-origin: 0 0;transform: rotateY(-90deg);-ms-transform: rotateY(-90deg);-webkit-transform: rotateY(-90deg);-moz-transform: rotateY(-90deg);
-				h2{text-align: left;text-transform: uppercase;font-family: 'Gotham',sans-serif; font-weight: 900;color: #fff;font-size: 22rem;margin-bottom: 20rem;}
+				h2{text-align: left;text-transform: uppercase;font-family: 'Roboto',sans-serif; font-weight: 900;color: #fff;font-size: 22rem;margin-bottom: 20rem;}
 				p{font-family: 'Roboto',sans-serif;font-size: 18rem;color: #fff;word-wrap: break-word;padding-right: 10rem;}
 				a{position: absolute;bottom: 10rem; right: 20rem;text-transform: uppercase;font-family: 'Roboto',sans-serif;font-size: 14rem;text-decoration: none;color: #fff;
 					&:hover{
@@ -257,7 +257,7 @@
 		.red_section_middle_wrap{padding-top: 70rem;
 			.red_section_logo{padding-left: 0;
 				.logo-device{display: block;
-					p{font-family: 'Gotham'; font-weight: 900; font-size: 52rem;color: #fff;text-align: center;
+					p{font-family: 'Roboto'; font-weight: 900; font-size: 52rem;color: #fff;text-align: center;
 						span{display: block;font-family: 'Roboto', sans-serif; font-size: 18rem;text-align: center;color: #fff;text-transform: uppercase;font-weight: normal;}
 					}
 				}
