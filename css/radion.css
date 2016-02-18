@@ -100,7 +100,7 @@
   color: #303030;
   font-size: 25px;
   font-weight: 900;
-  font-family: 'Gotham';
+  font-family: 'Roboto';
 }
 
 /*/title-top*/
@@ -282,7 +282,7 @@
 
 .scroll-top .scroll-top-img span {
   font-weight: 900;
-  font-family: 'Gotham';
+  font-family: 'Roboto';
   font-size: 15px;
   color: white;
   padding-top: 33px;
