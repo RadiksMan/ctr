@@ -22,6 +22,9 @@
           <? if($act == 'our_work'){?>
                           /  НАШи работы
           <? } ?>
+          <? if($act == 'blog_in'){?>
+                          /  НАШ БЛОГ
+          <? } ?>
   </div>
     <div class="box-main-menu cfix animate-section">
         <a href="index">

@@ -129,10 +129,10 @@
   color: #fff;
   border-radius: 4rem;
   cursor: pointer;
-  transition: background-color 500ms ease , color 500ms ease;
-  -moz-transition: background-color 500ms ease , color 500ms ease;
-  -webkit-transition: background-color 500ms ease , color 500ms ease;
-  -ms-transition: background-color 500ms ease , color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
+  -moz-transition: background-color 500ms ease, color 500ms ease;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  -ms-transition: background-color 500ms ease, color 500ms ease;
 }
 
 .blue-form-wrapper form .input-wrap button span {
@@ -202,10 +202,8 @@
   -webkit-transform: translate(-300%, 50%);
   -moz-transform: translate(-300%, 50%);
   -ms-transform: translate(-300%, 50%);
-  transition: opacity 3s ease, -webkit-transform 1s ease;
   transition: opacity 3s ease, transform 1s ease;
-  transition: opacity 3s ease, transform 1s ease, -webkit-transform 1s ease;
-  -webkit-transition: opacity 3s ease, transform 1s ease;
+  -webkit-transition: opacity 3s ease, -webkit-transform 1s ease;
   -moz-transition: opacity 3s ease, transform 1s ease;
   -ms-transition: opacity 3s ease, transform 1s ease;
   transition-delay: 1s;
@@ -228,10 +226,8 @@
   -webkit-transform: translate(50%, 50%);
   -moz-transform: translate(50%, 50%);
   -ms-transform: translate(50%, 50%);
-  transition: opacity 1s ease, -webkit-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
-  transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
-  -webkit-transition: opacity 1s ease, transform 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
   -moz-transition: opacity 1s ease, transform 1s ease;
   -ms-transition: opacity 1s ease, transform 1s ease;
 }
@@ -250,10 +246,8 @@
   -webkit-transform: translate(30%, 50%);
   -moz-transform: translate(30%, 50%);
   -ms-transform: translate(30%, 50%);
-  transition: opacity 1s ease, -webkit-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
-  transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
-  -webkit-transition: opacity 1s ease, transform 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
   -moz-transition: opacity 1s ease, transform 1s ease;
   -ms-transition: opacity 1s ease, transform 1s ease;
   transition-delay: 100ms;
@@ -271,11 +265,9 @@
 }
 
 .vjs-control-text {
-  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
-  transition: transform 1s ease, -webkit-transform 1s ease;
   -moz-transition: transform 1s ease;
-  -webkit-transition: transform 1s ease;
+  -webkit-transition: -webkit-transform 1s ease;
   -ms-transition: transform 1s ease;
 }
 
@@ -473,7 +465,7 @@
 
 .video-desc {
   position: absolute;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 45rem;
   text-transform: uppercase;
@@ -586,10 +578,10 @@
 
 .red_section_button a {
   border: 2rem solid #fff;
-  transition: background-color 500ms ease , color 500ms ease;
-  -moz-transition: background-color 500ms ease , color 500ms ease;
-  -webkit-transition: background-color 500ms ease , color 500ms ease;
-  -ms-transition: background-color 500ms ease , color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
+  -moz-transition: background-color 500ms ease, color 500ms ease;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  -ms-transition: background-color 500ms ease, color 500ms ease;
 }
 
 .red_section_button a:hover {
@@ -647,11 +639,9 @@
   padding-left: 10rem;
   padding-top: 10rem;
   box-sizing: border-box;
-  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
-  transition: transform 500ms ease, -webkit-transform 500ms ease;
   -moz-transition: transform 500ms ease;
-  -webkit-transition: transform 500ms ease;
+  -webkit-transition: -webkit-transform 500ms ease;
   -ms-transition: transform 500ms ease;
   max-height: 212rem;
   transform-origin: 0 0;
@@ -667,7 +657,7 @@
 .our-works-wrap .our-works .our-work-item .our-work-desc h2 {
   text-align: left;
   text-transform: uppercase;
-  font-family: 'Gotham',sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 900;
   color: #fff;
   font-size: 22rem;
@@ -903,7 +893,7 @@
     display: block;
   }
   .red_section .red_section_middle_wrap .red_section_logo .logo-device p {
-    font-family: 'Gotham';
+    font-family: 'Roboto';
     font-weight: 900;
     font-size: 52rem;
     color: #fff;
