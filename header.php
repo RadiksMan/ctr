@@ -71,6 +71,7 @@
 	<script  src="js/anim1/index.js"></script>
 	<script  src="js/anim2/index.js"></script>
 	<script  src="js/anim3/zombie.js"></script>
+	<script  src="js/404_alien_scene.js"></script>
 
 	<script type="text/javascript">
 	// тексты typed js
@@ -130,7 +131,7 @@
 	<?partial('zHiddenBlock');?>
 
 	<div  class="mega-main-wrapper">
-		<header class="header <? if($act == "index" || $act == "none"){echo $act;} ?>">
+		<header class="header <? if($act == "index" || $act == "none"){echo $act;} ?> <? if($act == "page404" ){echo $act;} ?>">
 
 			<?php if($act == "index" || $act == "none"){
 				partial('mainHeader');
