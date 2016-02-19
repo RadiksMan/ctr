@@ -5,6 +5,7 @@
   padding-bottom: 9.4%;
   z-index: 1;
   margin-top: -138rem;
+  overflow: hidden;
 }
 
 .blue-form-wrapper .wrapper-blue {

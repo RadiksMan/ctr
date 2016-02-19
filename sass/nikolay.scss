@@ -214,7 +214,10 @@
     }
     .header.page404 .header-wrap .box-main-menu .block-nav-other-header,
     .header.page404 .other-header-wrap .box-main-menu .socials.class-for-fix {display: none;}
-    section.page404 + .footer_placeholder + footer.footer .footer-container{background-color: #ea4f4f;}
+    section.page404 + .footer_placeholder + footer.footer .footer-container{background-color: #ea4f4f;
+        .foot-content .foot-copyright span { color: #ae3838;}
+    }
+/*END 404 */
     @media screen and (max-width: 768px){
         section.page404{ margin-top: -211px;
             .page404-align{

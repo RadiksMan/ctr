@@ -536,6 +536,11 @@ section.page404 + .footer_placeholder + footer.footer .footer-container {
   background-color: #ea4f4f;
 }
 
+section.page404 + .footer_placeholder + footer.footer .footer-container .foot-content .foot-copyright span {
+  color: #ae3838;
+}
+
+/*END 404 */
 @media screen and (max-width: 768px) {
   section.page404 {
     margin-top: -211px;
