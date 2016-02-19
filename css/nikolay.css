@@ -65,6 +65,7 @@
   display: inline-block;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element span:before, .footer-container .foot-content .foot-mbox .foot-mbox-align li span:before, .footer-container .foot-content .foot-mbox ul .foot-menu-element span:before, .footer-container .foot-content .foot-mbox ul li span:before {
@@ -160,8 +161,9 @@
   left: 0;
   padding: 0;
   box-shadow: 0 0 0 2px #fff;
-  transition: -webkit-transform 0.2s, opacity 0.2s;
+  transition: opacity 0.2s, -webkit-transform 0.2s;
   transition: transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s, -webkit-transform 0.2s;
 }
 
 .footer-container .foot-content .foot-mbox .foot-mbox-align .foot-menu-element .foot-icon-box .icon-text, .footer-container .foot-content .foot-mbox .foot-mbox-align li .foot-icon-box .icon-text, .footer-container .foot-content .foot-mbox ul .foot-menu-element .foot-icon-box .icon-text, .footer-container .foot-content .foot-mbox ul li .foot-icon-box .icon-text {

@@ -60,7 +60,9 @@
   -webkit-transform: translate(0, 100%);
   -ms-transform: translate(0, 100%);
   -moz-transform: translate(0, 100%);
+  transition: opacity 500ms ease, -webkit-transform 300ms ease;
   transition: opacity 500ms ease, transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease, -webkit-transform 300ms ease;
   -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
   -moz-transition: opacity 500ms ease, transform 300ms ease;
   -ms-transition: opacity 500ms ease, transform 300ms ease;
@@ -110,8 +112,10 @@
   color: #fff;
   line-height: 24rem;
   opacity: 0;
+  transition: opacity 500ms ease, -webkit-transform 300ms ease;
   transition: opacity 500ms ease, transform 300ms ease;
-  -webkit-transition: opacity 500ms ease, -webkit-transform 300ms ease;
+  transition: opacity 500ms ease, transform 300ms ease, -webkit-transform 300ms ease;
+  -webkit-transition: opacity 500ms ease, transform 300ms ease;
   -moz-transition: opacity 500ms ease, transform 300ms ease;
   -ms-transition: opacity 500ms ease, transform 300ms ease;
 }
@@ -178,8 +182,10 @@
   border: none;
   cursor: pointer;
   opacity: 0;
+  transition: background-color 300ms ease, opacity 500ms ease 500ms, -webkit-transform 300ms ease 500ms;
   transition: background-color 300ms ease, transform 300ms ease 500ms, opacity 500ms ease 500ms;
-  -webkit-transition: background-color 300ms ease, -webkit-transform 300ms ease 500ms, opacity 500ms ease 500ms;
+  transition: background-color 300ms ease, transform 300ms ease 500ms, opacity 500ms ease 500ms, -webkit-transform 300ms ease 500ms;
+  -webkit-transition: background-color 300ms ease, transform 300ms ease 500ms, opacity 500ms ease 500ms;
   -moz-transition: background-color 300ms ease, transform 300ms ease 500ms, opacity 500ms ease 500ms;
   -ms-transition: background-color 300ms ease, transform 300ms ease 500ms, opacity 500ms ease 500ms;
 }
@@ -419,8 +425,9 @@
   left: 0;
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
-  transition: left 300ms ease, top 300ms ease, bottom 300ms ease, -webkit-transform 300ms ease, background-color 300ms ease;
+  transition: left 300ms ease, top 300ms ease, bottom 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
   transition: left 300ms ease, top 300ms ease, bottom 300ms ease, transform 300ms ease, background-color 300ms ease;
+  transition: left 300ms ease, top 300ms ease, bottom 300ms ease, transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
 }
 
 .sendwich-icon span:before {
@@ -654,10 +661,16 @@
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header nav ul li a, .header .header-wrap .box-main-menu .block-nav nav ul li a {
     font-size: 24rem;
   }
+  .header .header-wrap .box-main-menu > a {
+    padding-top: 0px;
+  }
   /* /outher header */
 }
 
 @media screen and (max-width: 666px) {
+  .header .header-wrap .box-main-menu > a {
+    padding-top: 140px;
+  }
   /* recomendations */
   .recomendations-wrapper:before {
     left: -145%;
@@ -677,6 +690,12 @@
 
 @media screen and (max-width: 479px) {
   /* recomendations */
+  .red_section .red_section_middle_wrap .red_section_logo .logo-device p {
+    font-size: 26rem;
+  }
+  .header .header-wrap .box-main-menu > a {
+    padding-top: 100px;
+  }
   .recomendation-slider .slick-arrow.slick-prev {
     left: calc(50% - 60rem);
   }
