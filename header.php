@@ -33,8 +33,8 @@
 	<!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
 	<script src="js/jquery.znice.js" type="text/javascript"></script>-->
 
-	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
-	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="all" />
+	<script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>
 
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>

@@ -190,8 +190,8 @@
 
 				}
 			}
-			&.active-work{z-index: 9999;
-				&:hover .our-work-desc{transform: rotateY(0deg);-ms-transform: rotateY(0deg);-moz-transform: rotateY(0deg);-webkit-transform: rotateY(0deg);z-index: 9999;}
+			&:hover{z-index: 9999;
+				.our-work-desc{transform: rotateY(0deg);-ms-transform: rotateY(0deg);-moz-transform: rotateY(0deg);-webkit-transform: rotateY(0deg);z-index: 9999;}
 			}
 		}
 	}

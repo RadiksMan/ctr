@@ -8,21 +8,19 @@
         </div>
     </div>
 
-    <div id="rec_more">
-        <div class="rec-more">
-             <div class="rec_more">
-             	<div class="rec-more-top cfix">
-             		<div class="rec-more-img-wrap">
-             			<div class="rec-more-img">
-             				<img src="images/user-foto1.png" alt=""/>
-             			</div>
-             		</div>
-             		<div class="rec-more-title">
-                        <div class="rec-more-name">Милов Игорь Сергеевич</div>
-                        <div class="rec-more-post">-Глава ревизионного комитета "Ассоциации спорта Украины"</div>
-                    </div>
-             	</div>
-                <div class="rec-more-desc"><p>Гордимся опытом работы с Александром, при наших нестандартных просьбах в подходе к рекламным компаниям крупнейших клиентов рекламного рынка, готов представить нестандартные решения в своей сфере, но при этом эффективность этих решений не только не снижается, но и предвосхищает все ожидания. Мы как, компания ориентированая на финансовый результат наших клиентов, всегда находим понимание в этом вопросе при сотрудничестве с Александром. Всегда рады рекомендовать его услуги нашим друзьям, и надеемся, что он будет продолжать относиться к нам с тем же уважением и теплом как и раньше. Этот мир построен на плечах профессионалов и мы смело можем говорить, что Александр один из них, к чему и мы стремимся.</p></div>
+    <div id="worck-pop">
+        <div class="worck-pop">
+             <div class="worck-pop-wrapp">
+                <iframe src="popup_content/banners/glad/index.html">
+                         Ваш браузер не поддерживает плавающие фреймы!
+                </iframe>
+             </div>
+        </div>
+    </div>
+    <div id="worck-pop2">
+        <div class="worck-pop">
+             <div class="worck-pop-wrapp">
+               <img src="popup_content/site/03.jpg" alt="">
              </div>
         </div>
     </div>

@@ -11,7 +11,7 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">
+					<a class="various" data-fancybox-type="iframe" href="popup_content/banners/glad/index.html">
 					    <span class="our-works-link-text">Подробнее</span>
 					    <span class="our-works-link-icon">&raquo;</span>
 					</a>
@@ -24,7 +24,7 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">
+					<a class="various" href="popup_content/site/03.jpg">
 					    <span class="our-works-link-text">Подробнее</span>
 					    <span class="our-works-link-icon">&raquo;</span>
 					</a>
@@ -37,7 +37,7 @@
 				<div class="our-work-desc">
 					<h2>Adindex</h2>
 					<p>Лендинг сервисов AdIndex</p>
-					<a href="#">
+					<a class="various" data-fancybox-type="iframe" href="popup_content/banners/glad/index.html">
 					    <span class="our-works-link-text">Подробнее</span>
 					    <span class="our-works-link-icon">&raquo;</span>
 					</a>

@@ -744,11 +744,11 @@
   -webkit-animation-timing-function: linear;
 }
 
-.our-works-wrap .our-works .our-work-item.active-work {
+.our-works-wrap .our-works .our-work-item:hover {
   z-index: 9999;
 }
 
-.our-works-wrap .our-works .our-work-item.active-work:hover .our-work-desc {
+.our-works-wrap .our-works .our-work-item:hover .our-work-desc {
   transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);

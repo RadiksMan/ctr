@@ -60,10 +60,10 @@ function validationCall(form){
         $.fancybox.close("#call_success");
     },2000);
     $('form').trigger("reset");
-}
+    }
 }
 
-function ourworkhover(){
+/*function ourworkhover(){
     var Timer = 0;
     var animation = false;
 
@@ -90,7 +90,7 @@ function ourworkhover(){
 
     }
     );
-}
+}*/
 
 
 $(document).on('mouseenter', '.vjs-big-play-button', function(){
@@ -105,12 +105,20 @@ $(document).ready(function(){
 	typedtext();
     removeTitleVideo();
     validate('.blue-form-valid', {submitFunction:validationCall});
+    $(".various").fancybox({
+        fitToView   : true,
+        autoSize    : true,
+        openEffect  : 'none',
+        closeEffect : 'none',
+        scrolling : 'auto',
+        preload   : true
+    });
 
     $(".recomendation-link a").fancybox({
         fitToView       :   true,
         autoSize        :   true
     });
-    ourworkhover();
+
 });
 $(window).load(function(){
     $('#my-video').append('<div class="video-desc"><p>Видео</p><p>о студии<p> <p>CLICKABLE.DESIGN</p></div>');
