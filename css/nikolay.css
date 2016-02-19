@@ -494,3 +494,65 @@
     margin-top: -75rem;
   }
 }
+
+/*404*/
+section.page404 {
+  margin-top: -140px;
+  position: relative;
+}
+
+section.page404 .page404-align {
+  background-color: transparent;
+  background-image: url(../images/bg404.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+section.page404 .page404-align .img {
+  width: 100%;
+  text-align: center;
+  z-index: 60;
+  padding: 104px 0 157px;
+}
+
+section.page404 .page404-align .canv-404-wrap {
+  position: absolute;
+  z-index: 50;
+  top: -39px;
+  width: 100%;
+}
+
+.header.page404 .header-wrap .box-main-menu .block-nav-other-header,
+.header.page404 .other-header-wrap .box-main-menu .socials.class-for-fix {
+  display: none;
+}
+
+section.page404 + .footer_placeholder + footer.footer .footer-container {
+  background-color: #ea4f4f;
+}
+
+@media screen and (max-width: 768px) {
+  section.page404 {
+    margin-top: -211px;
+  }
+  section.page404 .page404-align .img {
+    padding: 175px 20px 150px;
+  }
+  section.page404 .page404-align .canv-404-wrap {
+    position: absolute;
+    z-index: 50;
+    top: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section.page404 .page404-align .img {
+    padding: 175px 20px 229px;
+  }
+}
+
+/*END 404*/

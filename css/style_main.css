@@ -654,16 +654,10 @@
   .header .header-wrap .box-main-menu .block-nav.block-nav-other-header nav ul li a, .header .header-wrap .box-main-menu .block-nav nav ul li a {
     font-size: 24rem;
   }
-  .header .header-wrap .box-main-menu > a {
-    padding-top: 0px;
-  }
   /* /outher header */
 }
 
 @media screen and (max-width: 666px) {
-  .header .header-wrap .box-main-menu > a {
-    padding-top: 140px;
-  }
   /* recomendations */
   .recomendations-wrapper:before {
     left: -145%;
@@ -683,12 +677,6 @@
 
 @media screen and (max-width: 479px) {
   /* recomendations */
-  .red_section .red_section_middle_wrap .red_section_logo .logo-device p {
-    font-size: 26rem;
-  }
-  .header .header-wrap .box-main-menu > a {
-    padding-top: 100px;
-  }
   .recomendation-slider .slick-arrow.slick-prev {
     left: calc(50% - 60rem);
   }

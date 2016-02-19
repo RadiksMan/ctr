@@ -126,7 +126,32 @@
         createjs.Ticker.addEventListener("tick", stage);
     }
 
+var canvas99, stage99, exportRoot99;
 
+function init99() {
+    canvas99 = document.getElementById("404_page");
+    images = images||{};
+
+    var loader = new createjs.LoadQueue(false);
+    loader.addEventListener("fileload", handleFileLoad99);
+    loader.addEventListener("complete", handleComplete99);
+    loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad99(evt) {
+    if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete99(evt) {
+    exportRoot99 = new lib._404_alien_scene();
+
+    stage99 = new createjs.Stage(canvas99);
+    stage99.addChild(exportRoot99);
+    stage99.update();
+
+    createjs.Ticker.setFPS(lib.properties.fps);
+    createjs.Ticker.addEventListener("tick", stage99);
+}
 
 
 
@@ -136,5 +161,6 @@ $(window).load(function(){
      if(($('#canvas2').length)>0){init2();};
      if(($('#canvas3').length)>0){init3();};
      if(($('#canvas4').length)>0){init4();};
+     if(($('#404_page').length)>0){init99();};
 });
 
