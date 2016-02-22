@@ -229,6 +229,22 @@
   padding-top: 37px;
 }
 
+.blog_page .middle_social_wrap .buttonize {
+  float: left;
+}
+
+.blog_page .middle_social_wrap .buttonize a {
+  font-size: 34px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  color: #444;
+  text-decoration: none;
+}
+
+.blog_page .middle_social_wrap .buttonize a:hover {
+  color: #ccc;
+}
+
 .blog_page .middle_social_item {
   width: 41px;
   height: 41px;

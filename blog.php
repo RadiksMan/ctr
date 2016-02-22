@@ -34,8 +34,10 @@
                                                 <p>С другой стороны консультация с широким активом требуют определения и уточнения новых предложений. Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание систем массового участия.</p>
                                             </div>
                                         </div>
-                                        <div class="middle_social">
+                                        <div class="middle_social cfix">
+
                                             <div class="middle_social_wrap">
+                                                 <div class="buttonize"><a href="#">подробнее</a></div>
                                                 <div class="middle_social_item">
                                                     <a href="#">
                                                         <img src="images/blog_social_1.png" alt="">

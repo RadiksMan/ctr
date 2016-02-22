@@ -60,7 +60,13 @@
     .top_item_time{float: right;}
     .top_item_time{font-size: 34px;font-family: "Roboto";color: white;}
     .middle_text{line-height: 18rem;max-width: 610px;padding-top: 3px;}
-    .middle_social_wrap{text-align: right;padding-top: 37px;}
+    .middle_social_wrap{text-align: right;padding-top: 37px;
+        .buttonize{float:left;
+            a{font-size: 34px;font-family: "Roboto"; text-transform: uppercase; color:#444; text-decoration: none;
+                &:hover{color:#ccc;}
+            }
+        }
+    }
     .middle_social_item{width: 41px;height: 41px;border-radius: 50%;border:2px solid #a1a1a1;display: inline-block;margin-left: 7px;transition:all ease-out .3s;
         &:hover{opacity: .65;}
     }
