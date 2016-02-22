@@ -136,7 +136,7 @@
 
 .header .header-wrap .box-main-menu .block-nav nav ul li{
     .nav-device{display: none;}
-    &.device-nav-item{display: none;}
+    &:last-child{display: none;}
 }
 
 .logo-page-wrap-text{display: none;}
@@ -180,7 +180,7 @@
                                     .nav-table{display: none;}
                                     .nav-device{display: block;}
                                 }
-                                &.device-nav-item{display: block;
+                                &:last-child{display: block;
                                     a{color:#ff4e4e;}
                                 }
                             }
@@ -249,7 +249,7 @@
 
 }
 @media screen and (max-width: 767px){
-    
+
 
     /* outher header */
     .other-header-wrap {position:static;

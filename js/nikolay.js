@@ -163,4 +163,18 @@ $(window).load(function(){
      if(($('#canvas4').length)>0){init4();};
      if(($('#404_page').length)>0){init99();};
 });
-
+$(document).ready(function() {
+    $('.red_section_button a').click(function(event) {
+        event.preventDefault();
+        scrollToContacts();
+    });
+    $('header .block-nav ul li:last-child').click(function(event) {
+        event.preventDefault();
+        scrollToContacts();
+    });
+});
+function scrollToContacts(){
+    var scrlr =$('.blue-form-wrapper').offset().top;
+    var body = $("body, html");
+    body.animate({scrollTop:scrlr}, '800');
+}
