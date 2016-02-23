@@ -233,10 +233,10 @@
 .typed-wrap{top: -163px;}
 }
 @media screen and (max-width: 1366px){
-	.typed-wrap{top: -160px;left: 21%;}
+	.typed-wrap{top: -154px;left: 21%;}
 	.video-desc{width: 36%;}
 }
-
+@media screen and (max-width: 1386px){.typed-wrap{top: -154px;left: 21%;}}
 @media screen and (max-width: 1280px){
 	.typed-wrap{top: -155px;left: 22%;}
 	.red_section .red_section_logo{padding-left: 0;}

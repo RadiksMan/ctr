@@ -855,11 +855,18 @@
 
 @media screen and (max-width: 1366px) {
   .typed-wrap {
-    top: -160px;
+    top: -154px;
     left: 21%;
   }
   .video-desc {
     width: 36%;
+  }
+}
+
+@media screen and (max-width: 1386px) {
+  .typed-wrap {
+    top: -154px;
+    left: 21%;
   }
 }
 
