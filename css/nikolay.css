@@ -556,9 +556,12 @@ section.page404 + .footer_placeholder + footer.footer .footer-container .foot-co
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 666px) {
+  .header.page404 .header-wrap .box-main-menu > a {
+    padding-top: 0;
+  }
   section.page404 .page404-align .img {
-    padding: 175px 20px 229px;
+    padding: 175px 20px 206px;
   }
 }
 
